@@ -8,7 +8,8 @@
       "purpose": "original documentation, synthetic fixture or execution metadata",
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
       "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
     },
     {
       "path": ".gitattributes",
@@ -18,11 +19,20 @@
       "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
     },
     {
+      "path": ".github/copilot-instructions.md",
+      "purpose": "Original onboarding, contribution, or synthetic evaluation documentation",
+      "rights": "CC-BY-4.0 (original prose and original synthetic evaluation records); linked external sources are not bundled",
+      "selection": "Explicitly reviewed v0.1.1 public path; no raw, customer, restricted contest, or third-party document content",
+      "privacy_review": "Changed-file source review and bounded pattern scan; synthetic scenarios only; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
+    },
+    {
       "path": ".github/workflows/checks.yml",
       "purpose": "original package configuration or license notice",
       "rights": "MIT configuration; license text retains its own notice",
       "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
     },
     {
       "path": ".gitignore",
@@ -36,14 +46,32 @@
       "purpose": "original documentation, synthetic fixture or execution metadata",
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
       "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
     },
     {
       "path": "CITATION.cff",
       "purpose": "original documentation, synthetic fixture or execution metadata",
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
       "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
+    },
+    {
+      "path": "CLAUDE.md",
+      "purpose": "Original onboarding, contribution, or synthetic evaluation documentation",
+      "rights": "CC-BY-4.0 (original prose and original synthetic evaluation records); linked external sources are not bundled",
+      "selection": "Explicitly reviewed v0.1.1 public path; no raw, customer, restricted contest, or third-party document content",
+      "privacy_review": "Changed-file source review and bounded pattern scan; synthetic scenarios only; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "purpose": "Original onboarding, contribution, or synthetic evaluation documentation",
+      "rights": "CC-BY-4.0 (original prose and original synthetic evaluation records); linked external sources are not bundled",
+      "selection": "Explicitly reviewed v0.1.1 public path; no raw, customer, restricted contest, or third-party document content",
+      "privacy_review": "Changed-file source review and bounded pattern scan; synthetic scenarios only; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
     },
     {
       "path": "LICENSE",
@@ -71,14 +99,16 @@
       "purpose": "original documentation, synthetic fixture or execution metadata",
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
       "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
     },
     {
       "path": "README.md",
       "purpose": "original documentation, synthetic fixture or execution metadata",
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
       "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
     },
     {
       "path": "RELEASE_NOTES.md",
@@ -86,6 +116,14 @@
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
       "selection": "explicit approved public path; no raw/restricted competition data",
       "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/AGENTS.md",
+      "purpose": "Original onboarding, contribution, or synthetic evaluation documentation",
+      "rights": "CC-BY-4.0 (original prose and original synthetic evaluation records); linked external sources are not bundled",
+      "selection": "Explicitly reviewed v0.1.1 public path; no raw, customer, restricted contest, or third-party document content",
+      "privacy_review": "Changed-file source review and bounded pattern scan; synthetic scenarios only; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
     },
     {
       "path": "cases/ocean-gap-repair/CONCLUSIONS.md",
@@ -564,6 +602,38 @@
       "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
     },
     {
+      "path": "evals/onboarding-v0.1.1/README.md",
+      "purpose": "Original onboarding, contribution, or synthetic evaluation documentation",
+      "rights": "CC-BY-4.0 (original prose and original synthetic evaluation records); linked external sources are not bundled",
+      "selection": "Explicitly reviewed v0.1.1 public path; no raw, customer, restricted contest, or third-party document content",
+      "privacy_review": "Changed-file source review and bounded pattern scan; synthetic scenarios only; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
+    },
+    {
+      "path": "evals/onboarding-v0.1.1/TASKS.md",
+      "purpose": "Original onboarding, contribution, or synthetic evaluation documentation",
+      "rights": "CC-BY-4.0 (original prose and original synthetic evaluation records); linked external sources are not bundled",
+      "selection": "Explicitly reviewed v0.1.1 public path; no raw, customer, restricted contest, or third-party document content",
+      "privacy_review": "Changed-file source review and bounded pattern scan; synthetic scenarios only; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
+    },
+    {
+      "path": "evals/onboarding-v0.1.1/baseline-v0.1.0.md",
+      "purpose": "Original onboarding, contribution, or synthetic evaluation documentation",
+      "rights": "CC-BY-4.0 (original prose and original synthetic evaluation records); linked external sources are not bundled",
+      "selection": "Explicitly reviewed v0.1.1 public path; no raw, customer, restricted contest, or third-party document content",
+      "privacy_review": "Changed-file source review and bounded pattern scan; synthetic scenarios only; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
+    },
+    {
+      "path": "evals/onboarding-v0.1.1/candidate-v0.1.1.md",
+      "purpose": "Original onboarding, contribution, or synthetic evaluation documentation",
+      "rights": "CC-BY-4.0 (original prose and original synthetic evaluation records); linked external sources are not bundled",
+      "selection": "Explicitly reviewed v0.1.1 public path; no raw, customer, restricted contest, or third-party document content",
+      "privacy_review": "Changed-file source review and bounded pattern scan; synthetic scenarios only; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
+    },
+    {
       "path": "evals/reuse-20261023/README.md",
       "purpose": "original documentation, synthetic fixture or execution metadata",
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
@@ -638,7 +708,8 @@
       "purpose": "original documentation, synthetic fixture or execution metadata",
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
       "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
     },
     {
       "path": "playbooks/code-contracts.md",
@@ -666,21 +737,24 @@
       "purpose": "original documentation, synthetic fixture or execution metadata",
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
       "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
     },
     {
       "path": "playbooks/new-competition.md",
       "purpose": "original documentation, synthetic fixture or execution metadata",
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
       "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
     },
     {
       "path": "provenance/PUBLIC_FILES.json",
       "purpose": "original documentation, synthetic fixture or execution metadata",
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
       "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
     },
     {
       "path": "provenance/contracts.json",
@@ -701,7 +775,8 @@
       "purpose": "original package configuration or license notice",
       "rights": "MIT configuration; license text retains its own notice",
       "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
     },
     {
       "path": "reports/BACKUP.md",
@@ -709,6 +784,22 @@
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
       "selection": "explicit approved public path; no raw/restricted competition data",
       "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "reports/RELEASE-v0.1.1.md",
+      "purpose": "Original onboarding, contribution, or synthetic evaluation documentation",
+      "rights": "CC-BY-4.0 (original prose and original synthetic evaluation records); linked external sources are not bundled",
+      "selection": "Explicitly reviewed v0.1.1 public path; no raw, customer, restricted contest, or third-party document content",
+      "privacy_review": "Changed-file source review and bounded pattern scan; synthetic scenarios only; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
+    },
+    {
+      "path": "reports/VALIDATION-v0.1.1.md",
+      "purpose": "Original onboarding, contribution, or synthetic evaluation documentation",
+      "rights": "CC-BY-4.0 (original prose and original synthetic evaluation records); linked external sources are not bundled",
+      "selection": "Explicitly reviewed v0.1.1 public path; no raw, customer, restricted contest, or third-party document content",
+      "privacy_review": "Changed-file source review and bounded pattern scan; synthetic scenarios only; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
     },
     {
       "path": "reports/VALIDATION.md",
@@ -737,6 +828,14 @@
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
       "selection": "explicit approved public path; no raw/restricted competition data",
       "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "reports/unit-tests-v0.1.1.json",
+      "purpose": "Original onboarding, contribution, or synthetic evaluation documentation",
+      "rights": "CC-BY-4.0 (original prose and original synthetic evaluation records); linked external sources are not bundled",
+      "selection": "Explicitly reviewed v0.1.1 public path; no raw, customer, restricted contest, or third-party document content",
+      "privacy_review": "Changed-file source review and bounded pattern scan; synthetic scenarios only; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
     },
     {
       "path": "reports/unit-tests.json",
@@ -781,6 +880,14 @@
       "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
     },
     {
+      "path": "scripts/check_public_inventory.py",
+      "purpose": "Original publication-inventory checker or synthetic regression tests",
+      "rights": "MIT",
+      "selection": "Explicitly reviewed v0.1.1 public path; no raw, customer, restricted contest, or third-party document content",
+      "privacy_review": "Changed-file source review and bounded pattern scan; synthetic scenarios only; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
+    },
+    {
       "path": "scripts/package_manifest.py",
       "purpose": "original code or path-adapted original research code",
       "rights": "MIT",
@@ -799,7 +906,8 @@
       "purpose": "original code or path-adapted original research code",
       "rights": "MIT",
       "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
     },
     {
       "path": "src/research_playbook/__main__.py",
@@ -835,6 +943,14 @@
       "rights": "MIT",
       "selection": "explicit approved public path; no raw/restricted competition data",
       "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "tests/test_public_inventory.py",
+      "purpose": "Original publication-inventory checker or synthetic regression tests",
+      "rights": "MIT",
+      "selection": "Explicitly reviewed v0.1.1 public path; no raw, customer, restricted contest, or third-party document content",
+      "privacy_review": "Changed-file source review and bounded pattern scan; synthetic scenarios only; not exhaustive security certification",
+      "reviewed_in": "v0.1.1"
     },
     {
       "path": "tests/test_replay.py",
