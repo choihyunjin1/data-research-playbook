@@ -1,0 +1,68 @@
+{
+  "rows": 24,
+  "days": 6,
+  "common_days": 5,
+  "daily": [
+    {
+      "day": "D1",
+      "truth": 12.0,
+      "time": 12.0,
+      "neighbor": 28.0,
+      "selected": 12.0,
+      "complete": true
+    },
+    {
+      "day": "D2",
+      "truth": 92.0,
+      "time": 92.0,
+      "neighbor": 104.0,
+      "selected": 92.0,
+      "complete": true
+    },
+    {
+      "day": "D3",
+      "truth": 110.0,
+      "time": 100.0,
+      "neighbor": 110.0,
+      "selected": 100.0,
+      "complete": true
+    },
+    {
+      "day": "D4",
+      "truth": 170.0,
+      "time": 160.0,
+      "neighbor": 170.0,
+      "selected": 160.0,
+      "complete": true
+    },
+    {
+      "day": "D5",
+      "truth": 52.0,
+      "time": 52.0,
+      "neighbor": null,
+      "selected": 52.0,
+      "complete": false
+    },
+    {
+      "day": "D6",
+      "truth": 18.0,
+      "time": 18.0,
+      "neighbor": 18.0,
+      "selected": 18.0,
+      "complete": true
+    }
+  ],
+  "all_time_rmse": 5.773502691896258,
+  "all_selected_rmse": 5.773502691896258,
+  "common_time_rmse": 6.324555320336759,
+  "common_neighbor_rmse": 8.94427190999916,
+  "common_selected_rmse": 6.324555320336759,
+  "harmful_days": [
+    "D1",
+    "D2"
+  ],
+  "helpful_days": [
+    "D3",
+    "D4"
+  ]
+}

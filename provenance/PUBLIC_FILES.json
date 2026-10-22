@@ -67,11 +67,11 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "purpose": "Original onboarding, contribution, or synthetic evaluation documentation",
-      "rights": "CC-BY-4.0 (original prose and original synthetic evaluation records); linked external sources are not bundled",
-      "selection": "Explicitly reviewed v0.1.1 public path; no raw, customer, restricted contest, or third-party document content",
-      "privacy_review": "Changed-file source review and bounded pattern scan; synthetic scenarios only; not exhaustive security certification",
-      "reviewed_in": "v0.1.1"
+      "purpose": "Added link to actual synthetic contribution example; no extra required procedure",
+      "rights": "CC-BY-4.0 original prose or metadata; underlying file rights unchanged",
+      "selection": "Explicitly reviewed changed path for two evaluations; no frozen research, historical report or release rewrite",
+      "privacy_review": "Reviewed changed content plus bounded pattern scan; no private records or held payload; hash checks are not rights certification",
+      "reviewed_in": "post-contest-return-20261023 parent integration"
     },
     {
       "path": "LICENSE",
@@ -96,19 +96,19 @@
     },
     {
       "path": "PUBLIC_MANIFEST.json",
-      "purpose": "original documentation, synthetic fixture or execution metadata",
-      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
-      "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
-      "reviewed_in": "v0.1.1"
+      "purpose": "Current tracked public path sizes and SHA256; historical release manifests preserved",
+      "rights": "CC-BY-4.0 original prose or metadata; underlying file rights unchanged",
+      "selection": "Explicitly reviewed changed path for two evaluations; no frozen research, historical report or release rewrite",
+      "privacy_review": "Reviewed changed content plus bounded pattern scan; no private records or held payload; hash checks are not rights certification",
+      "reviewed_in": "post-contest-return-20261023 parent integration"
     },
     {
       "path": "README.md",
-      "purpose": "original documentation, synthetic fixture or execution metadata",
-      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
-      "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
-      "reviewed_in": "v0.1.1"
+      "purpose": "Added two test entry links and scoped limitations; existing routing preserved",
+      "rights": "CC-BY-4.0 original prose or metadata; underlying file rights unchanged",
+      "selection": "Explicitly reviewed changed path for two evaluations; no frozen research, historical report or release rewrite",
+      "privacy_review": "Reviewed changed content plus bounded pattern scan; no private records or held payload; hash checks are not rights certification",
+      "reviewed_in": "post-contest-return-20261023 parent integration"
     },
     {
       "path": "RELEASE_NOTES.md",
@@ -116,6 +116,38 @@
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
       "selection": "explicit approved public path; no raw/restricted competition data",
       "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/bike-rental-synthetic/README.md",
+      "purpose": "Scoped synthetic finding, counterexample, limitations, comparison and source-rights record",
+      "rights": "CC-BY-4.0 original prose; supplied packet explicitly permits this explanation scope",
+      "selection": "New case selected for its reproducible positive fixed-output result; excludes rights-pending payload content",
+      "privacy_review": "Reviewed full text: synthetic labels and relative paths only; no customer, account or restricted text",
+      "reviewed_in": "post-contest-return-20261023 parent integration"
+    },
+    {
+      "path": "cases/bike-rental-synthetic/evaluate.py",
+      "purpose": "Case-specific standard-library calculation of saved candidates and equal-day MSE accounting",
+      "rights": "MIT newly authored code; no third-party code copied",
+      "selection": "Selected local arithmetic only; no candidate generation, training, downloads or upstream selector claims",
+      "privacy_review": "Reviewed full source: bundled synthetic input only, no credentials, personal paths or network access",
+      "reviewed_in": "post-contest-return-20261023 parent integration"
+    },
+    {
+      "path": "cases/bike-rental-synthetic/results-input.csv",
+      "purpose": "Fixed 16-row, four-day synthetic rental fixture with observed zero and missing distinctions",
+      "rights": "CC0-1.0 explicitly granted for this directly authored CSV by the supplied packet README",
+      "selection": "Only the public synthetic CSV selected; one trailing blank line removed, all fields and values preserved",
+      "privacy_review": "Reviewed all rows: E1-E4 synthetic labels and counts only; no real customer or person records",
+      "reviewed_in": "post-contest-return-20261023 parent integration"
+    },
+    {
+      "path": "cases/bike-rental-synthetic/results.json",
+      "purpose": "Reproducible synthetic daily totals, errors, common-cohort metrics and MSE decomposition",
+      "rights": "CC-BY-4.0 original result record derived solely from the permitted CC0-1.0 fixture",
+      "selection": "Fixed-output arithmetic only, with units, denominator and scope; no real contest performance or private aggregate",
+      "privacy_review": "Reviewed entire result: synthetic counts and input hash, no identifiers beyond fixture labels",
+      "reviewed_in": "post-contest-return-20261023 parent integration"
     },
     {
       "path": "cases/ocean-gap-repair/AGENTS.md",
@@ -634,6 +666,30 @@
       "reviewed_in": "v0.1.1"
     },
     {
+      "path": "evals/post-contest-return-20261023/README.md",
+      "purpose": "Actual workflow-trial dispositions, first failures and subsequent integration checks",
+      "rights": "CC-BY-4.0 directly authored synthetic evaluation prose or metadata; no third-party material",
+      "selection": "Reviewed actual evaluation record; no private oracle text, tool logs or mock rights-held contents copied",
+      "privacy_review": "Full content reviewed: relative paths, synthetic metrics and hashes only; no personal paths, chat IDs, customers or credentials",
+      "reviewed_in": "post-contest-return-20261023 parent integration"
+    },
+    {
+      "path": "evals/post-contest-return-20261023/task.md",
+      "purpose": "Public synthetic request and packet, excluding mock restricted payload",
+      "rights": "CC-BY-4.0 directly authored synthetic evaluation prose or metadata; no third-party material",
+      "selection": "Reviewed actual evaluation record; no private oracle text, tool logs or mock rights-held contents copied",
+      "privacy_review": "Full content reviewed: relative paths, synthetic metrics and hashes only; no personal paths, chat IDs, customers or credentials",
+      "reviewed_in": "post-contest-return-20261023 parent integration"
+    },
+    {
+      "path": "evals/post-contest-return-20261023/verification.json",
+      "purpose": "Separated initial-trial and parent-integration checks, hashes and preservation scope",
+      "rights": "CC-BY-4.0 directly authored synthetic evaluation prose or metadata; no third-party material",
+      "selection": "Reviewed actual evaluation record; no private oracle text, tool logs or mock rights-held contents copied",
+      "privacy_review": "Full content reviewed: relative paths, synthetic metrics and hashes only; no personal paths, chat IDs, customers or credentials",
+      "reviewed_in": "post-contest-return-20261023 parent integration"
+    },
+    {
       "path": "evals/reuse-20261023/README.md",
       "purpose": "original documentation, synthetic fixture or execution metadata",
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
@@ -697,6 +753,54 @@
       "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
     },
     {
+      "path": "evals/url-only-20261023/README.md",
+      "purpose": "Publish one observed reuse path, reproducible arithmetic and explicit limits without claiming isolated or general AI effectiveness",
+      "rights": "Original authored prose and summaries under repository CC BY 4.0 documentation terms",
+      "selection": "New authored public summary of the reviewed historical sources; not a verbatim copy or complete public transcript",
+      "privacy_review": "Excluded personal paths, chat identifiers, memory contents, account details and tool logs; only public repository URLs and synthetic aggregates remain",
+      "reviewed_in": "url-only-20261023 public-copy review"
+    },
+    {
+      "path": "evals/url-only-20261023/expected-results.json",
+      "purpose": "Preserve every daily total, complete-day flag, RMSE and harmful/helpful day label for structured comparison",
+      "rights": "Aggregates derived only from the directly authored synthetic fixture under repository CC BY 4.0 documentation terms",
+      "selection": "Byte-identical independent arithmetic output, renamed for publication; not the private expectation file fixed before the follow-up",
+      "privacy_review": "Synthetic numeric aggregates only; no timestamps, process commands, personal paths, account metadata or tool log",
+      "reviewed_in": "url-only-20261023 public-copy review"
+    },
+    {
+      "path": "evals/url-only-20261023/independent-check.ps1",
+      "purpose": "Minimal auditable alternative to the target calculation code; bounded to the supplied fixed 24-row input and not a general validator",
+      "rights": "Directly authored code example under repository MIT terms; no copied third-party implementation",
+      "selection": "Byte-identical original arithmetic checker; no algorithm, assertions or path changes",
+      "privacy_review": "Input defaults to the script-relative input.csv; no personal path, network request, credential, hidden source or output file write",
+      "reviewed_in": "url-only-20261023 public-copy review"
+    },
+    {
+      "path": "evals/url-only-20261023/input.csv",
+      "purpose": "Minimum fixed input needed to recalculate daily totals and error denominators",
+      "rights": "Directly authored synthetic example under repository CC BY 4.0 documentation terms; no third-party dataset",
+      "selection": "Byte-identical copy of the original test author's 24-row synthetic fixture; not a claim of byte identity with the target chat's separately saved input",
+      "privacy_review": "D1-D6 and hour 0-3 are synthetic labels; no customers, real stations, identifying dates or source records",
+      "reviewed_in": "url-only-20261023 public-copy review"
+    },
+    {
+      "path": "evals/url-only-20261023/provenance.json",
+      "purpose": "Separate original source identity, publication transformations and present transfer verification",
+      "rights": "Original authored metadata under repository CC BY 4.0 documentation terms",
+      "selection": "New file-level selection, hash and review record; its final hash is supplied by the repository package manifest, avoiding a self-hash",
+      "privacy_review": "Only non-identifying source basenames and content hashes; excludes private directories, chat identifiers, memory and actual tool logs",
+      "reviewed_in": "url-only-20261023 public-copy review"
+    },
+    {
+      "path": "evals/url-only-20261023/task.md",
+      "purpose": "Keep the approved task available without answer coaching or duplicated input",
+      "rights": "Directly authored synthetic evaluation request under repository CC BY 4.0 documentation terms",
+      "selection": "Preserved original task prose verbatim; replaced embedded CSV block with input.csv link and added clearly separated publication context",
+      "privacy_review": "No personal path, participant identifier, real service record, credential or private contest material",
+      "reviewed_in": "url-only-20261023 public-copy review"
+    },
+    {
       "path": "examples/README.md",
       "purpose": "original documentation, synthetic fixture or execution metadata",
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
@@ -734,11 +838,11 @@
     },
     {
       "path": "playbooks/missing-data.md",
-      "purpose": "original documentation, synthetic fixture or execution metadata",
-      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
-      "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
-      "reviewed_in": "v0.1.1"
+      "purpose": "Added scoped synthetic case link; historical rule and Ocean conclusion preserved",
+      "rights": "CC-BY-4.0 original prose or metadata; underlying file rights unchanged",
+      "selection": "Explicitly reviewed changed path for two evaluations; no frozen research, historical report or release rewrite",
+      "privacy_review": "Reviewed changed content plus bounded pattern scan; no private records or held payload; hash checks are not rights certification",
+      "reviewed_in": "post-contest-return-20261023 parent integration"
     },
     {
       "path": "playbooks/new-competition.md",
@@ -750,11 +854,11 @@
     },
     {
       "path": "provenance/PUBLIC_FILES.json",
-      "purpose": "original documentation, synthetic fixture or execution metadata",
-      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
-      "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
-      "reviewed_in": "v0.1.1"
+      "purpose": "Current explicit publication review for fifteen new files and five changed existing paths",
+      "rights": "CC-BY-4.0 original prose or metadata; underlying file rights unchanged",
+      "selection": "Explicitly reviewed changed path for two evaluations; no frozen research, historical report or release rewrite",
+      "privacy_review": "Reviewed changed content plus bounded pattern scan; no private records or held payload; hash checks are not rights certification",
+      "reviewed_in": "post-contest-return-20261023 parent integration"
     },
     {
       "path": "provenance/contracts.json",
@@ -784,6 +888,14 @@
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
       "selection": "explicit approved public path; no raw/restricted competition data",
       "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "reports/POST-CONTEST-20261023.md",
+      "purpose": "Separate current-run handoff with accepted/held claims, checks, environment failures and preservation status",
+      "rights": "CC-BY-4.0 directly authored handoff, using permitted synthetic packet descriptions only",
+      "selection": "New dated record; does not overwrite earlier validation or release reports; no private raw logs copied",
+      "privacy_review": "Reviewed full report: error types and relative commands only, no personal installation paths, accounts or payload text",
+      "reviewed_in": "post-contest-return-20261023 parent integration"
     },
     {
       "path": "reports/RELEASE-v0.1.1.md",
@@ -936,6 +1048,14 @@
       "rights": "MIT",
       "selection": "explicit approved public path; no raw/restricted competition data",
       "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "tests/test_bike_rental_synthetic.py",
+      "purpose": "Normal, equivalence and invalid-input regression tests for the fixed synthetic rental calculation",
+      "rights": "MIT newly authored tests",
+      "selection": "Selected synthetic-only regression; truth mutation covers reconstruction boundary, not upstream leakage",
+      "privacy_review": "Reviewed full source: bundled fixture and generated bad values only; no external writes or private input",
+      "reviewed_in": "post-contest-return-20261023 parent integration"
     },
     {
       "path": "tests/test_contracts.py",

@@ -1,0 +1,17 @@
+day,hour,true_count,observed_count,time_estimate,neighbor_estimate,choice
+E1,0,10,10,,,neighbor
+E1,1,24,,20,24,neighbor
+E1,2,36,,30,36,neighbor
+E1,3,40,40,,,neighbor
+E2,0,20,20,,,time
+E2,1,35,,30,35,time
+E2,2,45,,40,45,time
+E2,3,50,50,,,time
+E3,0,0,0,,,time
+E3,1,10,,10,20,time
+E3,2,20,,20,30,time
+E3,3,30,30,,,time
+E4,0,0,0,,,time
+E4,1,10,,10,20,time
+E4,2,20,,20,30,time
+E4,3,30,30,,,time

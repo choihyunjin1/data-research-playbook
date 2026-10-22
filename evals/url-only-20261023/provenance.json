@@ -1,0 +1,113 @@
+{
+  "scope": "Publication preparation for one historical URL-only projectless Codex chat followed by one user-approved synthetic task; not a new experiment",
+  "review_date": "2026-10-23",
+  "historical_reference_commit": "c0551597b5998f73a1c3368d707ae33ac289c311",
+  "evidence_boundary": "Private source filenames below are descriptive identifiers only. Original directories, chat identifiers, memory contents and tool logs are excluded. Hashes identify reviewed files but do not independently prove historical behavior or access controls.",
+  "historical_source_records": [
+    {
+      "source_role": "local test summary",
+      "source_name": "TEST_RESULT.md",
+      "source_sha256": "1e44d719b7620546bf135f2a17d52e381caa23825ad8856f3bdb3c3744008af8",
+      "selected_use": "Reviewed behavioral summary, one-run design, original replay account and limitations; source body not redistributed"
+    },
+    {
+      "source_role": "target calculation code",
+      "source_name": "analyze.py",
+      "source_sha256": "191ad8a0f0862df36a01a97b71e3f7fe4dc3b6b1da374eb8ae333818f7c73a70",
+      "selected_use": "Checked calculations and input-specific report boundary; code not redistributed or re-executed in publication preparation"
+    },
+    {
+      "source_role": "target handoff",
+      "source_name": "HANDOFF.md",
+      "source_sha256": "ffea9cfc0ffc6dc3dad1e8a6f2b371244121b8d0d97f1f32cefa1bcc289ccf1f",
+      "selected_use": "Checked scope, next action and historical execution account; source body not redistributed"
+    },
+    {
+      "source_role": "target result table",
+      "source_name": "RESULTS.md",
+      "source_sha256": "b365bd14044a47b5ddce3dd604df24cea853db4fecba7d61d32528774f6439da",
+      "selected_use": "Compared daily totals, RMSE, coverage and conclusion with independent aggregates; source body not redistributed"
+    }
+  ],
+  "public_files": [
+    {
+      "path": "evals/url-only-20261023/README.md",
+      "public_sha256": "6a83de43709f013d89fa4b402f38270e4617db7a058fad3bae7edcd07db02ca3",
+      "transformation": "New authored public summary of the reviewed historical sources; not a verbatim copy or complete public transcript",
+      "rights": "Original authored prose and summaries under repository CC BY 4.0 documentation terms",
+      "selection": "Publish one observed reuse path, reproducible arithmetic and explicit limits without claiming isolated or general AI effectiveness",
+      "privacy_review": "Excluded personal paths, chat identifiers, memory contents, account details and tool logs; only public repository URLs and synthetic aggregates remain"
+    },
+    {
+      "path": "evals/url-only-20261023/task.md",
+      "source_name": "task.md",
+      "source_sha256": "4623ba16cca5fa522412e2c65026317c9e76de1e9ecf49a15add2015960b46e7",
+      "public_sha256": "fac6167e369fd30e248aaf5375bfc92e6ac47eecd3cba2c1f75501b5873b4d45",
+      "transformation": "Preserved original task prose verbatim; replaced embedded CSV block with input.csv link and added clearly separated publication context",
+      "rights": "Directly authored synthetic evaluation request under repository CC BY 4.0 documentation terms",
+      "selection": "Keep the approved task available without answer coaching or duplicated input",
+      "privacy_review": "No personal path, participant identifier, real service record, credential or private contest material"
+    },
+    {
+      "path": "evals/url-only-20261023/input.csv",
+      "source_name": "input.csv",
+      "source_sha256": "78b41df4ef416c323f5a0a15ccbc1c7cf0e5704ecbfbfeb29103ba94266fe0b7",
+      "public_sha256": "78b41df4ef416c323f5a0a15ccbc1c7cf0e5704ecbfbfeb29103ba94266fe0b7",
+      "transformation": "Byte-identical copy of the original test author's 24-row synthetic fixture; not a claim of byte identity with the target chat's separately saved input",
+      "rights": "Directly authored synthetic example under repository CC BY 4.0 documentation terms; no third-party dataset",
+      "selection": "Minimum fixed input needed to recalculate daily totals and error denominators",
+      "privacy_review": "D1-D6 and hour 0-3 are synthetic labels; no customers, real stations, identifying dates or source records"
+    },
+    {
+      "path": "evals/url-only-20261023/independent-check.ps1",
+      "source_name": "independent-check.ps1",
+      "source_sha256": "40bd4a2b3a5ed5e14a2adef7dc16ae6466d4483f874e7f8dadd86c96e0bd49c1",
+      "public_sha256": "40bd4a2b3a5ed5e14a2adef7dc16ae6466d4483f874e7f8dadd86c96e0bd49c1",
+      "transformation": "Byte-identical original arithmetic checker; no algorithm, assertions or path changes",
+      "rights": "Directly authored code example under repository MIT terms; no copied third-party implementation",
+      "selection": "Minimal auditable alternative to the target calculation code; bounded to the supplied fixed 24-row input and not a general validator",
+      "privacy_review": "Input defaults to the script-relative input.csv; no personal path, network request, credential, hidden source or output file write"
+    },
+    {
+      "path": "evals/url-only-20261023/expected-results.json",
+      "source_name": "independent-result.json",
+      "source_sha256": "c4a7b239b2d787b43884648cc23dc91a2a80a35d98942ce7dfb67a2ed4841215",
+      "public_sha256": "c4a7b239b2d787b43884648cc23dc91a2a80a35d98942ce7dfb67a2ed4841215",
+      "transformation": "Byte-identical independent arithmetic output, renamed for publication; not the private expectation file fixed before the follow-up",
+      "rights": "Aggregates derived only from the directly authored synthetic fixture under repository CC BY 4.0 documentation terms",
+      "selection": "Preserve every daily total, complete-day flag, RMSE and harmful/helpful day label for structured comparison",
+      "privacy_review": "Synthetic numeric aggregates only; no timestamps, process commands, personal paths, account metadata or tool log"
+    },
+    {
+      "path": "evals/url-only-20261023/provenance.json",
+      "transformation": "New file-level selection, hash and review record; its final hash is supplied by the repository package manifest, avoiding a self-hash",
+      "rights": "Original authored metadata under repository CC BY 4.0 documentation terms",
+      "selection": "Separate original source identity, publication transformations and present transfer verification",
+      "privacy_review": "Only non-identifying source basenames and content hashes; excludes private directories, chat identifiers, memory and actual tool logs"
+    }
+  ],
+  "publication_transfer_verification": {
+    "status": "PASS within the stated fixed-input scope",
+    "new_chat_or_model_experiment": false,
+    "target_analyze_py_reexecuted": false,
+    "fixed_fixture_arithmetic_replays": 1,
+    "command_from_repository_root": "./evals/url-only-20261023/independent-check.ps1",
+    "exit_code": 0,
+    "structured_expected_result_comparison": "All JSON fields and values matched after parsing, including arrays, nulls, numeric totals and RMSE; raw JSON formatting was not compared",
+    "task_prose_comparison": "Original task prose preserved exactly; CSV block relocated to an unchanged separate fixture",
+    "byte_identical_transfers": [
+      "input.csv",
+      "independent-check.ps1",
+      "expected-results.json"
+    ],
+    "privacy_pattern_scan": "No personal-path, known chat-identifier or recognizable credential pattern found in the selected public files; manual source review also performed",
+    "not_verified_here": [
+      "A repeat of the original chat behavior",
+      "Removal of shared memory, installed skills or arithmetic subagent influence",
+      "Historical candidate and choice generation",
+      "General-purpose script behavior on arbitrary data",
+      "Real service performance, other AI products or causal README-only effects",
+      "Remote publication state"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "scope": "fixed synthetic saved outputs; 4-hour total per day; not upstream leakage or generalization validation",
+  "units": {"totals_mae_rmse": "rental count", "mse_and_accounting": "rental count squared"},
+  "cohort": {"days": 4, "rows": 16, "excluded_days": 0, "weight": "equal per complete day"},
+  "daily_totals": [
+    {"day": "E1", "choice": "neighbor", "time": 100, "neighbor": 110, "selected": 110, "truth": 110, "time_error": -10, "neighbor_error": 0, "selected_error": 0},
+    {"day": "E2", "choice": "time", "time": 140, "neighbor": 150, "selected": 140, "truth": 150, "time_error": -10, "neighbor_error": 0, "selected_error": -10},
+    {"day": "E3", "choice": "time", "time": 60, "neighbor": 80, "selected": 60, "truth": 60, "time_error": 0, "neighbor_error": 20, "selected_error": 0},
+    {"day": "E4", "choice": "time", "time": 60, "neighbor": 80, "selected": 60, "truth": 60, "time_error": 0, "neighbor_error": 20, "selected_error": 0}
+  ],
+  "metrics": {
+    "time": {"days": 4, "mae": 5.0, "mse": 50.0, "rmse": 7.0710678118654755},
+    "neighbor": {"days": 4, "mae": 10.0, "mse": 200.0, "rmse": 14.142135623730951},
+    "selected": {"days": 4, "mae": 2.5, "mse": 25.0, "rmse": 5.0}
+  },
+  "accounting": {"denominator_days": 4, "missed_gain": 25.0, "avoided_harm": 200.0, "selected_minus_neighbor_mse": -175.0},
+  "input_sha256": "47c355ea1ff74a54856018db94abdb33e5a8b8c7fe3bbc122c5ee8eb4d088ed3"
+}

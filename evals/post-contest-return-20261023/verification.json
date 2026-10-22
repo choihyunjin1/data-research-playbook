@@ -1,0 +1,164 @@
+{
+  "recorded_on": "2026-10-23",
+  "scope": "One fresh-context subagent contribution trial on a repository copy, followed by parent integration; synthetic workflow evidence, not a real contest result or a causal skill-effectiveness study",
+  "base_commit": "c0551597b5998f73a1c3368d707ae33ac289c311",
+  "source_packet": {
+    "request_sha256": "3b54c1dcbcbee3cbf63555ab9479b08d4d9fd6b38b03a03a52c9ef0d64d15b83",
+    "description_sha256": "a8442b9ca5c479b0b1aa4fc6d8c50abcc055b613691d743502034804498c1f84",
+    "observations_sha256": "80a4c0c2a308ec058286642a7d9fba5dc40ff1f2a3029b62cdcb696747ffff39",
+    "csv_sha256": "f696238f4d07f8db4a028b0895af464f8440bd9af4dea9b4f9d58474511d68d9",
+    "private_pretrial_expectation_sha256": "8783b171b8abf748cc0b2647880edba7862fea251e0bfc1d4edd702992039791",
+    "scope": "Hashes identify local source files; not independent proof of historical timing. Request and packet descriptions were published in task.md; the mock rights-held payload and tool logs were not published."
+  },
+  "first_trial": {
+    "new_cases": 1,
+    "new_files": 6,
+    "staged_paths": 9,
+    "committed": false,
+    "pushed": false,
+    "installed": false,
+    "training": false,
+    "scenario_checks": "Eight dispositions reviewed against pre-fixed parent expectation; expected answers and calculation method withheld. README and contribution procedure named as entrypoints in the request.",
+    "arithmetic": {
+      "time_mse": 50,
+      "neighbor_mse": 200,
+      "selected_mse": 25,
+      "denominator_days": 4,
+      "missed_gain": 25,
+      "avoided_harm": 200
+    },
+    "targeted_unit_tests": {
+      "passed": 8,
+      "exit_code": 0
+    },
+    "full_unit_suite": {
+      "passed": 18,
+      "import_errors": 2,
+      "exit_code": 1,
+      "reason": "pandas missing in first trial interpreter"
+    },
+    "demo": {
+      "exit_code": 1,
+      "reason": "pandas missing in first trial interpreter"
+    },
+    "public_inventory": {
+      "tracked": 139,
+      "listed": 139,
+      "exit_code": 0
+    },
+    "manifest": {
+      "entries": 138,
+      "exit_code": 0
+    },
+    "preservation": {
+      "baseline_tracked": 133,
+      "allowed_existing_changes": [
+        "playbooks/missing-data.md",
+        "provenance/PUBLIC_FILES.json",
+        "PUBLIC_MANIFEST.json"
+      ],
+      "protected": 130,
+      "changed_protected": []
+    },
+    "remote_removed": true,
+    "historical_report_sha256": "fa81d7ff844326ff1fa97c22a8f901ffbf15582a3592686dc60b1c2aac88407f"
+  },
+  "parent_integration": {
+    "python": "3.12.10",
+    "existing_dependencies": {
+      "numpy": "2.3.5",
+      "pandas": "3.0.1",
+      "netCDF4": "1.7.4"
+    },
+    "installed": false,
+    "raw_replay": false,
+    "training": false,
+    "full_unit_suite": {
+      "passed": 68,
+      "failures": 0,
+      "errors": 0,
+      "exit_code": 0
+    },
+    "demo": {
+      "exit_code": 0
+    },
+    "calculation_verify": {
+      "exit_code": 0
+    },
+    "preservation": {
+      "baseline_tracked": 133,
+      "allowed_existing_changes": [
+        "README.md",
+        "CONTRIBUTING.md",
+        "playbooks/missing-data.md",
+        "provenance/PUBLIC_FILES.json",
+        "PUBLIC_MANIFEST.json"
+      ],
+      "protected": 128,
+      "changed_protected": []
+    },
+    "changes_after_first_trial": [
+      "Added links to both tests from README and CONTRIBUTING",
+      "Added explicitly labelled later link to previously unavailable URL-only bicycle test",
+      "Normalized copied text line endings; no changes to arithmetic or tests",
+      "Rebuilt current public inventory and manifest after per-file review"
+    ],
+    "integrated_files": [
+      {
+        "path": "cases/bike-rental-synthetic/README.md",
+        "sha256": "7ad86f719ae7fc0add6f7b2180ef51b694262ca0b555eb44e8e01a23d3cfa432"
+      },
+      {
+        "path": "cases/bike-rental-synthetic/evaluate.py",
+        "sha256": "8fa0b88b588fc45ef77fccd3129c1400429b78ab8678ae23664d3e00e131f0be"
+      },
+      {
+        "path": "cases/bike-rental-synthetic/results-input.csv",
+        "sha256": "47c355ea1ff74a54856018db94abdb33e5a8b8c7fe3bbc122c5ee8eb4d088ed3"
+      },
+      {
+        "path": "cases/bike-rental-synthetic/results.json",
+        "sha256": "ee6126e84d4790532d9e91eed53410674d7049bbf5451d8b04638077cea08707"
+      },
+      {
+        "path": "reports/POST-CONTEST-20261023.md",
+        "sha256": "fa81d7ff844326ff1fa97c22a8f901ffbf15582a3592686dc60b1c2aac88407f"
+      },
+      {
+        "path": "tests/test_bike_rental_synthetic.py",
+        "sha256": "8741898680ab6a2e8e466725ca302c7b3add0105aacd0442e97ca80986758328"
+      }
+    ],
+    "external_publication": "Verify the containing remote commit and CI; this record does not retroactively claim the trial agent published",
+    "release_created": false,
+    "public_inventory": {
+      "tracked": 148,
+      "listed": 148,
+      "exit_code": 0
+    },
+    "public_source_check": {
+      "files_examined": 148,
+      "errors": 0,
+      "exit_code": 0,
+      "scope": "Bounded patterns and local Markdown links, not legal or security certification"
+    },
+    "manifest": {
+      "entries": 147,
+      "exit_code": 0
+    },
+    "diff_whitespace_note": "Original URL-only input.csv keeps its trailing blank line to preserve historical bytes; not silently reformatted. Other selected paths checked separately."
+  },
+  "independent_review": {
+    "url_fixture": "Public-copy arithmetic, links and five file hashes verified; manifest integration required",
+    "contribution_patch": "No mandatory correction found; independent arithmetic, eight tests, inventory and preservation verified",
+    "limits": "Reviewers did not independently authenticate private historical tool logs; one reviewer did not inspect packet rights source"
+  },
+  "limitation": [
+    "Synthetic examples intentionally constructed for workflow testing",
+    "No actual Claude or Copilot product test",
+    "Account memory and installed skills were not physically isolated",
+    "No proof of upstream candidate/choice leakage freedom",
+    "No productivity or universal model/skill effectiveness claim",
+    "Mock rights hold is not a real third-party licensing adjudication"
+  ]
+}

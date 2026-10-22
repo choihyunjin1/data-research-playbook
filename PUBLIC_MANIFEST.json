@@ -43,8 +43,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 7319,
-      "sha256": "31cfe744a874f42a872594573d9123334679c1bbad7040ca5adb813ef6c924d3"
+      "bytes": 7619,
+      "sha256": "85ba2041382c0d7bcc8391d58a85e8d5f619f73508fb6929dd00499599cca514"
     },
     {
       "path": "LICENSE",
@@ -63,13 +63,33 @@
     },
     {
       "path": "README.md",
-      "bytes": 8124,
-      "sha256": "00ef8edbd2161cdfceaf36bc2fe19c4fa16445f92c8e6a17be79633316be882d"
+      "bytes": 8549,
+      "sha256": "9f9aecafe51417d50c66758b8cbd3ff9510e51a24b6385a5c6fc682d1e4112e8"
     },
     {
       "path": "RELEASE_NOTES.md",
       "bytes": 1279,
       "sha256": "b7cb7050417fb2fbf5d40954d8f8735a6d2d7531e0228aca21ce447816af4933"
+    },
+    {
+      "path": "cases/bike-rental-synthetic/README.md",
+      "bytes": 7539,
+      "sha256": "7ad86f719ae7fc0add6f7b2180ef51b694262ca0b555eb44e8e01a23d3cfa432"
+    },
+    {
+      "path": "cases/bike-rental-synthetic/evaluate.py",
+      "bytes": 5588,
+      "sha256": "8fa0b88b588fc45ef77fccd3129c1400429b78ab8678ae23664d3e00e131f0be"
+    },
+    {
+      "path": "cases/bike-rental-synthetic/results-input.csv",
+      "bytes": 390,
+      "sha256": "47c355ea1ff74a54856018db94abdb33e5a8b8c7fe3bbc122c5ee8eb4d088ed3"
+    },
+    {
+      "path": "cases/bike-rental-synthetic/results.json",
+      "bytes": 1421,
+      "sha256": "ee6126e84d4790532d9e91eed53410674d7049bbf5451d8b04638077cea08707"
     },
     {
       "path": "cases/ocean-gap-repair/AGENTS.md",
@@ -437,6 +457,21 @@
       "sha256": "f070478350f85ed0d74fce7065342915d9ebf12080fd7d34bcb7ce37acd65d76"
     },
     {
+      "path": "evals/post-contest-return-20261023/README.md",
+      "bytes": 6474,
+      "sha256": "8321c91ad6e9ca222e6dd77a9bbec7131b327cf58ae03d1c55f9578f4a604f0a"
+    },
+    {
+      "path": "evals/post-contest-return-20261023/task.md",
+      "bytes": 4492,
+      "sha256": "98b03f96f31539771900bd455a5ad80fbae7d7157e047ab50c30df824e93cd60"
+    },
+    {
+      "path": "evals/post-contest-return-20261023/verification.json",
+      "bytes": 6166,
+      "sha256": "77933b1d533b6b4ad5de07a4ab5d29670176a365fdca8d96150460ae88b3a9d4"
+    },
+    {
       "path": "evals/reuse-20261023/README.md",
       "bytes": 2886,
       "sha256": "eed416a167f0d05a6f02e474de85e7cd69c839eb13418effc69cc3c5f90960f8"
@@ -482,6 +517,36 @@
       "sha256": "b0c380da7b0efe29f7e674a81f9a78d30f75f8ea25e3b7890d6e75c5e38f2783"
     },
     {
+      "path": "evals/url-only-20261023/README.md",
+      "bytes": 7854,
+      "sha256": "6a83de43709f013d89fa4b402f38270e4617db7a058fad3bae7edcd07db02ca3"
+    },
+    {
+      "path": "evals/url-only-20261023/expected-results.json",
+      "bytes": 1239,
+      "sha256": "c4a7b239b2d787b43884648cc23dc91a2a80a35d98942ce7dfb67a2ed4841215"
+    },
+    {
+      "path": "evals/url-only-20261023/independent-check.ps1",
+      "bytes": 2192,
+      "sha256": "40bd4a2b3a5ed5e14a2adef7dc16ae6466d4483f874e7f8dadd86c96e0bd49c1"
+    },
+    {
+      "path": "evals/url-only-20261023/input.csv",
+      "bytes": 527,
+      "sha256": "78b41df4ef416c323f5a0a15ccbc1c7cf0e5704ecbfbfeb29103ba94266fe0b7"
+    },
+    {
+      "path": "evals/url-only-20261023/provenance.json",
+      "bytes": 7856,
+      "sha256": "caaf987acba2a1d48d85cc1850ca7700cba03efca9dafc373819177687f01b68"
+    },
+    {
+      "path": "evals/url-only-20261023/task.md",
+      "bytes": 1835,
+      "sha256": "fac6167e369fd30e248aaf5375bfc92e6ac47eecd3cba2c1f75501b5873b4d45"
+    },
+    {
       "path": "examples/README.md",
       "bytes": 978,
       "sha256": "93a39802dc30ac46714af3028069c9ad8be75af34feaff26b6700dc7db893df1"
@@ -508,8 +573,8 @@
     },
     {
       "path": "playbooks/missing-data.md",
-      "bytes": 3662,
-      "sha256": "b958b916f593515220df458f5ccda63b4b01d82d21ea1d600fc504493f5f15cd"
+      "bytes": 4123,
+      "sha256": "d33e5f02bc296bd52ab29449bb641773b5fbcbe435c9bdf2c7a820de4fb4d93a"
     },
     {
       "path": "playbooks/new-competition.md",
@@ -518,8 +583,8 @@
     },
     {
       "path": "provenance/PUBLIC_FILES.json",
-      "bytes": 60867,
-      "sha256": "6bd48554988deb414568998681503f2e1fe9afab46f3bbcef66cb806bfd5dec1"
+      "bytes": 70930,
+      "sha256": "8b4c64cb79ea5949f72bac9462b44c0b067c9d5d66b4296e1cc5e8553b1a8a38"
     },
     {
       "path": "provenance/contracts.json",
@@ -540,6 +605,11 @@
       "path": "reports/BACKUP.md",
       "bytes": 2082,
       "sha256": "690e134d6a0cbe50927749e7ba817ad0dfa8f781340e0550ee7a4cbf98ff0fb7"
+    },
+    {
+      "path": "reports/POST-CONTEST-20261023.md",
+      "bytes": 7460,
+      "sha256": "fa81d7ff844326ff1fa97c22a8f901ffbf15582a3592686dc60b1c2aac88407f"
     },
     {
       "path": "reports/RELEASE-v0.1.1.md",
@@ -645,6 +715,11 @@
       "path": "src/research_playbook/replay.py",
       "bytes": 11339,
       "sha256": "be0c14a073503af2fe899afd96e0b7342d7f3ce1da447ee92d99968fcb86f569"
+    },
+    {
+      "path": "tests/test_bike_rental_synthetic.py",
+      "bytes": 3707,
+      "sha256": "8741898680ab6a2e8e466725ca302c7b3add0105aacd0442e97ca80986758328"
     },
     {
       "path": "tests/test_contracts.py",
