@@ -1,0 +1,293 @@
+{
+  "scope": "allowlisted historical aggregates only",
+  "files": [
+    {
+      "source": "output/ieodo-no-training-baseline-20261022/overall.csv",
+      "source_sha256": "9c94f018bff7f34e9de7d654a7a8dd497e2099f7d0a65aaa008e1fe61878b4ad",
+      "public_path": "cases/ocean-gap-repair/evidence/ieodo-no-training-baseline-20261022/overall.csv",
+      "public_sha256": "9c94f018bff7f34e9de7d654a7a8dd497e2099f7d0a65aaa008e1fe61878b4ad",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/ieodo-no-training-baseline-20261022/results.json",
+      "source_sha256": "6825c32bcb8c9badb21d80a1c67b93b52a11b4afc5c0719e0eb24704b579dd17",
+      "public_path": "cases/ocean-gap-repair/evidence/ieodo-no-training-baseline-20261022/results.json",
+      "public_sha256": "6825c32bcb8c9badb21d80a1c67b93b52a11b4afc5c0719e0eb24704b579dd17",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/ieodo-temporal-conditions-20261022/overall.csv",
+      "source_sha256": "e49967cd44b7a7bc13a1aaf558e8f1d5965543d206deb4509cf28211d0a0a45e",
+      "public_path": "cases/ocean-gap-repair/evidence/ieodo-temporal-conditions-20261022/overall.csv",
+      "public_sha256": "e49967cd44b7a7bc13a1aaf558e8f1d5965543d206deb4509cf28211d0a0a45e",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/ieodo-temporal-conditions-20261022/results.json",
+      "source_sha256": "3247103e6122b4bd63b28be28546365827e04e9f771588397b50f93c0b802c38",
+      "public_path": "cases/ocean-gap-repair/evidence/ieodo-temporal-conditions-20261022/results.json",
+      "public_sha256": "3247103e6122b4bd63b28be28546365827e04e9f771588397b50f93c0b802c38",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/maria-island-frozen-policy-20261022/overall.csv",
+      "source_sha256": "ec3fd4a6bbdcf5ad2051ea4d3540b162a85b448b49e8fd10ca41d10a81e5d27f",
+      "public_path": "cases/ocean-gap-repair/evidence/maria-island-frozen-policy-20261022/overall.csv",
+      "public_sha256": "ec3fd4a6bbdcf5ad2051ea4d3540b162a85b448b49e8fd10ca41d10a81e5d27f",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/maria-island-frozen-policy-20261022/results.json",
+      "source_sha256": "7cb8721b897151e29aa4c6dadb32655f198dac55cd858c4bbe2ed295e5e043d9",
+      "public_path": "cases/ocean-gap-repair/evidence/maria-island-frozen-policy-20261022/results.json",
+      "public_sha256": "7cb8721b897151e29aa4c6dadb32655f198dac55cd858c4bbe2ed295e5e043d9",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/maria-island-frozen-policy-20261022/paired-comparisons.csv",
+      "source_sha256": "a1f23cb9d7bc96d07000a5f2ff49feafa3372dbb7cb10d2e451a4cc63d715ec7",
+      "public_path": "cases/ocean-gap-repair/evidence/maria-island-frozen-policy-20261022/paired-comparisons.csv",
+      "public_sha256": "a1f23cb9d7bc96d07000a5f2ff49feafa3372dbb7cb10d2e451a4cc63d715ec7",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/interpolation-transfer-diagnostics-20261022/overall.csv",
+      "source_sha256": "f08f67e37dbf68c1ee0339db7332d057b396fa5b6f410baed12bd2a7ffb4707d",
+      "public_path": "cases/ocean-gap-repair/evidence/interpolation-transfer-diagnostics-20261022/overall.csv",
+      "public_sha256": "f08f67e37dbf68c1ee0339db7332d057b396fa5b6f410baed12bd2a7ffb4707d",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/interpolation-transfer-diagnostics-20261022/selection.csv",
+      "source_sha256": "42d7263aad2caf54a9e0caac45df1a3aa2487017ec0fba85b2a02f6bc9bc91ce",
+      "public_path": "cases/ocean-gap-repair/evidence/interpolation-transfer-diagnostics-20261022/selection.csv",
+      "public_sha256": "42d7263aad2caf54a9e0caac45df1a3aa2487017ec0fba85b2a02f6bc9bc91ce",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/interpolation-transfer-diagnostics-20261022/paired-uncertainty.csv",
+      "source_sha256": "463ada71932ffc84a8f46585bd9364db2d5c609c1b3ba71d8fb9c5435747857e",
+      "public_path": "cases/ocean-gap-repair/evidence/interpolation-transfer-diagnostics-20261022/paired-uncertainty.csv",
+      "public_sha256": "463ada71932ffc84a8f46585bd9364db2d5c609c1b3ba71d8fb9c5435747857e",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/interpolation-transfer-diagnostics-20261022/error-decomposition.csv",
+      "source_sha256": "f34f5a0ffd6ee133dfab638f56306371f29b33966ef9178b8ba17e2cf24a4fc0",
+      "public_path": "cases/ocean-gap-repair/evidence/interpolation-transfer-diagnostics-20261022/error-decomposition.csv",
+      "public_sha256": "f34f5a0ffd6ee133dfab638f56306371f29b33966ef9178b8ba17e2cf24a4fc0",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/bridge-external-validation-20261022/overall.csv",
+      "source_sha256": "cb81f9af1e3faee27e4043c0886e56b7beb23821557d82585e0f9931e50ce578",
+      "public_path": "cases/ocean-gap-repair/evidence/bridge-external-validation-20261022/overall.csv",
+      "public_sha256": "cb81f9af1e3faee27e4043c0886e56b7beb23821557d82585e0f9931e50ce578",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/bridge-external-validation-20261022/result.json",
+      "source_sha256": "5d739f653558006b9eb866d9fe23daaf48f326ec1f5e63f463227b02f2e5815a",
+      "public_path": "cases/ocean-gap-repair/evidence/bridge-external-validation-20261022/result.json",
+      "public_sha256": "5d739f653558006b9eb866d9fe23daaf48f326ec1f5e63f463227b02f2e5815a",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/bridge-external-validation-20261022/paired-uncertainty.csv",
+      "source_sha256": "7537768eaac8099dde062d828c9d047ca64a841df04a1fbebf3d1a656e68ec8c",
+      "public_path": "cases/ocean-gap-repair/evidence/bridge-external-validation-20261022/paired-uncertainty.csv",
+      "public_sha256": "7537768eaac8099dde062d828c9d047ca64a841df04a1fbebf3d1a656e68ec8c",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/bridge-external-validation-20261022/monthly-direction.json",
+      "source_sha256": "6fc206d2fb963182625d0f94dc2fef0fb3dba180dfbff2c41179d544c00aba6d",
+      "public_path": "cases/ocean-gap-repair/evidence/bridge-external-validation-20261022/monthly-direction.json",
+      "public_sha256": "6fc206d2fb963182625d0f94dc2fef0fb3dba180dfbff2c41179d544c00aba6d",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/bridge-midpoint-validation-20261022/overall.csv",
+      "source_sha256": "b7002899caabc8f4dadfef90f761e986a107d709504ddd2b548b8631166f740e",
+      "public_path": "cases/ocean-gap-repair/evidence/bridge-midpoint-validation-20261022/overall.csv",
+      "public_sha256": "b7002899caabc8f4dadfef90f761e986a107d709504ddd2b548b8631166f740e",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/bridge-midpoint-validation-20261022/result.json",
+      "source_sha256": "a65479ef2f5d5371e016c9d3f50271b2c2702bc02dcc9770f58439db7eda5d9b",
+      "public_path": "cases/ocean-gap-repair/evidence/bridge-midpoint-validation-20261022/result.json",
+      "public_sha256": "a65479ef2f5d5371e016c9d3f50271b2c2702bc02dcc9770f58439db7eda5d9b",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/bridge-midpoint-validation-20261022/paired-uncertainty.csv",
+      "source_sha256": "cbade89efc5baad5f33f8d721b2e969b81946315715854fd69e5ba7a1ddb3d17",
+      "public_path": "cases/ocean-gap-repair/evidence/bridge-midpoint-validation-20261022/paired-uncertainty.csv",
+      "public_sha256": "cbade89efc5baad5f33f8d721b2e969b81946315715854fd69e5ba7a1ddb3d17",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/bridge-midpoint-validation-20261022/monthly-direction.json",
+      "source_sha256": "a1f2c157dc0cb9ae910f25a03fcb2d3dac5227e94ad970e09debabd635481fdd",
+      "public_path": "cases/ocean-gap-repair/evidence/bridge-midpoint-validation-20261022/monthly-direction.json",
+      "public_sha256": "a1f2c157dc0cb9ae910f25a03fcb2d3dac5227e94ad970e09debabd635481fdd",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/bridge-temporal-diagnosis-20261022/result.json",
+      "source_sha256": "89b7baebd9bae57834a74647d5cf2abed053c4490c9844707347f1e04b59b0bd",
+      "public_path": "cases/ocean-gap-repair/evidence/bridge-temporal-diagnosis-20261022/result.json",
+      "public_sha256": "89b7baebd9bae57834a74647d5cf2abed053c4490c9844707347f1e04b59b0bd",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/bridge-temporal-diagnosis-20261022/normalized-error-budget.csv",
+      "source_sha256": "b938c47409382441334dacebfe83216f74273c61029ae5e1c5085dc41c36e000",
+      "public_path": "cases/ocean-gap-repair/evidence/bridge-temporal-diagnosis-20261022/normalized-error-budget.csv",
+      "public_sha256": "b938c47409382441334dacebfe83216f74273c61029ae5e1c5085dc41c36e000",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/bridge-observed-selector-20261022/overall.csv",
+      "source_sha256": "4c2462f5a8e919eba619149425269bc0effc293f8427f778c695cf741db50533",
+      "public_path": "cases/ocean-gap-repair/evidence/bridge-observed-selector-20261022/overall.csv",
+      "public_sha256": "4c2462f5a8e919eba619149425269bc0effc293f8427f778c695cf741db50533",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/bridge-observed-selector-20261022/result.json",
+      "source_sha256": "95fd2c3456d972db03624c350810fa1b46bd56b70ab35e6436cdf2e9ce73a8d0",
+      "public_path": "cases/ocean-gap-repair/evidence/bridge-observed-selector-20261022/result.json",
+      "public_sha256": "95fd2c3456d972db03624c350810fa1b46bd56b70ab35e6436cdf2e9ce73a8d0",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/bridge-observed-selector-20261022/selection.csv",
+      "source_sha256": "127fde1d60d0baea5405998259eb85baa5a92e6ec9821aacf508b68a4c11162b",
+      "public_path": "cases/ocean-gap-repair/evidence/bridge-observed-selector-20261022/selection.csv",
+      "public_sha256": "127fde1d60d0baea5405998259eb85baa5a92e6ec9821aacf508b68a4c11162b",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/bridge-observed-selector-20261022/selection-impact.csv",
+      "source_sha256": "f4a77fb0247722a4002b912f0c489a052fd4773bac7d4c8f2f1ac42d2d534071",
+      "public_path": "cases/ocean-gap-repair/evidence/bridge-observed-selector-20261022/selection-impact.csv",
+      "public_sha256": "f4a77fb0247722a4002b912f0c489a052fd4773bac7d4c8f2f1ac42d2d534071",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/bridge-observed-selector-20261022/uncertainty.csv",
+      "source_sha256": "1d8aeccac3aca9ffc019ccb5fb6ae4d60ffcd052298b2b7e823f476f0028d985",
+      "public_path": "cases/ocean-gap-repair/evidence/bridge-observed-selector-20261022/uncertainty.csv",
+      "public_sha256": "1d8aeccac3aca9ffc019ccb5fb6ae4d60ffcd052298b2b7e823f476f0028d985",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/bridge-observed-selector-20261022/interpretation-facts.json",
+      "source_sha256": "2beba6685f519e20e0e21d6687de6b6f06d24ada7766640737cc44f2a186bdca",
+      "public_path": "cases/ocean-gap-repair/evidence/bridge-observed-selector-20261022/interpretation-facts.json",
+      "public_sha256": "2beba6685f519e20e0e21d6687de6b6f06d24ada7766640737cc44f2a186bdca",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/selector-harm-avoidance-20261022/overall.csv",
+      "source_sha256": "21c895a499f5fc77bb5613062d0d8ad71e52fee9ff3877560d62786e40caa0b1",
+      "public_path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/overall.csv",
+      "public_sha256": "21c895a499f5fc77bb5613062d0d8ad71e52fee9ff3877560d62786e40caa0b1",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/selector-harm-avoidance-20261022/result.json",
+      "source_sha256": "67d3727b0b7aa1f1f33647037bbe857bdc11c155b20c0c993f692d3a56cb36a4",
+      "public_path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/result.json",
+      "public_sha256": "67d3727b0b7aa1f1f33647037bbe857bdc11c155b20c0c993f692d3a56cb36a4",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/selector-harm-avoidance-20261022/selection.csv",
+      "source_sha256": "42da4c15253ebe4141a3bdbb38ae7957afee332d3a316aa2614b356ae1e0597f",
+      "public_path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/selection.csv",
+      "public_sha256": "42da4c15253ebe4141a3bdbb38ae7957afee332d3a316aa2614b356ae1e0597f",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/selector-harm-avoidance-20261022/selection-impact.csv",
+      "source_sha256": "6001c1faf9b10967cab729ded33c29f22785e021db94579e51469525fe615fe8",
+      "public_path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/selection-impact.csv",
+      "public_sha256": "6001c1faf9b10967cab729ded33c29f22785e021db94579e51469525fe615fe8",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/selector-harm-avoidance-20261022/harm-diagnostics.csv",
+      "source_sha256": "cbd58cc564162c8146423d92623d1a184fc03498f992c5aa14ec95eeb831094a",
+      "public_path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/harm-diagnostics.csv",
+      "public_sha256": "cbd58cc564162c8146423d92623d1a184fc03498f992c5aa14ec95eeb831094a",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/selector-harm-avoidance-20261022/harm-by-reason.csv",
+      "source_sha256": "1eb7e087c8c69cd66f5138f3f2053cd49b45f5991dc65a43cb45a38d5a244c7b",
+      "public_path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/harm-by-reason.csv",
+      "public_sha256": "1eb7e087c8c69cd66f5138f3f2053cd49b45f5991dc65a43cb45a38d5a244c7b",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/selector-harm-avoidance-20261022/harm-uncertainty.csv",
+      "source_sha256": "60e8f502ee8dc8b7e487e7d94be6ba393315adfb2b004ec7864c6c56213e4c8d",
+      "public_path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/harm-uncertainty.csv",
+      "public_sha256": "60e8f502ee8dc8b7e487e7d94be6ba393315adfb2b004ec7864c6c56213e4c8d",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/selector-harm-avoidance-20261022/uncertainty.csv",
+      "source_sha256": "d3f5f790fdbd00559374068805c56e2f3606c2dab81f0c5423f0d8e78ae90b45",
+      "public_path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/uncertainty.csv",
+      "public_sha256": "d3f5f790fdbd00559374068805c56e2f3606c2dab81f0c5423f0d8e78ae90b45",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    },
+    {
+      "source": "output/selector-harm-avoidance-20261022/interpretation-facts.json",
+      "source_sha256": "2a6db0fbca0ec9bd0236e08ea1008e98b54750e23496cbb1273a3008c921528a",
+      "public_path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/interpretation-facts.json",
+      "public_sha256": "2a6db0fbca0ec9bd0236e08ea1008e98b54750e23496cbb1273a3008c921528a",
+      "transformation": "byte-identical copy",
+      "status": "historical result; not newly executed by migration"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "format_version": 1,
+  "historical_study": "selector-harm-avoidance-20261022",
+  "row_count": 4875,
+  "eligible_dates": 125,
+  "source_records": 9052,
+  "tables": {
+    "cases.csv": {
+      "rows": 4875,
+      "columns": [
+        "date",
+        "gap_hours",
+        "start",
+        "truth_daily",
+        "action",
+        "applied",
+        "bridge_supported",
+        "application_reason",
+        "left_n",
+        "left_delta",
+        "left_energy",
+        "left_match",
+        "right_n",
+        "right_delta",
+        "right_energy",
+        "right_match",
+        "reason",
+        "remaining_mean",
+        "remaining_error",
+        "remaining_point_mse",
+        "temporal_mean",
+        "temporal_error",
+        "temporal_point_mse",
+        "depth_mean",
+        "depth_error",
+        "depth_point_mse",
+        "bridge_mean",
+        "bridge_error",
+        "bridge_point_mse",
+        "selected_mean",
+        "selected_error",
+        "selected_point_mse"
+      ],
+      "categorical": [
+        "action",
+        "application_reason",
+        "applied",
+        "bridge_supported",
+        "date",
+        "reason"
+      ],
+      "column_sha256": {
+        "date": "e83ea2fece91c0534078fe6396e93222ec4f9449497776b314b3e306f85767a6",
+        "gap_hours": "fc5f960312c9d0374c250614c92c83b456c6e88bbe9b99a9c5c2913bfa5ed3d5",
+        "start": "2838cd8a210d2e0923f9cb2f1e826e3d11427faba30d7734cdd9e3f202055f49",
+        "truth_daily": "6f55ca05596871d49fae13f537ed5779a4a29cd80c89f315c78451dd98247b0b",
+        "action": "b915d706414cfb4ed601026ea680825eda28d2c7b2fc9237c8de119547e3a725",
+        "applied": "b915d706414cfb4ed601026ea680825eda28d2c7b2fc9237c8de119547e3a725",
+        "bridge_supported": "8c1d5539f71748927e2949c89c5e593860a98f4acbea244aedf5dae9d55c87fd",
+        "application_reason": "593c67f79f408f6590c8677743bd4c99a1c77dc8be28b9faf774b4d0123cba40",
+        "left_n": "ebd9e671c872b71a69a06f13431b0b20a9e8d575faf481c164eb7a9f2b53403f",
+        "left_delta": "5375490b8c10592cbf1f0407d785b9ee987eb2d1e9b68feae4ea5d097dafa13e",
+        "left_energy": "4fa555f1eda9aa784fcac02d3aa7613778cda7213bb69b789d0a3ebb23e5e073",
+        "left_match": "5ee431cd5f37bc9c0cfe794cdd9e5a784a3489f261afb3ec54aa561117013797",
+        "right_n": "3c53189553157080a62ece94cf1b108fe92cdfb25d0f179ee37b09f4915a7cec",
+        "right_delta": "285d2d3ad6f7cb63be450f64c7fc9eed57ee8eefb68c8582f2edc587faee7bbd",
+        "right_energy": "b43d929784fabc8794e77a0de54b6d3c019a05ead4eb548214b0ba23cbdc7e47",
+        "right_match": "61b705806f92263f9019a522e8d71fe3c25d277a27a0b83c7aa4968cc411d6c4",
+        "reason": "593c67f79f408f6590c8677743bd4c99a1c77dc8be28b9faf774b4d0123cba40",
+        "remaining_mean": "e330ea9ba2718f5c7a6c8c5acb9b40a7dcf39355e31210394ba9c0d1f2225583",
+        "remaining_error": "d9e5bc117cea87ea5e03b0a072aa506f56b411d2b71be86d6ef9d5ecf77e845d",
+        "remaining_point_mse": "3fbccc4f5503967bbf7ebe333b673d5014abffb5a25b6d3c3b22a67c6e6e7e0b",
+        "temporal_mean": "97ffc33eccf98b30bc796257f23a1e0ff410b7b84feda669ca5016580482bcc5",
+        "temporal_error": "a88bf7577239936f7df8442c02e21b6960931a0e63bccd1bc19b5635bf169068",
+        "temporal_point_mse": "bc4162a2f4e742e0b8a54b57e845149a4583b1a1a5d06a00cd7399e48c8082ff",
+        "depth_mean": "1fdd35261f90cea73f797b1d2c60ba075d3852db5c69b6055b6977134150c425",
+        "depth_error": "d083657d71b96a11bfd52b76119cd9ac09bd2c643d8764c6f270d081b2f721ad",
+        "depth_point_mse": "81850398a15327f9bf4177986d38f757edd9983f58830260aba050d6903c666c",
+        "bridge_mean": "9eff05840b37d93cdd0f96a8f5e5df1351b098d2ec00b947bf1f04f37678e1a8",
+        "bridge_error": "735cd04dbf6a5a26d4046b9547c9fdc63ae9623a98128cda02aed38a41655f28",
+        "bridge_point_mse": "c023fce4ddb0ce0295ed10220c6e7b7a7af3189a8e437cae8e17e2806d54c143",
+        "selected_mean": "4d9f4f8376574dd368b5f86e513b16f7208a709b1718e9bffc2e960a6a374c8a",
+        "selected_error": "282de9fc5596c08a42fd60af481384c285796c783a3a6699abe6963910d2ba42",
+        "selected_point_mse": "0ffc4953c935a39905e43aa76a1b2eefca7f09776cc50f8f6a9e1f3e32add99a"
+      },
+      "numeric_missing": {
+        "gap_hours": 0,
+        "start": 0,
+        "truth_daily": 0,
+        "left_n": 0,
+        "left_delta": 1,
+        "left_energy": 1,
+        "left_match": 1,
+        "right_n": 0,
+        "right_delta": 10,
+        "right_energy": 10,
+        "right_match": 10,
+        "remaining_mean": 125,
+        "remaining_error": 125,
+        "remaining_point_mse": 125,
+        "temporal_mean": 0,
+        "temporal_error": 0,
+        "temporal_point_mse": 0,
+        "depth_mean": 0,
+        "depth_error": 0,
+        "depth_point_mse": 0,
+        "bridge_mean": 0,
+        "bridge_error": 0,
+        "bridge_point_mse": 0,
+        "selected_mean": 0,
+        "selected_error": 0,
+        "selected_point_mse": 0
+      }
+    },
+    "hourly.csv": {
+      "rows": 3336,
+      "columns": [
+        "time_utc",
+        "top",
+        "target",
+        "bottom"
+      ],
+      "categorical": [
+        "time_utc"
+      ],
+      "column_sha256": {
+        "time_utc": "b2cce874edd9fcdbeb2a045fa6752e527fa0b2a50691a9abc6b6dfaf17642420",
+        "top": "f49fe9ef72ca55b8466ccdff24c68a7603ecd4f4cc58b4820b0b320d11053198",
+        "target": "af09e0934f6a25d170d3a3278106e03397e8f7a43c644e6a3adbb7378ee76bec",
+        "bottom": "1d6fad03d0c87249e1be1f2ad022e430d02ef68dc43a57d495a2cb015f68a625"
+      },
+      "numeric_missing": {
+        "top": 319,
+        "target": 318,
+        "bottom": 319
+      }
+    },
+    "source/selected-records.csv": {
+      "rows": 9052,
+      "columns": [
+        "time_utc",
+        "depth_m",
+        "instrument_index",
+        "temperature_c",
+        "excluded_duplicate"
+      ],
+      "categorical": [
+        "excluded_duplicate",
+        "time_utc"
+      ],
+      "column_sha256": {
+        "time_utc": "75813a3f12dd1b48d38ffcdd37501070a47d8c4e23f802911a4c8440ddd263a6",
+        "depth_m": "8a1347d40e781486258d6862d49ee1c7665061a59be23571aaee527d89fa3a92",
+        "instrument_index": "488842d6cb6ee809d680b28d6212dc2843893a83b8a6ca8d9f097eba50c2274b",
+        "temperature_c": "dfd3bbf381c90dffe7e1836520fb18aad4c2421e5ab515164abb5e6a4ac272f3",
+        "excluded_duplicate": "20f736ee5bdfcf14fa7f07998e2e7968715df54677f1868397a8d7ac93af8672"
+      },
+      "numeric_missing": {
+        "depth_m": 0,
+        "instrument_index": 0,
+        "temperature_c": 0
+      }
+    }
+  },
+  "original_file_sha256": {
+    "cases.csv": "a5024dbbb0c0d56fb329e250fd31123e00ba3d90f07b50282504d22568ecef27",
+    "hourly.csv": "35f6681443ecdcac0fa5ebc60b621d64364bb40144345e865956b79009bc5e12",
+    "source/selected-records.csv": "16d3959ba5c3308dc8d18d924e7a809498b5ce4e119dfe8a825656ec4c5d2b3a"
+  },
+  "disclosure": "Only row counts, columns, missing counts and one-way typed-column digests; no observation rows or full case values."
+}

@@ -1,0 +1,136 @@
+{
+  "executed_at_utc": "2026-10-21T15:22:08.145822+00:00",
+  "profile": {
+    "time_axis_rows": 175320,
+    "duplicate_times": 0,
+    "missing_time_slots": 0,
+    "utc_start": "2004-01-01 00:00:00+00:00",
+    "utc_end": "2023-12-31 23:00:00+00:00",
+    "calendar_timezone": "Asia/Seoul",
+    "kst_dates_including_edges": 7306,
+    "full_24_slot_days": 7304,
+    "complete_target_days": 4280,
+    "eligible_common_days": 3443,
+    "eligible_first": "2007-12-23",
+    "eligible_last": "2023-12-31",
+    "columns": {
+      "t5": {
+        "valid": 134717,
+        "missing": 40603,
+        "missing_pct": 23.159365731234313,
+        "min": 7.7,
+        "max": 32.2
+      },
+      "t21": {
+        "valid": 110833,
+        "missing": 64487,
+        "missing_pct": 36.78245493953913,
+        "min": 7.3,
+        "max": 30.1
+      },
+      "t38": {
+        "valid": 104968,
+        "missing": 70352,
+        "missing_pct": 40.12776637006616,
+        "min": 7.6,
+        "max": 25.8
+      }
+    },
+    "actual_target_missing_hours": 64487,
+    "actual_target_missing_with_both_endpoints": 5936,
+    "actual_target_missing_endpoint_support_pct": 9.204956037651,
+    "actual_target_gap_runs": 499,
+    "longest_actual_target_gap_hours": 34601,
+    "within_first_last_target_observation": {
+      "first_utc": "2007-12-12 17:00:00+00:00",
+      "last_utc": "2023-12-31 23:00:00+00:00",
+      "hours": 140719,
+      "missing_hours": 29886,
+      "missing_pct": 21.238070196633004,
+      "missing_with_endpoints": 5936,
+      "endpoint_support_pct": 19.862142809342167,
+      "note": "Observed span is not a verified sensor-operation period; missing causes are unknown."
+    }
+  },
+  "metrics": [
+    {
+      "scenario": "1h",
+      "dates": 3443,
+      "scenarios": 82632,
+      "remaining_rmse": 0.046798451910737546,
+      "remaining_mae": 0.026650494913014022,
+      "remaining_bias": 1.3113293542866597e-17,
+      "filled_rmse": 0.07744346306713273,
+      "filled_mae": 0.047312847041916906,
+      "filled_bias": 0.02314140197844454,
+      "filled_win_fraction": 0.4453238454835899,
+      "filled_loss_fraction": 0.5528003678962145,
+      "tie_fraction": 0.001875786620195566,
+      "rmse_change_pct": 65.48295916892056,
+      "masked_point_rmse": 1.8586431136111854,
+      "masked_point_mae": 1.1355083290060055
+    },
+    {
+      "scenario": "6h",
+      "dates": 3443,
+      "scenarios": 13772,
+      "remaining_rmse": 0.2286541756196588,
+      "remaining_mae": 0.13245131022686935,
+      "remaining_bias": 2.3345961946808402e-17,
+      "filled_rmse": 0.4226324845442298,
+      "filled_mae": 0.2548094490504816,
+      "filled_bias": 0.13884841187066715,
+      "filled_win_fraction": 0.4279697937844903,
+      "filled_loss_fraction": 0.5707958176009295,
+      "tie_fraction": 0.001234388614580308,
+      "rmse_change_pct": 84.83479840194683,
+      "masked_point_rmse": 1.8586431136111854,
+      "masked_point_mae": 1.1355083290060055
+    },
+    {
+      "scenario": "24h",
+      "dates": 3443,
+      "scenarios": 3443,
+      "remaining_rmse": null,
+      "remaining_mae": null,
+      "remaining_bias": null,
+      "filled_rmse": 1.5725453355361738,
+      "filled_mae": 0.949334875035572,
+      "filled_bias": 0.5553936474826686,
+      "filled_win_fraction": null,
+      "filled_loss_fraction": null,
+      "tie_fraction": null,
+      "rmse_change_pct": null,
+      "masked_point_rmse": 1.8586431136111854,
+      "masked_point_mae": 1.1355083290060055
+    },
+    {
+      "scenario": "6h_all_starts",
+      "dates": 3443,
+      "scenarios": 65417,
+      "remaining_rmse": 0.22688370777278935,
+      "remaining_mae": 0.1310614765444932,
+      "remaining_bias": -0.01424602082707008,
+      "filled_rmse": 0.41581106210052854,
+      "filled_mae": 0.2504880036897708,
+      "filled_bias": 0.12935111467488372,
+      "filled_win_fraction": 0.4286653316416222,
+      "filled_loss_fraction": 0.5700964581072199,
+      "tie_fraction": 0.0012382102511579558,
+      "rmse_change_pct": 83.27056895462005,
+      "masked_point_rmse": 1.8403200835839693,
+      "masked_point_mae": 1.123113659486468
+    }
+  ],
+  "training_runs": 0,
+  "fitted_parameters": 0,
+  "protocol": "PROTOCOL.md",
+  "warnings": [
+    "Artificial gaps in complete days; real-gap accuracy is unknown.",
+    "Day means use KST timestamp labels, not the raw ten-minute stream.",
+    "Hourly source contains no per-sample QC flags or valid-sample counts.",
+    "24h remaining-only mean is undefined. No improvement percentage.",
+    "Balanced masks force aggregate remaining-only bias to zero; this is not field unbiasedness.",
+    "Missing ratios include unobserved early years; not sensor failure/loss rates."
+  ]
+}

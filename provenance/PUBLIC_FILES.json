@@ -1,0 +1,826 @@
+{
+  "date": "2026-10-23",
+  "scope": "file-level publication selection; bytes recorded separately in PUBLIC_MANIFEST.json",
+  "third_party_software": "dependencies referenced, not bundled; external MATLAB and installed skills excluded",
+  "entries": [
+    {
+      "path": ".agents/skills/evidence-driven-workflow/SKILL.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": ".gitattributes",
+      "purpose": "original package configuration or license notice",
+      "rights": "MIT configuration; license text retains its own notice",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "purpose": "original package configuration or license notice",
+      "rights": "MIT configuration; license text retains its own notice",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": ".gitignore",
+      "purpose": "original package configuration or license notice",
+      "rights": "MIT configuration; license text retains its own notice",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "AGENTS.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "CITATION.cff",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "LICENSE",
+      "purpose": "original package configuration or license notice",
+      "rights": "MIT configuration; license text retains its own notice",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "LICENSE-DOCS.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "NOTICE.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "PUBLIC_MANIFEST.json",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "README.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/CONCLUSIONS.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/FIGURES.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/HISTORY.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/README.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/SOURCES.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/config/provenance.json",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/config/replay-contract.json",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/config/site.json",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-external-validation-20261022/monthly-direction.json",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-external-validation-20261022/overall.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-external-validation-20261022/paired-uncertainty.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-external-validation-20261022/result.json",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-midpoint-validation-20261022/monthly-direction.json",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-midpoint-validation-20261022/overall.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-midpoint-validation-20261022/paired-uncertainty.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-midpoint-validation-20261022/result.json",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-observed-selector-20261022/interpretation-facts.json",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-observed-selector-20261022/overall.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-observed-selector-20261022/result.json",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-observed-selector-20261022/selection-impact.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-observed-selector-20261022/selection.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-observed-selector-20261022/uncertainty.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-temporal-diagnosis-20261022/normalized-error-budget.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-temporal-diagnosis-20261022/result.json",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/ieodo-no-training-baseline-20261022/overall.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/ieodo-no-training-baseline-20261022/results.json",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/ieodo-temporal-conditions-20261022/overall.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/ieodo-temporal-conditions-20261022/results.json",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/interpolation-transfer-diagnostics-20261022/error-decomposition.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/interpolation-transfer-diagnostics-20261022/overall.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/interpolation-transfer-diagnostics-20261022/paired-uncertainty.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/interpolation-transfer-diagnostics-20261022/selection.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/maria-island-frozen-policy-20261022/overall.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/maria-island-frozen-policy-20261022/paired-comparisons.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/maria-island-frozen-policy-20261022/results.json",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/harm-by-reason.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/harm-diagnostics.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/harm-uncertainty.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/interpretation-facts.json",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/overall.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/result.json",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/selection-impact.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/selection.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/uncertainty.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/day-eligibility.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/fingerprints.json",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/harm-by-reason.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/harm-diagnostics.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/harm-uncertainty.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/monthly.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/overall.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/selection-impact.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/selection.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/uncertainty.csv",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/figures/avoided-and-missed.png",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/figures/daily-rmse.png",
+      "purpose": "derived research aggregate/figure; no raw observation rows",
+      "rights": "CC-BY-4.0; source attribution in cases/ocean-gap-repair/SOURCES.md",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/frozen/method.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/frozen/selector.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/replay/analyze.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/replay/extract.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/replay/fingerprints.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/replay/independent.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "cases/ocean-gap-repair/submission-status.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "evals/history/README.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "evals/history/incidents.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "evals/history/process-intervention.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "evals/history/provenance.json",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "evals/history/skill-comparison.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "evals/reuse-20261023/README.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "evals/reuse-20261023/answer/HANDOFF.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "evals/reuse-20261023/answer/compare_gap.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "evals/reuse-20261023/answer/meter_fixed.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "evals/reuse-20261023/answer/test_reuse.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "evals/reuse-20261023/gap-example.csv",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "evals/reuse-20261023/meter_candidate.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "evals/reuse-20261023/recheck.json",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "evals/reuse-20261023/request.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "examples/README.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "playbooks/README.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "playbooks/code-contracts.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "playbooks/communicating-results.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "playbooks/handoff.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "playbooks/missing-data.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "playbooks/new-competition.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "provenance/PUBLIC_FILES.json",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "provenance/contracts.json",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "provenance/migration.json",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "pyproject.toml",
+      "purpose": "original package configuration or license notice",
+      "rights": "MIT configuration; license text retains its own notice",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "reports/BACKUP.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "reports/VALIDATION.md",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "reports/raw-replay.json",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "reports/unit-tests.json",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "reports/validation.json",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "purpose": "original package configuration or license notice",
+      "rights": "MIT configuration; license text retains its own notice",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "requirements-replay.txt",
+      "purpose": "original package configuration or license notice",
+      "rights": "MIT configuration; license text retains its own notice",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "scripts/check_public.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "scripts/package_manifest.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "scripts/run_checks.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "src/research_playbook/__init__.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "src/research_playbook/__main__.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "src/research_playbook/contracts.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "src/research_playbook/demo.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "src/research_playbook/replay.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "tests/test_contracts.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "tests/test_replay.py",
+      "purpose": "original code or path-adapted original research code",
+      "rights": "MIT",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    }
+  ]
+}

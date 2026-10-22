@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "cases": 20,
+  "checks": [
+    "integer:'2'",
+    "integer:'2.0'",
+    "integer:'2.9'",
+    "integer:'2.000000000000000000001'",
+    "integer:True",
+    "integer:None",
+    "integer:nan",
+    "integer:'1e100000'",
+    "integer:-1",
+    "integer:0",
+    "integer:2",
+    "integer:10",
+    "finite:[-2, 1, 150]",
+    "finite:[inf]",
+    "finite:[nan]",
+    "finite:[-inf]",
+    "boundary rows:1",
+    "boundary rows:2",
+    "boundary rows:4",
+    "boundary rows:12"
+  ],
+  "scope": "selected pure definitions and synthetic common-domain inputs; not original model execution",
+  "sources": [
+    {
+      "source": "ocean-evolution/ocean_evolution/identifiers.py",
+      "sha256": "12c26fc35e1ebee5b84abf07d55d48dd8dbbd3fbf189dde4d6d16f3301c42963"
+    },
+    {
+      "source": "ocean-evolution/ocean_evolution/p2.py",
+      "sha256": "49287b23a506cbbb0737876b3237bbdc6fe354af8f192a1ffdc996365081e57b"
+    },
+    {
+      "source": "ocean-evolution/ocean_evolution/p3.py",
+      "sha256": "9656d36b31c238ebe66eb35906cded3e439232ad6ae684182bff118e48e62819"
+    }
+  ],
+  "differences": [
+    "generic boundary_mean takes one series and configurable width instead of station/layer frame",
+    "boundary_mean rejects reappearing block labels and requires sorted times; does not claim full P2 equivalence",
+    "finite_clip combines the original finite guard and standard clipping; model sum checking remains caller responsibility"
+  ]
+}

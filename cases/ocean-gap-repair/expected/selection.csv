@@ -1,0 +1,6 @@
+gap_hours,cases,bridge_chosen,bridge_applied,bridge_rate,missing_bridge_boundary,no_two_sided_gain,insufficient_context,sides_disagree,both_sides_improved
+1,3000,0,0,0.0,0,2983,11,6,0.0
+3,1000,0,0,0.0,0,941,9,50,0.0
+6,500,3,3,0.006,0,444,9,44,3.0
+12,250,14,14,0.056,0,165,9,62,14.0
+24,125,17,17,0.136,0,47,9,52,17.0

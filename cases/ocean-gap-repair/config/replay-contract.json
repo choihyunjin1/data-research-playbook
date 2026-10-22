@@ -1,0 +1,30 @@
+{
+  "format_version": 1,
+  "case_id": "ocean-gap-repair",
+  "historical_study": "selector-harm-avoidance-20261022",
+  "execution": "offline local verified input; new output only",
+  "case_count": 4875,
+  "eligible_dates": 125,
+  "source_records": 9052,
+  "numeric_absolute_tolerance": 2e-11,
+  "component_sha256": {
+    "config/provenance.json": "2fbe1589389cb1d24196d0b372f98a2d35320c81b95b67ccdf9f4a4b8b2838f7",
+    "config/site.json": "5e17f1a78bdc3efe23ad4fc0c342eae007bdc20dab4bbe4b5e5b05f1dab3bcf2",
+    "expected/day-eligibility.csv": "d9505febf48a0b7c130a840e16a18ef15df63bba51a7addeecf304e7e0520162",
+    "expected/fingerprints.json": "5b5bc9f5f2cbc4792131dc1cff711b675e7968b26a46d8805891e8e4e3eba79c",
+    "expected/harm-by-reason.csv": "1eb7e087c8c69cd66f5138f3f2053cd49b45f5991dc65a43cb45a38d5a244c7b",
+    "expected/harm-diagnostics.csv": "cbd58cc564162c8146423d92623d1a184fc03498f992c5aa14ec95eeb831094a",
+    "expected/harm-uncertainty.csv": "60e8f502ee8dc8b7e487e7d94be6ba393315adfb2b004ec7864c6c56213e4c8d",
+    "expected/monthly.csv": "7f8911e262dec3979d430c41c9e71fea1ae6cbceb46e07d1d9f7c0582a2172bb",
+    "expected/overall.csv": "21c895a499f5fc77bb5613062d0d8ad71e52fee9ff3877560d62786e40caa0b1",
+    "expected/selection-impact.csv": "6001c1faf9b10967cab729ded33c29f22785e021db94579e51469525fe615fe8",
+    "expected/selection.csv": "42da4c15253ebe4141a3bdbb38ae7957afee332d3a316aa2614b356ae1e0597f",
+    "expected/uncertainty.csv": "d3f5f790fdbd00559374068805c56e2f3606c2dab81f0c5423f0d8e78ae90b45",
+    "frozen/method.py": "6ae98feb21786c52ccc15d7f344e2f340b2c3a2a1bbd5ad18e7d9fa5a7f3a5f0",
+    "frozen/selector.py": "c64514bbafa145509472589cf708738117f18fd302f121816f96579b5dbbce0e",
+    "replay/analyze.py": "2c0095aa3335ccab723144869b25bbc02e40116ea1f8f5df4b7b83826589ed9a",
+    "replay/extract.py": "0ef481c9bdc16c91aa9074b5a8f53704986b3b03e6769f6411b3503ea3668bf0",
+    "replay/fingerprints.py": "363d44e434e911af53456193703ab81c57cbe3fc68302d33b1f2318a3fab9fba",
+    "replay/independent.py": "13c259ce19031197b32b705b6056b3a62cf77ec62c6f86a3f898b0cd1fc7873d"
+  }
+}

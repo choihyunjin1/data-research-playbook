@@ -1,0 +1,585 @@
+{
+  "scope": "tracked public files; excludes manifest itself and private/local artifacts",
+  "files": [
+    {
+      "path": ".agents/skills/evidence-driven-workflow/SKILL.md",
+      "bytes": 1944,
+      "sha256": "8736b4ff0568be2bbccd70faf8ec0f3ebd9914a269debd7185e6385d746c2b08"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 100,
+      "sha256": "e216c47ce2dc25b1e43d5cc9570bfe0456637826bdfc0cb30d810da025efd7be"
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "bytes": 664,
+      "sha256": "784553c5bfddca3f44859051e47c7d034196c1401afbe6a9e334443c43ba9d54"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 148,
+      "sha256": "c7dc910d4881a6cfad3ef9545c2b032d7b95f505185e566bf467b843865d2f12"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1595,
+      "sha256": "5c1e6dce3c13c6af408e2c555da64880f77def2ca2fc774436cab5869d3e8b86"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 489,
+      "sha256": "c38656b9945db3528fb1d64d13a992a9ae7cfdbed1b30b868fa4ce0193df90e9"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1288,
+      "sha256": "3ac4ad59b87f44acfe5c28c5a9492fb9afe0d5bc35fffcf4eb73b482241f2f92"
+    },
+    {
+      "path": "LICENSE-DOCS.md",
+      "bytes": 699,
+      "sha256": "88abb9aeec5082a4dca36025cba2368bf72d8a14866d8e91be82e00a7709edca"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1453,
+      "sha256": "3438b13a426ea5af3fca77ef1abd07b29028dc652299200b0c5f31f696b70a0f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4376,
+      "sha256": "352f09312b9c497e96b61de6407137ae1196302f28b37753072abdb8c6c191fd"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 1279,
+      "sha256": "b7cb7050417fb2fbf5d40954d8f8735a6d2d7531e0228aca21ce447816af4933"
+    },
+    {
+      "path": "cases/ocean-gap-repair/CONCLUSIONS.md",
+      "bytes": 6030,
+      "sha256": "524c6bbd37a9f73b521a33a71c895f01d44001f54ae3fbef488520dd2b91163c"
+    },
+    {
+      "path": "cases/ocean-gap-repair/FIGURES.md",
+      "bytes": 1550,
+      "sha256": "928ec7555c735bf3621f1526846095b45cc598895d830a2632edacd308cb8454"
+    },
+    {
+      "path": "cases/ocean-gap-repair/HISTORY.md",
+      "bytes": 10604,
+      "sha256": "80cfffc0958c95d1b7859718ca253b2d32d237ff3e190dee42bfe29f50668f06"
+    },
+    {
+      "path": "cases/ocean-gap-repair/README.md",
+      "bytes": 4817,
+      "sha256": "2845a06747c4b0071facfd90837783f04daa0f2ad9077e2a3849fe94be6aff0e"
+    },
+    {
+      "path": "cases/ocean-gap-repair/SOURCES.md",
+      "bytes": 6307,
+      "sha256": "ae68d401dad4eba8474674833d5eff7099368b1b4e747213635cfa5b177c48a2"
+    },
+    {
+      "path": "cases/ocean-gap-repair/config/provenance.json",
+      "bytes": 4033,
+      "sha256": "2fbe1589389cb1d24196d0b372f98a2d35320c81b95b67ccdf9f4a4b8b2838f7"
+    },
+    {
+      "path": "cases/ocean-gap-repair/config/replay-contract.json",
+      "bytes": 2092,
+      "sha256": "e9ee75c5623b005f32a472f29fe066ae065a9a08f42101b6381caa85fd1b1ff6"
+    },
+    {
+      "path": "cases/ocean-gap-repair/config/site.json",
+      "bytes": 4244,
+      "sha256": "5e17f1a78bdc3efe23ad4fc0c342eae007bdc20dab4bbe4b5e5b05f1dab3bcf2"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-external-validation-20261022/monthly-direction.json",
+      "bytes": 3119,
+      "sha256": "6fc206d2fb963182625d0f94dc2fef0fb3dba180dfbff2c41179d544c00aba6d"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-external-validation-20261022/overall.csv",
+      "bytes": 2206,
+      "sha256": "cb81f9af1e3faee27e4043c0886e56b7beb23821557d82585e0f9931e50ce578"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-external-validation-20261022/paired-uncertainty.csv",
+      "bytes": 3701,
+      "sha256": "7537768eaac8099dde062d828c9d047ca64a841df04a1fbebf3d1a656e68ec8c"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-external-validation-20261022/result.json",
+      "bytes": 1585,
+      "sha256": "5d739f653558006b9eb866d9fe23daaf48f326ec1f5e63f463227b02f2e5815a"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-midpoint-validation-20261022/monthly-direction.json",
+      "bytes": 2802,
+      "sha256": "a1f2c157dc0cb9ae910f25a03fcb2d3dac5227e94ad970e09debabd635481fdd"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-midpoint-validation-20261022/overall.csv",
+      "bytes": 2202,
+      "sha256": "b7002899caabc8f4dadfef90f761e986a107d709504ddd2b548b8631166f740e"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-midpoint-validation-20261022/paired-uncertainty.csv",
+      "bytes": 3679,
+      "sha256": "cbade89efc5baad5f33f8d721b2e969b81946315715854fd69e5ba7a1ddb3d17"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-midpoint-validation-20261022/result.json",
+      "bytes": 1594,
+      "sha256": "a65479ef2f5d5371e016c9d3f50271b2c2702bc02dcc9770f58439db7eda5d9b"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-observed-selector-20261022/interpretation-facts.json",
+      "bytes": 782,
+      "sha256": "2beba6685f519e20e0e21d6687de6b6f06d24ada7766640737cc44f2a186bdca"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-observed-selector-20261022/overall.csv",
+      "bytes": 2708,
+      "sha256": "4c2462f5a8e919eba619149425269bc0effc293f8427f778c695cf741db50533"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-observed-selector-20261022/result.json",
+      "bytes": 633,
+      "sha256": "95fd2c3456d972db03624c350810fa1b46bd56b70ab35e6436cdf2e9ce73a8d0"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-observed-selector-20261022/selection-impact.csv",
+      "bytes": 940,
+      "sha256": "f4a77fb0247722a4002b912f0c489a052fd4773bac7d4c8f2f1ac42d2d534071"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-observed-selector-20261022/selection.csv",
+      "bytes": 370,
+      "sha256": "127fde1d60d0baea5405998259eb85baa5a92e6ec9821aacf508b68a4c11162b"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-observed-selector-20261022/uncertainty.csv",
+      "bytes": 3905,
+      "sha256": "1d8aeccac3aca9ffc019ccb5fb6ae4d60ffcd052298b2b7e823f476f0028d985"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-temporal-diagnosis-20261022/normalized-error-budget.csv",
+      "bytes": 152,
+      "sha256": "b938c47409382441334dacebfe83216f74273c61029ae5e1c5085dc41c36e000"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/bridge-temporal-diagnosis-20261022/result.json",
+      "bytes": 1438,
+      "sha256": "89b7baebd9bae57834a74647d5cf2abed053c4490c9844707347f1e04b59b0bd"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/ieodo-no-training-baseline-20261022/overall.csv",
+      "bytes": 1026,
+      "sha256": "9c94f018bff7f34e9de7d654a7a8dd497e2099f7d0a65aaa008e1fe61878b4ad"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/ieodo-no-training-baseline-20261022/results.json",
+      "bytes": 4797,
+      "sha256": "6825c32bcb8c9badb21d80a1c67b93b52a11b4afc5c0719e0eb24704b579dd17"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/ieodo-temporal-conditions-20261022/overall.csv",
+      "bytes": 4373,
+      "sha256": "e49967cd44b7a7bc13a1aaf558e8f1d5965543d206deb4509cf28211d0a0a45e"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/ieodo-temporal-conditions-20261022/results.json",
+      "bytes": 11315,
+      "sha256": "3247103e6122b4bd63b28be28546365827e04e9f771588397b50f93c0b802c38"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/interpolation-transfer-diagnostics-20261022/error-decomposition.csv",
+      "bytes": 1801,
+      "sha256": "f34f5a0ffd6ee133dfab638f56306371f29b33966ef9178b8ba17e2cf24a4fc0"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/interpolation-transfer-diagnostics-20261022/overall.csv",
+      "bytes": 6223,
+      "sha256": "f08f67e37dbf68c1ee0339db7332d057b396fa5b6f410baed12bd2a7ffb4707d"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/interpolation-transfer-diagnostics-20261022/paired-uncertainty.csv",
+      "bytes": 3115,
+      "sha256": "463ada71932ffc84a8f46585bd9364db2d5c609c1b3ba71d8fb9c5435747857e"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/interpolation-transfer-diagnostics-20261022/selection.csv",
+      "bytes": 1165,
+      "sha256": "42d7263aad2caf54a9e0caac45df1a3aa2487017ec0fba85b2a02f6bc9bc91ce"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/maria-island-frozen-policy-20261022/overall.csv",
+      "bytes": 2114,
+      "sha256": "ec3fd4a6bbdcf5ad2051ea4d3540b162a85b448b49e8fd10ca41d10a81e5d27f"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/maria-island-frozen-policy-20261022/paired-comparisons.csv",
+      "bytes": 2643,
+      "sha256": "a1f23cb9d7bc96d07000a5f2ff49feafa3372dbb7cb10d2e451a4cc63d715ec7"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/maria-island-frozen-policy-20261022/results.json",
+      "bytes": 21616,
+      "sha256": "7cb8721b897151e29aa4c6dadb32655f198dac55cd858c4bbe2ed295e5e043d9"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/harm-by-reason.csv",
+      "bytes": 3146,
+      "sha256": "1eb7e087c8c69cd66f5138f3f2053cd49b45f5991dc65a43cb45a38d5a244c7b"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/harm-diagnostics.csv",
+      "bytes": 1196,
+      "sha256": "cbd58cc564162c8146423d92623d1a184fc03498f992c5aa14ec95eeb831094a"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/harm-uncertainty.csv",
+      "bytes": 3240,
+      "sha256": "60e8f502ee8dc8b7e487e7d94be6ba393315adfb2b004ec7864c6c56213e4c8d"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/interpretation-facts.json",
+      "bytes": 460,
+      "sha256": "2a6db0fbca0ec9bd0236e08ea1008e98b54750e23496cbb1273a3008c921528a"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/overall.csv",
+      "bytes": 2801,
+      "sha256": "21c895a499f5fc77bb5613062d0d8ad71e52fee9ff3877560d62786e40caa0b1"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/result.json",
+      "bytes": 908,
+      "sha256": "67d3727b0b7aa1f1f33647037bbe857bdc11c155b20c0c993f692d3a56cb36a4"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/selection-impact.csv",
+      "bytes": 867,
+      "sha256": "6001c1faf9b10967cab729ded33c29f22785e021db94579e51469525fe615fe8"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/selection.csv",
+      "bytes": 322,
+      "sha256": "42da4c15253ebe4141a3bdbb38ae7957afee332d3a316aa2614b356ae1e0597f"
+    },
+    {
+      "path": "cases/ocean-gap-repair/evidence/selector-harm-avoidance-20261022/uncertainty.csv",
+      "bytes": 6644,
+      "sha256": "d3f5f790fdbd00559374068805c56e2f3606c2dab81f0c5423f0d8e78ae90b45"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/day-eligibility.csv",
+      "bytes": 3416,
+      "sha256": "d9505febf48a0b7c130a840e16a18ef15df63bba51a7addeecf304e7e0520162"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/fingerprints.json",
+      "bytes": 6896,
+      "sha256": "5b5bc9f5f2cbc4792131dc1cff711b675e7968b26a46d8805891e8e4e3eba79c"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/harm-by-reason.csv",
+      "bytes": 3146,
+      "sha256": "1eb7e087c8c69cd66f5138f3f2053cd49b45f5991dc65a43cb45a38d5a244c7b"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/harm-diagnostics.csv",
+      "bytes": 1196,
+      "sha256": "cbd58cc564162c8146423d92623d1a184fc03498f992c5aa14ec95eeb831094a"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/harm-uncertainty.csv",
+      "bytes": 3240,
+      "sha256": "60e8f502ee8dc8b7e487e7d94be6ba393315adfb2b004ec7864c6c56213e4c8d"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/monthly.csv",
+      "bytes": 14094,
+      "sha256": "7f8911e262dec3979d430c41c9e71fea1ae6cbceb46e07d1d9f7c0582a2172bb"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/overall.csv",
+      "bytes": 2801,
+      "sha256": "21c895a499f5fc77bb5613062d0d8ad71e52fee9ff3877560d62786e40caa0b1"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/selection-impact.csv",
+      "bytes": 867,
+      "sha256": "6001c1faf9b10967cab729ded33c29f22785e021db94579e51469525fe615fe8"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/selection.csv",
+      "bytes": 322,
+      "sha256": "42da4c15253ebe4141a3bdbb38ae7957afee332d3a316aa2614b356ae1e0597f"
+    },
+    {
+      "path": "cases/ocean-gap-repair/expected/uncertainty.csv",
+      "bytes": 6644,
+      "sha256": "d3f5f790fdbd00559374068805c56e2f3606c2dab81f0c5423f0d8e78ae90b45"
+    },
+    {
+      "path": "cases/ocean-gap-repair/figures/avoided-and-missed.png",
+      "bytes": 27851,
+      "sha256": "c2f63bcc0040ff72f5662355fd7451ff470bbeab475a54d157e6d54c20d452da"
+    },
+    {
+      "path": "cases/ocean-gap-repair/figures/daily-rmse.png",
+      "bytes": 25865,
+      "sha256": "1ed397b32d7da2cd610ef06a156ba423588aff109c7682846cbce2bbabb6425e"
+    },
+    {
+      "path": "cases/ocean-gap-repair/frozen/method.py",
+      "bytes": 1348,
+      "sha256": "6ae98feb21786c52ccc15d7f344e2f340b2c3a2a1bbd5ad18e7d9fa5a7f3a5f0"
+    },
+    {
+      "path": "cases/ocean-gap-repair/frozen/selector.py",
+      "bytes": 2318,
+      "sha256": "c64514bbafa145509472589cf708738117f18fd302f121816f96579b5dbbce0e"
+    },
+    {
+      "path": "cases/ocean-gap-repair/replay/analyze.py",
+      "bytes": 12951,
+      "sha256": "2c0095aa3335ccab723144869b25bbc02e40116ea1f8f5df4b7b83826589ed9a"
+    },
+    {
+      "path": "cases/ocean-gap-repair/replay/extract.py",
+      "bytes": 3830,
+      "sha256": "0ef481c9bdc16c91aa9074b5a8f53704986b3b03e6769f6411b3503ea3668bf0"
+    },
+    {
+      "path": "cases/ocean-gap-repair/replay/fingerprints.py",
+      "bytes": 1925,
+      "sha256": "363d44e434e911af53456193703ab81c57cbe3fc68302d33b1f2318a3fab9fba"
+    },
+    {
+      "path": "cases/ocean-gap-repair/replay/independent.py",
+      "bytes": 25885,
+      "sha256": "13c259ce19031197b32b705b6056b3a62cf77ec62c6f86a3f898b0cd1fc7873d"
+    },
+    {
+      "path": "cases/ocean-gap-repair/submission-status.md",
+      "bytes": 2936,
+      "sha256": "152ae2292cb3564747fbdc18c5cf7573745928d17e1cd08586bc55035853512f"
+    },
+    {
+      "path": "evals/history/README.md",
+      "bytes": 1668,
+      "sha256": "e81a99a372e6b9dbf855ed14cc7558c9636622e694f3dfd47d8ed76e48c7c11c"
+    },
+    {
+      "path": "evals/history/incidents.md",
+      "bytes": 4930,
+      "sha256": "e66aee4078ac5b88470edb3a4e742fa75610df201100e517ae62011eeed93373"
+    },
+    {
+      "path": "evals/history/process-intervention.md",
+      "bytes": 2803,
+      "sha256": "3ef4a5191e82426e16478dfd75d106ecd1d3130902aeda4c5af5238ab0d65627"
+    },
+    {
+      "path": "evals/history/provenance.json",
+      "bytes": 3082,
+      "sha256": "813e193ce67fcb34c16ec499d8d4816eb8f1c1a488067c833f1b01e64ac2fff1"
+    },
+    {
+      "path": "evals/history/skill-comparison.md",
+      "bytes": 2952,
+      "sha256": "5eb0ad6fdb5c5613a3424479ee8203e3aaa6c629e4d92b8861238580a90ca783"
+    },
+    {
+      "path": "evals/reuse-20261023/README.md",
+      "bytes": 2886,
+      "sha256": "eed416a167f0d05a6f02e474de85e7cd69c839eb13418effc69cc3c5f90960f8"
+    },
+    {
+      "path": "evals/reuse-20261023/answer/HANDOFF.md",
+      "bytes": 14016,
+      "sha256": "1b808e69194b7dba452258bfd5efe5eae6012314a621afdffe69002c66f2fe8f"
+    },
+    {
+      "path": "evals/reuse-20261023/answer/compare_gap.py",
+      "bytes": 3102,
+      "sha256": "20e465eead07461284a71dda917cede2dc7fac47ff5c8cce42e9705671b9b71a"
+    },
+    {
+      "path": "evals/reuse-20261023/answer/meter_fixed.py",
+      "bytes": 1798,
+      "sha256": "9c65b72fbcdd5de94f28cbad544374a930c35561942f286395ffaa075404807a"
+    },
+    {
+      "path": "evals/reuse-20261023/answer/test_reuse.py",
+      "bytes": 5667,
+      "sha256": "b97f0ba47b44111b6cf0418d3facb495078f700510661bf0efedc4f089ede160"
+    },
+    {
+      "path": "evals/reuse-20261023/gap-example.csv",
+      "bytes": 332,
+      "sha256": "2f9c5b72a4037439f35ced0dc95108c57a6968efcd4e5fb4f229d954f824530a"
+    },
+    {
+      "path": "evals/reuse-20261023/meter_candidate.py",
+      "bytes": 447,
+      "sha256": "c03540512d035b624d2a304c444663ea97647919f0387010cd4ec5ee2c96a30e"
+    },
+    {
+      "path": "evals/reuse-20261023/recheck.json",
+      "bytes": 5990,
+      "sha256": "13c33997697a5d11934d44b85861596d60da56f5b20ff0d70d9aad7113b221c0"
+    },
+    {
+      "path": "evals/reuse-20261023/request.md",
+      "bytes": 1659,
+      "sha256": "b0c380da7b0efe29f7e674a81f9a78d30f75f8ea25e3b7890d6e75c5e38f2783"
+    },
+    {
+      "path": "examples/README.md",
+      "bytes": 978,
+      "sha256": "93a39802dc30ac46714af3028069c9ad8be75af34feaff26b6700dc7db893df1"
+    },
+    {
+      "path": "playbooks/README.md",
+      "bytes": 1414,
+      "sha256": "bf1d62a3da04af599c37cb1ee02c64e3d52677623c9fc9222240983c0598f74a"
+    },
+    {
+      "path": "playbooks/code-contracts.md",
+      "bytes": 2545,
+      "sha256": "e53afb72978bb495cfa6ecdbcb3edd8687b7050ef6517d0caf0655582f6e2472"
+    },
+    {
+      "path": "playbooks/communicating-results.md",
+      "bytes": 2616,
+      "sha256": "40d1aad6ec68764bbdca6c17417e839a79bdf3ced0fad40c586d68fc6c0b6576"
+    },
+    {
+      "path": "playbooks/handoff.md",
+      "bytes": 2269,
+      "sha256": "dba6a28e7daa7b0b87574a35481e9c8e10909afb5d6b4498ef74fa8b92133b20"
+    },
+    {
+      "path": "playbooks/missing-data.md",
+      "bytes": 3116,
+      "sha256": "0e794e7d74cd3128ac23891628a06179bf48a0cd1b3f613b119558165601e4a1"
+    },
+    {
+      "path": "playbooks/new-competition.md",
+      "bytes": 2321,
+      "sha256": "7023f45e0d42007bc8f0497ca8bd2346aa8e52bac19534190444cf59f1dd5c63"
+    },
+    {
+      "path": "provenance/PUBLIC_FILES.json",
+      "bytes": 51005,
+      "sha256": "f0029e756cb071c137711f2cbd5dbc3746b7f8b24c882ff2ddad809cc1be4068"
+    },
+    {
+      "path": "provenance/contracts.json",
+      "bytes": 1495,
+      "sha256": "7e0e1a64ff3440f2e081ab71faae5de6d4217b004274eaa6697956b6b5dc1a0b"
+    },
+    {
+      "path": "provenance/migration.json",
+      "bytes": 18310,
+      "sha256": "2edc318de5c08cf2ed1dafdd703ffd22ecb0c3a045454ca7f527940398c2d081"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 437,
+      "sha256": "1ae26df9a419aa31ec2e82ff95cfb707ac4257d1b69440edeaaf9f4ef95424ca"
+    },
+    {
+      "path": "reports/BACKUP.md",
+      "bytes": 2082,
+      "sha256": "690e134d6a0cbe50927749e7ba817ad0dfa8f781340e0550ee7a4cbf98ff0fb7"
+    },
+    {
+      "path": "reports/VALIDATION.md",
+      "bytes": 3444,
+      "sha256": "bdda127e8fbb4b98eab3d4fcde8fd961b9a183ca2730457be57c447c76fb6a5c"
+    },
+    {
+      "path": "reports/raw-replay.json",
+      "bytes": 4167,
+      "sha256": "b028d4f83e59203430360f257c4bc3f58381c7f645cf95f53bd8c121aa34d260"
+    },
+    {
+      "path": "reports/unit-tests.json",
+      "bytes": 6309,
+      "sha256": "43d5815fa049a0dda84fc5dde789bfb0431486c0460b7f46c827838ddbcf09d9"
+    },
+    {
+      "path": "reports/validation.json",
+      "bytes": 422,
+      "sha256": "71c110d6db563193968dafb92e609c2063d77f4879543b60cf42b6a69300950d"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 267,
+      "sha256": "64a138aa5e40101cebd05abd9954d8db6324505d3b7568498fd301f0ea02c995"
+    },
+    {
+      "path": "requirements-replay.txt",
+      "bytes": 116,
+      "sha256": "8ce7fdf6f50d40f708691e3ad19e7c0e71f33e0bbfa538a6cb78b6d98d1fb777"
+    },
+    {
+      "path": "scripts/check_public.py",
+      "bytes": 2113,
+      "sha256": "b9d6aa2f8fbf06949621812b07a58b4311e31a80b13ee6b1305358da7be7cdba"
+    },
+    {
+      "path": "scripts/package_manifest.py",
+      "bytes": 1171,
+      "sha256": "0164747404cd24dc708d05b7eb840d72c3951bd9bdf173026950d27e8d88ac70"
+    },
+    {
+      "path": "scripts/run_checks.py",
+      "bytes": 1645,
+      "sha256": "299fc83bff05699ec56ae2a9a4257147a4fb7da002d7e14dc07ba31c5bad5d3e"
+    },
+    {
+      "path": "src/research_playbook/__init__.py",
+      "bytes": 81,
+      "sha256": "46ede716b22175523ea856168244547c3d77438a11cb15e8ac779a1ad8cf4f93"
+    },
+    {
+      "path": "src/research_playbook/__main__.py",
+      "bytes": 1052,
+      "sha256": "e4e265415b54b31073e001588e3f9a08f74f8750f4c71c14e4dc26e097cd565a"
+    },
+    {
+      "path": "src/research_playbook/contracts.py",
+      "bytes": 4324,
+      "sha256": "2ccb6b7ef5dc773f6aeacf10c84a9b0592d6e92687251f3fdfd7a0bf0b846745"
+    },
+    {
+      "path": "src/research_playbook/demo.py",
+      "bytes": 1171,
+      "sha256": "cc808ac7e60ac4c1f6709165d1f85e55e9184b7e77c12db42e4163c47230a425"
+    },
+    {
+      "path": "src/research_playbook/replay.py",
+      "bytes": 11339,
+      "sha256": "be0c14a073503af2fe899afd96e0b7342d7f3ce1da447ee92d99968fcb86f569"
+    },
+    {
+      "path": "tests/test_contracts.py",
+      "bytes": 2749,
+      "sha256": "b5f5f788cc73898db0d1a78d444666c3a23e5903ee4dcfd317527bf9f6e4c115"
+    },
+    {
+      "path": "tests/test_replay.py",
+      "bytes": 15524,
+      "sha256": "0860e54459f57f6669af7ca873299064d4becb185c2a7d86163d2be9576b2d04"
+    }
+  ]
+}

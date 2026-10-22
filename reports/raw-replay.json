@@ -1,0 +1,90 @@
+{
+  "status": "REPLAY_PASS",
+  "case_id": "ocean-gap-repair",
+  "started_at_utc": "2026-10-22T15:29:11.604807+00:00",
+  "completed_at_utc": "2026-10-22T15:29:34.187968+00:00",
+  "historical_replay": true,
+  "new_holdout": false,
+  "training_runs": 0,
+  "rule_tuning_runs": 0,
+  "network_access": false,
+  "source_filename": "IMOS_ANMN-NRS_BOSTZ_20081120_NRSROT_FV02_hourly-timeseries_END-20260724_C-20260801.nc",
+  "source_sha256": "bc2b20d4181d8e0d95eae37ba04b3dc2e8e5a850b9617953df89de3254c30b84",
+  "replay_contract_sha256": "e9ee75c5623b005f32a472f29fe066ae065a9a08f42101b6381caa85fd1b1ff6",
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "netCDF4": "1.7.4"
+  },
+  "cases": 4875,
+  "eligible_dates": 125,
+  "source_records": 9052,
+  "independent_status": "PASS_WITH_INTERPRETIVE_LIMITS",
+  "independent_max_absolute_errors": {
+    "selected_records_to_hourly": 0.0,
+    "case_numeric": 1.9317880628477724e-14,
+    "overall": 3.0531133177191805e-16,
+    "monthly": 8.326672684688674e-16,
+    "harm": 1.5543122344752192e-15,
+    "reasons": 1.7763568394002505e-15,
+    "impact": 1.734723475976807e-18,
+    "rmse_mse_CI": 1.3322676295501878e-13,
+    "harm_CI": 3.469446951953614e-18,
+    "harm_identity": 1.0408340855860843e-17
+  },
+  "historical_equivalence": {
+    "whole_table_fingerprints": {
+      "cases.csv": {
+        "rows": 4875,
+        "columns": 32,
+        "all_columns_match": true
+      },
+      "hourly.csv": {
+        "rows": 3336,
+        "columns": 4,
+        "all_columns_match": true
+      },
+      "source/selected-records.csv": {
+        "rows": 9052,
+        "columns": 5,
+        "all_columns_match": true
+      }
+    },
+    "summary_max_absolute_difference": {
+      "day-eligibility.csv": 0.0,
+      "harm-by-reason.csv": 0.0,
+      "harm-diagnostics.csv": 0.0,
+      "harm-uncertainty.csv": 0.0,
+      "monthly.csv": 0.0,
+      "overall.csv": 0.0,
+      "selection-impact.csv": 0.0,
+      "selection.csv": 0.0,
+      "uncertainty.csv": 0.0
+    },
+    "absolute_tolerance": 2e-11,
+    "fingerprint_policy": "Exact typed numeric/category column digests; no rounded acceptance"
+  },
+  "output_sha256": {
+    "cases.csv": "a5024dbbb0c0d56fb329e250fd31123e00ba3d90f07b50282504d22568ecef27",
+    "day-eligibility.csv": "d9505febf48a0b7c130a840e16a18ef15df63bba51a7addeecf304e7e0520162",
+    "harm-by-reason.csv": "1eb7e087c8c69cd66f5138f3f2053cd49b45f5991dc65a43cb45a38d5a244c7b",
+    "harm-diagnostics.csv": "cbd58cc564162c8146423d92623d1a184fc03498f992c5aa14ec95eeb831094a",
+    "harm-uncertainty.csv": "60e8f502ee8dc8b7e487e7d94be6ba393315adfb2b004ec7864c6c56213e4c8d",
+    "hourly.csv": "35f6681443ecdcac0fa5ebc60b621d64364bb40144345e865956b79009bc5e12",
+    "independent-check.json": "7faaae7e378f9b663d4d359922d699d1e8ae6a8e62f5405d986421e148361528",
+    "monthly.csv": "7f8911e262dec3979d430c41c9e71fea1ae6cbceb46e07d1d9f7c0582a2172bb",
+    "overall.csv": "21c895a499f5fc77bb5613062d0d8ad71e52fee9ff3877560d62786e40caa0b1",
+    "probe-audit-sample.csv": "530b104af7d10404cffe521b5d21d43608a59d323a4877c618ad3046e52734ea",
+    "result.json": "6af8108255b0b939d15a44b259fe92411d1973838f2fb9686131845f084c1b4c",
+    "selection-impact.csv": "6001c1faf9b10967cab729ded33c29f22785e021db94579e51469525fe615fe8",
+    "selection.csv": "42da4c15253ebe4141a3bdbb38ae7957afee332d3a316aa2614b356ae1e0597f",
+    "site.json": "f8ca3b90e72f93af64f7a50dde4f4a99383167e82dab75c220482f27ea0f67d3",
+    "source/extraction-quality.json": "111daf92f53d4366596892be41def17d55d2108673d8ed1a81e5f1baec9b4dba",
+    "source/extraction-read.json": "5c8286c566efd701927063f8f1ba80d6e2933dc119c1f6aad3fda45ed984b059",
+    "source/metadata.json": "eca362ceaa026cb0e1ae71d5901fb2a05ee10ccbf3521825cab343e525af7ffa",
+    "source/selected-records.csv": "16d3959ba5c3308dc8d18d924e7a809498b5ce4e119dfe8a825656ec4c5d2b3a",
+    "uncertainty.csv": "d3f5f790fdbd00559374068805c56e2f3606c2dab81f0c5423f0d8e78ae90b45"
+  },
+  "claim_limit": "Numerical reproduction only; no new site, tuning, operational deployment or universal superiority"
+}

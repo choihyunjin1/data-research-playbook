@@ -1,0 +1,83 @@
+{
+  "format_version": 1,
+  "historical_study": "selector-harm-avoidance-20261022",
+  "historical_freeze_sha256": "3b5bcc205c74fb60e18b73b66e77dfa97b0117b16c4291e89a0d0d25201db873",
+  "historical_freeze_at_utc": "2026-10-22T14:50:26.041634+00:00",
+  "migration_scope": "Historical numerical replay, not new research or a fresh holdout. Original files read-only.",
+  "mapping": [
+    {
+      "original_file": "method.py",
+      "original_sha256": "6ae98feb21786c52ccc15d7f344e2f340b2c3a2a1bbd5ad18e7d9fa5a7f3a5f0",
+      "replay_file": "frozen/method.py",
+      "replay_sha256": "6ae98feb21786c52ccc15d7f344e2f340b2c3a2a1bbd5ad18e7d9fa5a7f3a5f0",
+      "transformation": "Byte-identical historical frozen predictor; always supply [33,44,55] explicitly, never use the older default depths."
+    },
+    {
+      "original_file": "selector.py",
+      "original_sha256": "c64514bbafa145509472589cf708738117f18fd302f121816f96579b5dbbce0e",
+      "replay_file": "frozen/selector.py",
+      "replay_sha256": "c64514bbafa145509472589cf708738117f18fd302f121816f96579b5dbbce0e",
+      "transformation": "Byte-identical observed-only selector; no changed window, threshold, probes or fitting."
+    },
+    {
+      "original_file": "analyze.py",
+      "original_sha256": "5a65c88dbba1756c619a343096aab2c04205eca41cd84e05a6bf782fca09aa95",
+      "replay_file": "replay/analyze.py",
+      "replay_sha256": "2c0095aa3335ccab723144869b25bbc02e40116ea1f8f5df4b7b83826589ed9a",
+      "transformation": "Change imports to injected per-run IO context and frozen package; main receipt identifies historical replay and contract rather than fabricating a new freeze. Remove console output. All non-main function ASTs unchanged."
+    },
+    {
+      "original_file": "acquire_extract.py",
+      "original_sha256": "b13b779e29b97cd84c604b270832610cc0fadb2588c1eb9f8a5da5c5d66a3cea",
+      "replay_file": "replay/extract.py",
+      "replay_sha256": "0ef481c9bdc16c91aa9074b5a8f53704986b3b03e6769f6411b3503ea3668bf0",
+      "transformation": "Use caller-verified SOURCE instead of local absolute path; write replay extraction-read receipt, not a new unseen first read. Temperature selection, QC and hourly conversion retained."
+    },
+    {
+      "original_file": "independent_check.py",
+      "original_sha256": "23610ba2cfa5903028775ba2b251c6e35b37055d5680edc72695e0a0de39e040",
+      "replay_file": "replay/independent.py",
+      "replay_sha256": "13c259ce19031197b32b705b6056b3a62cf77ec62c6f86a3f898b0cd1fc7873d",
+      "transformation": "Inject output root; replace old-folder preservation/first-read checks with replay contract/raw hash checks; record replay scope. Separate numerical reconstruction formulas unchanged."
+    },
+    {
+      "original_file": "site.json",
+      "original_sha256": "8bd78ae21a9905185401808861f652940e193b63de7548c6b1231f73cb28ebf5",
+      "replay_file": "config/site.json",
+      "replay_sha256": "5e17f1a78bdc3efe23ad4fc0c342eae007bdc20dab4bbe4b5e5b05f1dab3bcf2",
+      "transformation": "Remove machine-local path and old pre-TEMP status; add source basename/replay scope and completed-study interpretive limits. Depths, instruments, UTC ranges, source hash and selection specification unchanged."
+    }
+  ],
+  "calculation_function_AST_equivalence": {
+    "analyze.py": {
+      "site_contract": true,
+      "cases_from_hourly": true,
+      "summary": true,
+      "calendar_weights": true,
+      "resample_daily": true,
+      "uncertainty": true,
+      "date_equal_mean": true,
+      "harm_daily": true,
+      "harm_diagnostics": true,
+      "harm_uncertainty": true
+    },
+    "independent_check.py": {
+      "digest": true,
+      "read_json": true,
+      "close_arrays": true,
+      "linear_pair": true,
+      "local_choice": true,
+      "predict_separately": true,
+      "table_check": true,
+      "metrics_table": true,
+      "resample_independently": true,
+      "harm_tables": true
+    }
+  },
+  "environments": {
+    "recorded_python": "3.12.10",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "netCDF4": "1.7.4"
+  }
+}

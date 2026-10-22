@@ -1,0 +1,21 @@
+{
+  "at_utc": "2026-10-22T06:22:53.635880+00:00",
+  "station": "NRSKAI",
+  "depths_m": [
+    52.20140075683594,
+    57.20140075683594,
+    62.20140075683594
+  ],
+  "training_runs": 0,
+  "rule_tuning_runs": 0,
+  "source_unseen_before_freeze": true,
+  "local_observed_error_comparison": true,
+  "eligible_dates": 66,
+  "excluded_dates": 299,
+  "cases": 2574,
+  "first_date": "2023-10-27",
+  "last_date": "2023-12-31",
+  "low_sample": false,
+  "freeze_sha256": "1a728bca7c00cfc3c471120bcaf599b00c55d6e73c79f7909e675c68aa741f04",
+  "hourly_sha256": "857b42e8d137cef1c680e1e094f2f5de8354cb5d874851541e291f07d867c5c0"
+}

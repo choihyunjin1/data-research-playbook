@@ -1,0 +1,52 @@
+{
+  "at_utc": "2026-10-22T04:49:06.973977+00:00",
+  "station": "NRSROT",
+  "year": 2023,
+  "timezone": "UTC",
+  "depths_m": [
+    33,
+    44,
+    55
+  ],
+  "training_runs": 0,
+  "eligible_dates": 227,
+  "excluded_dates": 138,
+  "scenarios": 8853,
+  "low_sample": false,
+  "decision_by_gap": [
+    {
+      "gap_hours": 1,
+      "all_defined_baselines_rmse_better": false,
+      "all_defined_baselines_mae_better": false,
+      "bridge_boundary_fallback_cases": 0
+    },
+    {
+      "gap_hours": 3,
+      "all_defined_baselines_rmse_better": false,
+      "all_defined_baselines_mae_better": false,
+      "bridge_boundary_fallback_cases": 0
+    },
+    {
+      "gap_hours": 6,
+      "all_defined_baselines_rmse_better": false,
+      "all_defined_baselines_mae_better": false,
+      "bridge_boundary_fallback_cases": 0
+    },
+    {
+      "gap_hours": 12,
+      "all_defined_baselines_rmse_better": false,
+      "all_defined_baselines_mae_better": false,
+      "bridge_boundary_fallback_cases": 0
+    },
+    {
+      "gap_hours": 24,
+      "all_defined_baselines_rmse_better": false,
+      "all_defined_baselines_mae_better": false,
+      "bridge_boundary_fallback_cases": 0
+    }
+  ],
+  "freeze_sha256": "93fd81c3a15f9abbe21861194697761c8b8cd6f6b8c82f48678b42dd117631c3",
+  "hourly_sha256": "f6da60350c744b7dc982e9b99292d7111810d8e4a84bb9ab06c29292fb680578",
+  "uncertainty": "Paired calendar block; percentile CI95; multiple comparisons unadjusted",
+  "scope": "Artificial gaps on complete observed days, fixed station/year/nominal-depth triplet"
+}

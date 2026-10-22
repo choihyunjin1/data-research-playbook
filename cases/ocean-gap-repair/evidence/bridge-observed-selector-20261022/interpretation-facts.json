@@ -1,0 +1,30 @@
+{
+  "generated_at_utc": "2026-10-22T06:31:44.007641+00:00",
+  "populated_calendar_blocks": {
+    "7": 11,
+    "30": 4
+  },
+  "selected_vs_temporal_percent": {
+    "1": -52.627438748827224,
+    "3": -62.075978680303876,
+    "6": -68.87976505022,
+    "12": -69.56088437106372,
+    "24": -83.98021437989372
+  },
+  "selected_vs_bridge_percent": {
+    "1": 0.024715913811612644,
+    "3": 0.025551121416333977,
+    "6": 0.10389914784358911,
+    "12": -0.38020814670138847,
+    "24": 0.2735900785973522
+  },
+  "best_method_by_gap": {
+    "1": "bridge",
+    "3": "depth",
+    "6": "depth",
+    "12": "depth",
+    "24": "depth"
+  },
+  "fallback_cases": 38,
+  "comparison": "Method selection is not established as better than always using the unchanged bridge."
+}

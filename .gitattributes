@@ -1,0 +1,4 @@
+# Preserve byte-level evidence and contract hashes across clones on all OSes.
+* -text
+*.png binary
+

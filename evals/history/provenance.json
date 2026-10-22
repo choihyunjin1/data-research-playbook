@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-10-23",
+  "kind": "sanitized_historical_summary",
+  "source_root": "original local workspace, not redistributed",
+  "transformation": "Korean summaries of recorded observations; private absolute paths, account details, restricted assets and full tool transcripts omitted. Source hashes identify originals; no new evaluation run is implied.",
+  "sources": [
+    {"source_relative_path": "ocean-evolution/docs/LESSONS_AND_ACTIONS.md", "sha256": "0020acc5eff8a7b1f2855b169f0dfde4710607c1cb8f3d52ae60afd6c83728d2", "summary": "incidents.md"},
+    {"source_relative_path": "ocean-evolution/evals/RESULTS.md", "sha256": "4209a318a7a2288e0977cc077fb7c9fffc2de39a4ef0c5d8d77c012b6c74fc46", "summary": "skill-comparison.md"},
+    {"source_relative_path": "ocean-evolution/evals/judgement.json", "sha256": "23e61b3cdc67e823669c2b7b6dfe7f6d83bb6bbec8f57c761eed74034ee93d93", "summary": "skill-comparison.md"},
+    {"source_relative_path": "ocean-evolution/reports/tests.json", "sha256": "229c415514746652ac440659b6f0e50c2d241667e23468ef8f6f0bd78e7a5c9b", "summary": "incidents.md"},
+    {"source_relative_path": "ocean-evolution/reports/COMPLETION.md", "sha256": "d738a7ea91d1b9199fe683f0ac5c4ceaf0dc03a339eeafd45e748b0992a1c508", "summary": "incidents.md"},
+    {"source_relative_path": "ocean-evolution/phase2/DECISIONS.md", "sha256": "fd131bc64cc91b2379d1fc06252ba6e1d176e0186580596819e6ba26f6dd8de3", "summary": "process-intervention.md"},
+    {"source_relative_path": "ocean-evolution/phase2/reports/COMPLETION.md", "sha256": "0161d4956a6d95acdf98381f9b215376fea51703be845e36b80d069ac5216cd9", "summary": "process-intervention.md"},
+    {"source_relative_path": "ocean-evolution/phase2/reports/anonymous-judgement.json", "sha256": "f7301596567356cead418cc431362033478bbc658240ad7f9364a01484dac746", "summary": "process-intervention.md"},
+    {"source_relative_path": "ocean-evolution/phase2/reports/HANDOFF_CHECK.json", "sha256": "a7a24af099235af77c5d882be4035ddcc78053d8af1b53aa4a07fd0b27954f70", "summary": "process-intervention.md"},
+    {"source_relative_path": "ocean-evolution/.agents/skills/evidence-driven-workflow/SKILL.md", "sha256": "3d177830f02cbbb2c88d6bf656642479c3c4cc2e4d5988119f2d86698c121c41", "summary": "../../.agents/skills/evidence-driven-workflow/SKILL.md", "change": "Keep existing name and narrow scope; route task instructions to public playbooks; do not claim reevaluation."},
+    {"source_relative_path": "ocean-evolution/.agents/skills/evidence-driven-workflow/references/work-record.md", "sha256": "2bde8cd33625ecfb9fff25020d388688f6adff71308482c95e9e58dbbdada74c", "summary": "../../playbooks/handoff.md", "change": "Do not duplicate reference; retain the necessary handoff concepts in the canonical playbook."},
+    {"source_relative_path": "output/kdata-recipe-planning-20261021/01_CONDITIONS.md", "sha256": "9b2873b00ce667f210b6cfb7bd6c059eb2174ee6b0426c606f965877966ceae5", "summary": "../../cases/ocean-gap-repair/submission-status.md"}
+  ],
+  "current_behavior_evaluation": "NOT_RUN",
+  "historical_tool_logs_public": false
+}

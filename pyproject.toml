@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data-research-playbook"
+version = "0.1.0"
+description = "Small evidence-backed research tools and a frozen ocean gap-repair case"
+requires-python = ">=3.12"
+dependencies = ["numpy==2.3.5", "pandas==3.0.1"]
+license = "MIT"
+
+[project.optional-dependencies]
+replay = ["netCDF4==1.7.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

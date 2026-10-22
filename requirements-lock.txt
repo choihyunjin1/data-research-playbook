@@ -1,0 +1,10 @@
+# Observed Windows Python 3.12.10 replay environment, 2026-10-23.
+# This snapshot is not a claim of cross-platform byte-identical results.
+certifi==2026.10.19
+cftime==1.6.6.1
+netCDF4==1.7.4
+numpy==2.3.5
+pandas==3.0.1
+python-dateutil==3.0.0
+six==1.17.0
+tzdata==2026.5

@@ -1,0 +1,61 @@
+{
+  "scope": "public path-relocated answers re-executed after independent evaluation",
+  "records": [
+    {
+      "path": "evals/reuse-20261023/request.md",
+      "private_original_sha256": "6d3ca7f048c5427489469c816b403c56f96ec07b5d4426ccbc0384b5eea2d7a8",
+      "public_sha256": "b0c380da7b0efe29f7e674a81f9a78d30f75f8ea25e3b7890d6e75c5e38f2783",
+      "change": "public path relocation only; no algorithm or assertions changed"
+    },
+    {
+      "path": "evals/reuse-20261023/meter_candidate.py",
+      "private_original_sha256": "0059b54035d77bb2c38b5a87815ffd312d4639427dac416b7ffa4ba57bbf0649",
+      "public_sha256": "c03540512d035b624d2a304c444663ea97647919f0387010cd4ec5ee2c96a30e",
+      "change": "public path relocation only; no algorithm or assertions changed"
+    },
+    {
+      "path": "evals/reuse-20261023/gap-example.csv",
+      "private_original_sha256": "1c6a718475dabaee519b48fcbd1c378fe2be1fe37c19ce1d6a2b1f8078e9155e",
+      "public_sha256": "2f9c5b72a4037439f35ced0dc95108c57a6968efcd4e5fb4f229d954f824530a",
+      "change": "public path relocation only; no algorithm or assertions changed"
+    },
+    {
+      "path": "evals/reuse-20261023/answer/meter_fixed.py",
+      "private_original_sha256": "047219081ee135151d860fd3f279e07c425056b69b5a740ee8659fa65ca6e897",
+      "public_sha256": "9c65b72fbcdd5de94f28cbad544374a930c35561942f286395ffaa075404807a",
+      "change": "public path relocation only; no algorithm or assertions changed"
+    },
+    {
+      "path": "evals/reuse-20261023/answer/test_reuse.py",
+      "private_original_sha256": "36b7f5a80342a0aeab5ed2c4bb2457a2d3f6c57b95db275e8b73e94fc4ac5540",
+      "public_sha256": "b97f0ba47b44111b6cf0418d3facb495078f700510661bf0efedc4f089ede160",
+      "change": "public path relocation only; no algorithm or assertions changed"
+    },
+    {
+      "path": "evals/reuse-20261023/answer/compare_gap.py",
+      "private_original_sha256": "1e4f908c13514d482de7b2bb50db96475353979389dd0a7703262695c7d4ade8",
+      "public_sha256": "20e465eead07461284a71dda917cede2dc7fac47ff5c8cce42e9705671b9b71a",
+      "change": "public path relocation only; no algorithm or assertions changed"
+    },
+    {
+      "path": "evals/reuse-20261023/answer/HANDOFF.md",
+      "private_original_sha256": "1ab61e5be7efa1bdfb0fb16d6a844cd2ac7916f30471b5a58b43143b5921a6aa",
+      "public_sha256": "1b808e69194b7dba452258bfd5efe5eae6012314a621afdffe69002c66f2fe8f",
+      "change": "public path relocation only; no algorithm or assertions changed"
+    }
+  ],
+  "runs": [
+    {
+      "command": "python -B evals/reuse-20261023/answer/test_reuse.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"original_fractional_id\": 2,\n  \"original_precise_fractional_string\": 2,\n  \"original_out_of_range_ids\": [\n    0,\n    1000\n  ],\n  \"original_inf_clip\": [\n    100.0,\n    0.0\n  ],\n  \"original_nan_survives\": true,\n  \"original_mixed_mean\": [\n    56.0,\n    56.0,\n    56.0,\n    71.33333333333333\n  ],\n  \"fixed_isolated_mean\": [\n    11.0,\n    11.0,\n    101.0,\n    101.0\n  ]\n}\n",
+      "stderr": "test_actual_distance_no_timestamp_fill (__main__.ReuseTests.test_actual_distance_no_timestamp_fill) ... ok\ntest_average_bad_time_and_no_mutation (__main__.ReuseTests.test_average_bad_time_and_no_mutation) ... ok\ntest_average_invalid_values_and_blocks (__main__.ReuseTests.test_average_invalid_values_and_blocks) ... ok\ntest_block_isolation (__main__.ReuseTests.test_block_isolation) ... ok\ntest_exact_window_edge_not_blind_wrapper (__main__.ReuseTests.test_exact_window_edge_not_blind_wrapper) ... ok\ntest_finite_clipping_regression_and_no_mutation (__main__.ReuseTests.test_finite_clipping_regression_and_no_mutation) ... ok\ntest_identity_invalid_before_cast (__main__.ReuseTests.test_identity_invalid_before_cast) ... ok\ntest_identity_valid_regression (__main__.ReuseTests.test_identity_valid_regression) ... ok\ntest_nonfinite_clipping_rejected (__main__.ReuseTests.test_nonfinite_clipping_rejected) ... ok\ntest_other_block_mutation_both_directions (__main__.ReuseTests.test_other_block_mutation_both_directions) ... ok\ntest_single_block_regression (__main__.ReuseTests.test_single_block_regression) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.064s\n\nOK\n"
+    },
+    {
+      "command": "python -B evals/reuse-20261023/answer/compare_gap.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"source\": \"provided synthetic CSV; one day only; no real-site performance inference\",\n  \"evaluation_hours\": [\n    0,\n    1,\n    2,\n    3,\n    4,\n    5,\n    6,\n    7,\n    8,\n    9,\n    10,\n    11,\n    12,\n    13,\n    14,\n    15,\n    16,\n    17,\n    18,\n    19,\n    20,\n    21,\n    22,\n    23\n  ],\n  \"masked_hours\": [\n    9,\n    10,\n    11,\n    12,\n    13,\n    14\n  ],\n  \"visible_boundary_hours\": [\n    8,\n    15\n  ],\n  \"default_frozen_depths\": [\n    20.0,\n    60.0,\n    63.0\n  ],\n  \"truth_daily_mean\": 10.0,\n  \"remaining_count\": 18,\n  \"remaining_daily_mean\": 10.0,\n  \"bridge_supported\": true,\n  \"unmasked_input_rejected\": true,\n  \"hidden_truth_mutation_invariance\": true,\n  \"methods\": {\n    \"temporal\": {\n      \"fills\": [\n        10.000000000000002,\n        10.0,\n        10.0,\n        10.0,\n        10.0,\n        10.0\n      ],\n      \"daily_mean\": 10.0,\n      \"signed_daily_mean_error\": 0.0,\n      \"absolute_daily_mean_error\": 0.0,\n      \"squared_daily_mean_error\": 0.0\n    },\n    \"bridge\": {\n      \"fills\": [\n        10.857142857142861,\n        9.714285714285714,\n        8.571428571428573,\n        7.428571428571429,\n        8.285714285714285,\n        9.142857142857142\n      ],\n      \"daily_mean\": 9.75,\n      \"signed_daily_mean_error\": -0.25,\n      \"absolute_daily_mean_error\": 0.25,\n      \"squared_daily_mean_error\": 0.0625\n    }\n  }\n}\n",
+      "stderr": ""
+    }
+  ]
+}

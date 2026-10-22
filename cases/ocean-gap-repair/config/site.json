@@ -1,0 +1,93 @@
+{
+  "station": "NRSROT",
+  "name": "Rottnest Island",
+  "metadata_selection_attempt": 2,
+  "depths_m": [
+    33,
+    44,
+    55
+  ],
+  "w": 0.5,
+  "instrument_indices": [
+    280,
+    278,
+    284
+  ],
+  "instrument_ids": [
+    "NRSROT-2412; Seabird SBE39 [600m] temp only; 4052",
+    "NRSROT-ADCP-2412; Nortek Signature500; 100165",
+    "NRSROT-2412; Seabird SBE37-SM-ODO Microcat; 15190"
+  ],
+  "deployment_ids": [
+    "NRSROT-2412",
+    "NRSROT-ADCP-2412",
+    "NRSROT-2412"
+  ],
+  "url": "https://thredds.aodn.org.au/thredds/fileServer/IMOS/ANMN/NRS/NRSROT/hourly_timeseries/IMOS_ANMN-NRS_BOSTZ_20081120_NRSROT_FV02_hourly-timeseries_END-20260724_C-20260801.nc",
+  "source_sha256": "bc2b20d4181d8e0d95eae37ba04b3dc2e8e5a850b9617953df89de3254c30b84",
+  "metadata_common_start_utc": "2024-12-11T08:00:00+00:00",
+  "metadata_common_end_utc": "2025-04-16T00:30:00+00:00",
+  "eval_start_utc": "2024-12-12T00:00:00+00:00",
+  "eval_end_exclusive_utc": "2025-04-16T00:00:00+00:00",
+  "metadata_maximum_evaluation_days": 125,
+  "source_query_start_utc": "2024-12-05T00:00:00+00:00",
+  "source_query_end_exclusive_utc": "2025-04-23T00:00:00+00:00",
+  "context_instrument_policy": "Only the selected instrument indices; keep missing outside deployment boundaries, never borrow the previous/next deployment.",
+  "license": "CC BY 4.0",
+  "attribution": "Integrated Marine Observing System (IMOS), Australian National Mooring Network, National Reference Stations, NRSROT; QC hourly temperature product",
+  "records": [
+    {
+      "index": 280,
+      "nominal_depth_m": 33,
+      "instrument_id": "NRSROT-2412; Seabird SBE39 [600m] temp only; 4052",
+      "deployment_id": "NRSROT-2412",
+      "source_file": "IMOS/ANMN/NRS/NRSROT/Temperature/IMOS_ANMN-NRS_TZ_20241211T080000Z_NRSROT_FV01_NRSROT-2412-SBE39-33_END-20250416T003000Z_C-20250428T001527Z.nc",
+      "start_utc": "2024-12-11T08:00:00+00:00",
+      "end_utc": "2025-04-16T00:30:00+00:00"
+    },
+    {
+      "index": 278,
+      "nominal_depth_m": 44,
+      "instrument_id": "NRSROT-ADCP-2412; Nortek Signature500; 100165",
+      "deployment_id": "NRSROT-ADCP-2412",
+      "source_file": "IMOS/ANMN/NRS/NRSROT/Velocity/IMOS_ANMN-NRS_AETVZ_20241211T080000Z_NRSROT-ADCP_FV01_NRSROT-ADCP-2412-Signature500-44_END-20250416T013000Z_C-20250428T004637Z.nc",
+      "start_utc": "2024-12-11T08:00:00+00:00",
+      "end_utc": "2025-04-16T01:30:00+00:00"
+    },
+    {
+      "index": 284,
+      "nominal_depth_m": 55,
+      "instrument_id": "NRSROT-2412; Seabird SBE37-SM-ODO Microcat; 15190",
+      "deployment_id": "NRSROT-2412",
+      "source_file": "IMOS/ANMN/NRS/NRSROT/Biogeochem_timeseries/IMOS_ANMN-NRS_COSTZ_20241211T080000Z_NRSROT_FV01_NRSROT-2412-SBE37SMP-ODO-RS232-55_END-20250416T003000Z_C-20250428T001528Z.nc",
+      "start_utc": "2024-12-11T08:00:00+00:00",
+      "end_utc": "2025-04-16T00:30:00+00:00"
+    }
+  ],
+  "selection": {
+    "station": "NRSROT",
+    "depths_m": [
+      33,
+      44,
+      55
+    ],
+    "each_start_at_or_after_utc": "2024-01-01T00:00:00+00:00",
+    "minimum_common_days": 30,
+    "year_end_limit": null,
+    "same_deployment_id_required": false,
+    "sort": [
+      "common_start_utc",
+      "source_file tuple (upper,target,lower), lexical"
+    ],
+    "evaluation": "First midnight strictly after commonStart to complete-day midnight at/before commonEnd; maximum 365 days from evaluation start; selected instrument indices only, including context"
+  },
+  "metadata_selection_sha256": "d50be9d6aa432fb46a5a9e92a427b3b28fed35095955c5baab5ee41242448dc5",
+  "limitations": [
+    "Previously studied station and later deployment originally selected as a targeted challenge; replay does not create new validation evidence.",
+    "Target ADCP instrument is approximately 3.17 km from the upper/lower mooring; not one vertical column.",
+    "Artificial gaps on complete observed days, retrospective reconstruction with future boundary and up to seven days of future probe context.",
+    "Time interpolation is still at least as good on several gap lengths; no universal selector superiority."
+  ],
+  "source_filename": "IMOS_ANMN-NRS_BOSTZ_20081120_NRSROT_FV02_hourly-timeseries_END-20260724_C-20260801.nc",
+  "replay_mode": "historical fixed study; not a new holdout"
+}

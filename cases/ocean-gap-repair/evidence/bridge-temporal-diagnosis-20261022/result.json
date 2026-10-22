@@ -1,0 +1,35 @@
+{
+  "at_utc": "2026-10-22T05:51:57.793727+00:00",
+  "kind": "post-hoc diagnostic, not fresh holdout",
+  "training_runs": 0,
+  "method_changed": false,
+  "original_dates": {
+    "NRSROT": 227,
+    "NRSNSI": 339
+  },
+  "shared_dates": 204,
+  "first_shared": "2023-05-18",
+  "last_shared": "2023-12-31",
+  "original_case_counts": {
+    "NRSROT": 8853,
+    "NRSNSI": 13221
+  },
+  "point_rows": 67920,
+  "source_case_max_diff": 1.687538997430238e-14,
+  "inputs": {
+    "NRSROT": {
+      "hourly.csv": "f6da60350c744b7dc982e9b99292d7111810d8e4a84bb9ab06c29292fb680578",
+      "method.py": "6ae98feb21786c52ccc15d7f344e2f340b2c3a2a1bbd5ad18e7d9fa5a7f3a5f0",
+      "cases.csv": "6cbe1ac33bd38f6790642f43e9a2b97be56b19f93a3108f3578a11ce002a5954",
+      "day-eligibility.csv": "0532f3bd0fe23ab789e17a3042d43d54805d63d439ca7d98562421bcd6023e8a",
+      "overall.csv": "b7002899caabc8f4dadfef90f761e986a107d709504ddd2b548b8631166f740e"
+    },
+    "NRSNSI": {
+      "hourly.csv": "b2d2b65e8e8ca5f2fdc05af50b250bf56096958aa349c185e620e6ef53d584cf",
+      "method.py": "6ae98feb21786c52ccc15d7f344e2f340b2c3a2a1bbd5ad18e7d9fa5a7f3a5f0",
+      "cases.csv": "593d478a373520891ceed5ec3611b85c10f09341fabef0062db85fca20130a77",
+      "day-eligibility.csv": "59b96f7f9ef590e0ac1fec4cd34a486cb1a5014126b0bcc8a680d0b715d3e807",
+      "overall.csv": "cb81f9af1e3faee27e4043c0886e56b7beb23821557d82585e0f9931e50ce578"
+    }
+  }
+}
