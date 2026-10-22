@@ -1,0 +1,85 @@
+{
+  "render": "saved notebook outputs; no execution",
+  "native_notebook_viewer": false,
+  "errors": [],
+  "observations": [
+    {
+      "width": 1200,
+      "images": [
+        {
+          "loaded": true,
+          "width": 1184,
+          "height": 536
+        },
+        {
+          "loaded": true,
+          "width": 1184,
+          "height": 536
+        }
+      ],
+      "overflow": false,
+      "headings": [
+        "고정 선택기는 해로운 보정을 피했는가?",
+        "tl;dr",
+        "Context & Methods",
+        "고정한 것과 검증 범위",
+        "보정식",
+        "Key Assumptions",
+        "Data",
+        "원자료와 평가 분모",
+        "Calculations",
+        "가린 정답을 선택기에 전달하지 않는 재계산",
+        "Results",
+        "1. 두 고정 방법보다 나은가?",
+        "2. 피한 손해가 놓친 이득보다 컸는가?",
+        "3. 관측으로 판단했는가, 문맥이 없어 되돌렸는가?",
+        "4. 겹치는 날짜·문맥을 고려한 불확실성",
+        "Next Steps",
+        "재현과 근거"
+      ]
+    },
+    {
+      "width": 390,
+      "images": [
+        {
+          "loaded": true,
+          "width": 1184,
+          "height": 536
+        },
+        {
+          "loaded": true,
+          "width": 1184,
+          "height": 536
+        }
+      ],
+      "overflow": false,
+      "headings": [
+        "고정 선택기는 해로운 보정을 피했는가?",
+        "tl;dr",
+        "Context & Methods",
+        "고정한 것과 검증 범위",
+        "보정식",
+        "Key Assumptions",
+        "Data",
+        "원자료와 평가 분모",
+        "Calculations",
+        "가린 정답을 선택기에 전달하지 않는 재계산",
+        "Results",
+        "1. 두 고정 방법보다 나은가?",
+        "2. 피한 손해가 놓친 이득보다 컸는가?",
+        "3. 관측으로 판단했는가, 문맥이 없어 되돌렸는가?",
+        "4. 겹치는 날짜·문맥을 고려한 불확실성",
+        "Next Steps",
+        "재현과 근거"
+      ]
+    }
+  ],
+  "figures": 2,
+  "source_notebook_sha256": "e2ba17c5de2bf66420cfe7a247226cf2d4bd506e7438bb201b3571df24b726e7",
+  "source_relative": "selector-harm-avoidance-20261022/harm-avoidance-study.ipynb",
+  "human_visual_review": "main agent viewed each original-size figure and whole saved-output screenshots; mobile figure labels require expansion",
+  "public_figure_sha256": {
+    "avoided-and-missed.png": "c2f63bcc0040ff72f5662355fd7451ff470bbeab475a54d157e6d54c20d452da",
+    "daily-rmse.png": "1ed397b32d7da2cd610ef06a156ba423588aff109c7682846cbce2bbabb6425e"
+  }
+}

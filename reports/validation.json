@@ -1,13 +1,23 @@
 {
   "date": "2026-10-23",
-  "status": "LOCAL_CHECKS_COMPLETE_PRECLONE",
+  "status": "LOCAL_RELEASE_GATES_PASSED",
   "training_runs": 0,
   "new_research_sites": 0,
-  "original_restore": "PASS_2300_FILES",
+  "source_preservation": "PASS_2300_FILES_UNCHANGED",
+  "archive_restore": "PASS_2300_FILES",
   "synthetic_tests": "PASS_50",
-  "historical_replay": "PASS_4875_CASES_125_DATES",
-  "fresh_context_reuse": "COMPLETED_WITH_RECORDED_TASK_AMBIGUITY",
-  "clean_clone": "PENDING",
-  "remote_release": "NOT_YET_PUBLISHED",
+  "old_new_contract_cases": "PASS_20",
+  "historical_replay": "PASS_4875_CASES_125_DATES_ALL_TABLE_FINGERPRINTS_AND_9_SUMMARIES",
+  "clean_clone": {
+    "status": "PASS",
+    "candidate_commit": "5709c69f1be833c29b13827dc4bd1f535abdace0",
+    "same_host": true,
+    "fresh_venv": true,
+    "raw_replay": "PASS"
+  },
+  "fresh_context_reuse": "COMPLETED_11_FIX_TESTS_AND_HARM_COUNTEREXAMPLE_WITH_RECORDED_TASK_AMBIGUITY",
+  "skill_format": "PASS_NOT_BEHAVIORAL_EFFECT",
+  "public_review": "SCOPED_FILE_SELECTION_RIGHTS_PRIVACY_PATHS_AND_DEPENDENCY_REVIEW_COMPLETE",
+  "remote_release": "CHECK_AFTER_PUBLICATION_USING_RELEASE_ASSET_external-verification.json",
   "off_device_raw_backup": "NOT_DONE"
 }

@@ -1,0 +1,226 @@
+{
+  "status": "PASS",
+  "candidate_commit": "5709c69f1be833c29b13827dc4bd1f535abdace0",
+  "scope": "new local clone and separate venv on the same Windows host; supplied local public hourly source, no download",
+  "replay": {
+    "status": "REPLAY_PASS",
+    "case_id": "ocean-gap-repair",
+    "started_at_utc": "2026-10-22T15:42:53.987056+00:00",
+    "completed_at_utc": "2026-10-22T15:43:16.564283+00:00",
+    "historical_replay": true,
+    "new_holdout": false,
+    "training_runs": 0,
+    "rule_tuning_runs": 0,
+    "network_access": false,
+    "source_filename": "IMOS_ANMN-NRS_BOSTZ_20081120_NRSROT_FV02_hourly-timeseries_END-20260724_C-20260801.nc",
+    "source_sha256": "bc2b20d4181d8e0d95eae37ba04b3dc2e8e5a850b9617953df89de3254c30b84",
+    "replay_contract_sha256": "e9ee75c5623b005f32a472f29fe066ae065a9a08f42101b6381caa85fd1b1ff6",
+    "environment": {
+      "python": "3.12.10",
+      "numpy": "2.3.5",
+      "pandas": "3.0.1",
+      "netCDF4": "1.7.4"
+    },
+    "cases": 4875,
+    "eligible_dates": 125,
+    "source_records": 9052,
+    "independent_status": "PASS_WITH_INTERPRETIVE_LIMITS",
+    "independent_max_absolute_errors": {
+      "selected_records_to_hourly": 0.0,
+      "case_numeric": 1.9317880628477724e-14,
+      "overall": 3.0531133177191805e-16,
+      "monthly": 8.326672684688674e-16,
+      "harm": 1.5543122344752192e-15,
+      "reasons": 1.7763568394002505e-15,
+      "impact": 1.734723475976807e-18,
+      "rmse_mse_CI": 1.3322676295501878e-13,
+      "harm_CI": 3.469446951953614e-18,
+      "harm_identity": 1.0408340855860843e-17
+    },
+    "historical_equivalence": {
+      "whole_table_fingerprints": {
+        "cases.csv": {
+          "rows": 4875,
+          "columns": 32,
+          "all_columns_match": true
+        },
+        "hourly.csv": {
+          "rows": 3336,
+          "columns": 4,
+          "all_columns_match": true
+        },
+        "source/selected-records.csv": {
+          "rows": 9052,
+          "columns": 5,
+          "all_columns_match": true
+        }
+      },
+      "summary_max_absolute_difference": {
+        "day-eligibility.csv": 0.0,
+        "harm-by-reason.csv": 0.0,
+        "harm-diagnostics.csv": 0.0,
+        "harm-uncertainty.csv": 0.0,
+        "monthly.csv": 0.0,
+        "overall.csv": 0.0,
+        "selection-impact.csv": 0.0,
+        "selection.csv": 0.0,
+        "uncertainty.csv": 0.0
+      },
+      "absolute_tolerance": 2e-11,
+      "fingerprint_policy": "Exact typed numeric/category column digests; no rounded acceptance"
+    },
+    "output_sha256": {
+      "cases.csv": "a5024dbbb0c0d56fb329e250fd31123e00ba3d90f07b50282504d22568ecef27",
+      "day-eligibility.csv": "d9505febf48a0b7c130a840e16a18ef15df63bba51a7addeecf304e7e0520162",
+      "harm-by-reason.csv": "1eb7e087c8c69cd66f5138f3f2053cd49b45f5991dc65a43cb45a38d5a244c7b",
+      "harm-diagnostics.csv": "cbd58cc564162c8146423d92623d1a184fc03498f992c5aa14ec95eeb831094a",
+      "harm-uncertainty.csv": "60e8f502ee8dc8b7e487e7d94be6ba393315adfb2b004ec7864c6c56213e4c8d",
+      "hourly.csv": "35f6681443ecdcac0fa5ebc60b621d64364bb40144345e865956b79009bc5e12",
+      "independent-check.json": "dc465e19f5e6d14eecf17abcdd3cf9c7aea34cb4876d8917947d1ae9cd56acc6",
+      "monthly.csv": "7f8911e262dec3979d430c41c9e71fea1ae6cbceb46e07d1d9f7c0582a2172bb",
+      "overall.csv": "21c895a499f5fc77bb5613062d0d8ad71e52fee9ff3877560d62786e40caa0b1",
+      "probe-audit-sample.csv": "530b104af7d10404cffe521b5d21d43608a59d323a4877c618ad3046e52734ea",
+      "result.json": "17cd1fc9797fb07a01f8541976ab3df8147e08ad11de56fd626b2f7e4ba7189a",
+      "selection-impact.csv": "6001c1faf9b10967cab729ded33c29f22785e021db94579e51469525fe615fe8",
+      "selection.csv": "42da4c15253ebe4141a3bdbb38ae7957afee332d3a316aa2614b356ae1e0597f",
+      "site.json": "f8ca3b90e72f93af64f7a50dde4f4a99383167e82dab75c220482f27ea0f67d3",
+      "source/extraction-quality.json": "111daf92f53d4366596892be41def17d55d2108673d8ed1a81e5f1baec9b4dba",
+      "source/extraction-read.json": "34ccc3d46416710df8c6b23ba0cb623a10a6a6c5b8c7086823051b72c32a7dab",
+      "source/metadata.json": "eca362ceaa026cb0e1ae71d5901fb2a05ee10ccbf3521825cab343e525af7ffa",
+      "source/selected-records.csv": "16d3959ba5c3308dc8d18d924e7a809498b5ce4e119dfe8a825656ec4c5d2b3a",
+      "uncertainty.csv": "d3f5f790fdbd00559374068805c56e2f3606c2dab81f0c5423f0d8e78ae90b45"
+    },
+    "claim_limit": "Numerical reproduction only; no new site, tuning, operational deployment or universal superiority"
+  },
+  "steps": [
+    {
+      "command": [
+        "git",
+        "clone",
+        "--no-hardlinks",
+        "<author-checkout>",
+        "<clean-checkout>"
+      ],
+      "seconds": 1.0310000000754371,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "Cloning into '<clean-checkout>'...\ndone.\n"
+    },
+    {
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "seconds": 0.0470000000204891,
+      "exit_code": 0,
+      "stdout": "5709c69f1be833c29b13827dc4bd1f535abdace0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<author-checkout>\\.venv\\Scripts\\python.exe",
+        "-m",
+        "venv",
+        "<clean-checkout>\\.venv"
+      ],
+      "seconds": 3.843999999924563,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<clean-checkout>\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pip",
+        "install",
+        "-r",
+        "requirements-lock.txt",
+        "-e",
+        ".[replay]"
+      ],
+      "seconds": 16.79700000002049,
+      "exit_code": 0,
+      "stdout": "Obtaining file:///<clean-checkout>\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Checking if build backend supports build_editable: started\n  Checking if build backend supports build_editable: finished with status 'done'\n  Getting requirements to build editable: started\n  Getting requirements to build editable: finished with status 'done'\n  Preparing editable metadata (pyproject.toml): started\n  Preparing editable metadata (pyproject.toml): finished with status 'done'\nCollecting certifi==2026.10.19 (from -r requirements-lock.txt (line 3))\n  Using cached certifi-2026.10.19-py3-none-any.whl.metadata (2.5 kB)\nCollecting cftime==1.6.6.1 (from -r requirements-lock.txt (line 4))\n  Using cached cftime-1.6.6.1-cp311-abi3-win_amd64.whl.metadata (9.0 kB)\nCollecting netCDF4==1.7.4 (from -r requirements-lock.txt (line 5))\n  Using cached netcdf4-1.7.4-cp311-abi3-win_amd64.whl.metadata (2.1 kB)\nCollecting numpy==2.3.5 (from -r requirements-lock.txt (line 6))\n  Using cached numpy-2.3.5-cp312-cp312-win_amd64.whl.metadata (60 kB)\nCollecting pandas==3.0.1 (from -r requirements-lock.txt (line 7))\n  Using cached pandas-3.0.1-cp312-cp312-win_amd64.whl.metadata (19 kB)\nCollecting python-dateutil==3.0.0 (from -r requirements-lock.txt (line 8))\n  Using cached python_dateutil-3.0.0-py2.py3-none-any.whl.metadata (8.2 kB)\nCollecting six==1.17.0 (from -r requirements-lock.txt (line 9))\n  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)\nCollecting tzdata==2026.5 (from -r requirements-lock.txt (line 10))\n  Using cached tzdata-2026.5-py2.py3-none-any.whl.metadata (1.4 kB)\nUsing cached certifi-2026.10.19-py3-none-any.whl (136 kB)\nUsing cached cftime-1.6.6.1-cp311-abi3-win_amd64.whl (512 kB)\nUsing cached netcdf4-1.7.4-cp311-abi3-win_amd64.whl (21.3 MB)\nUsing cached numpy-2.3.5-cp312-cp312-win_amd64.whl (12.8 MB)\nUsing cached pandas-3.0.1-cp312-cp312-win_amd64.whl (9.7 MB)\nUsing cached python_dateutil-3.0.0-py2.py3-none-any.whl (94 kB)\nUsing cached six-1.17.0-py2.py3-none-any.whl (11 kB)\nUsing cached tzdata-2026.5-py2.py3-none-any.whl (347 kB)\nBuilding wheels for collected packages: data-research-playbook\n  Building editable for data-research-playbook (pyproject.toml): started\n  Building editable for data-research-playbook (pyproject.toml): finished with status 'done'\n  Created wheel for data-research-playbook: filename=data_research_playbook-0.1.0-0.editable-py3-none-any.whl size=4410 sha256=0a9f7dbaf3d221a031530afd80101d2dfaf29f1e65eca3bb82fe81db459ef99c\n  Stored in directory: C:\\Users\\cedis\\AppData\\Local\\Temp\\pip-ephem-wheel-cache-g3zjtql8\\wheels\\f8\\12\\67\\7b2b72b33e60df872cc160319d4f5a28e902470270ada1e7ef\nSuccessfully built data-research-playbook\nInstalling collected packages: tzdata, six, numpy, certifi, python-dateutil, cftime, pandas, netCDF4, data-research-playbook\nSuccessfully installed certifi-2026.10.19 cftime-1.6.6.1 data-research-playbook-0.1.0 netCDF4-1.7.4 numpy-2.3.5 pandas-3.0.1 python-dateutil-3.0.0 six-1.17.0 tzdata-2026.5\n",
+      "stderr": "\n[notice] A new release of pip is available: 25.0.1 -> 26.2.2\n[notice] To update, run: <clean-checkout>\\.venv\\Scripts\\python.exe -m pip install --upgrade pip\n"
+    },
+    {
+      "command": [
+        "<clean-checkout>\\.venv\\Scripts\\python.exe",
+        "-c",
+        "from pathlib import Path; import research_playbook; p=Path(research_playbook.__file__).resolve(); assert p.is_relative_to(Path.cwd()/\"src\"); print(p.relative_to(Path.cwd()).as_posix())"
+      ],
+      "seconds": 0.09299999999348074,
+      "exit_code": 0,
+      "stdout": "src/research_playbook/__init__.py\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<clean-checkout>\\.venv\\Scripts\\python.exe",
+        "-m",
+        "research_playbook",
+        "demo"
+      ],
+      "seconds": 1.1410000000614673,
+      "exit_code": 0,
+      "stdout": "{\n  \"source\": \"synthetic; no real observations or model fitting\",\n  \"valid_warehouse_id\": 2,\n  \"rejected_identifiers\": [\n    \"'2.9'\",\n    \"'2.000000000000000000001'\",\n    \"True\"\n  ],\n  \"nonfinite_prediction_rejected\": true,\n  \"finite_outlier_clip\": [\n    0.0,\n    20.0,\n    100.0\n  ],\n  \"meter_boundary_mean\": [\n    11.0,\n    11.0,\n    101.0,\n    101.0\n  ],\n  \"support\": [\n    2,\n    2,\n    2,\n    2\n  ],\n  \"scope\": \"input-contract examples, not evidence of field performance\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<clean-checkout>\\.venv\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "seconds": 2.218999999924563,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_bad_block_contract (test_contracts.ContractTests.test_bad_block_contract) ... ok\ntest_both_window_endpoints_are_included (test_contracts.ContractTests.test_both_window_endpoints_are_included) ... ok\ntest_boundary_isolation_and_support (test_contracts.ContractTests.test_boundary_isolation_and_support) ... ok\ntest_finite_clip_preserves_normal_behavior (test_contracts.ContractTests.test_finite_clip_preserves_normal_behavior) ... ok\ntest_invalid_identity (test_contracts.ContractTests.test_invalid_identity) ... ok\ntest_missing_timestamps_are_not_filled (test_contracts.ContractTests.test_missing_timestamps_are_not_filled) ... ok\ntest_nonfinite_clip_and_invalid_bounds (test_contracts.ContractTests.test_nonfinite_clip_and_invalid_bounds) ... ok\ntest_valid_identity (test_contracts.ContractTests.test_valid_identity) ... ok\ntest_zero_window (test_contracts.ContractTests.test_zero_window) ... ok\ntest_changed_configuration_is_refused (test_replay.ReplayContractTests.test_changed_configuration_is_refused) ... ok\ntest_changed_frozen_method_is_refused (test_replay.ReplayContractTests.test_changed_frozen_method_is_refused) ... ok\ntest_config_has_no_machine_path (test_replay.ReplayContractTests.test_config_has_no_machine_path) ... ok\ntest_existing_output_is_not_overwritten (test_replay.ReplayContractTests.test_existing_output_is_not_overwritten) ... ok\ntest_fingerprint_newlines_and_mutation (test_replay.ReplayContractTests.test_fingerprint_newlines_and_mutation) ... ok\ntest_independent_does_not_import_frozen_implementation (test_replay.ReplayContractTests.test_independent_does_not_import_frozen_implementation) ... ok\ntest_missing_dependency_fails_before_output (test_replay.ReplayContractTests.test_missing_dependency_fails_before_output) ... ok\ntest_missing_input_root_no_output (test_replay.ReplayContractTests.test_missing_input_root_no_output) ... ok\ntest_missing_raw_no_output (test_replay.ReplayContractTests.test_missing_raw_no_output) ... ok\ntest_output_inside_case_is_refused (test_replay.ReplayContractTests.test_output_inside_case_is_refused) ... ok\ntest_output_inside_inputs_is_refused (test_replay.ReplayContractTests.test_output_inside_inputs_is_refused) ... ok\ntest_wrong_raw_hash_no_output (test_replay.ReplayContractTests.test_wrong_raw_hash_no_output) ... ok\ntest_bootstrap_is_paired_and_repeatable (test_replay.Tests.test_bootstrap_is_paired_and_repeatable) ... ok\ntest_calendar_holes_not_compressed (test_replay.Tests.test_calendar_holes_not_compressed) ... ok\ntest_calendar_interval_not_year_hardcoded (test_replay.Tests.test_calendar_interval_not_year_hardcoded) ... ok\ntest_calendar_leap_day (test_replay.Tests.test_calendar_leap_day) ... ok\ntest_calendar_outside_dates_rejected (test_replay.Tests.test_calendar_outside_dates_rejected) ... ok\ntest_custom_depth_not_parent_default (test_replay.Tests.test_custom_depth_not_parent_default) ... ok\ntest_date_equal_summary (test_replay.Tests.test_date_equal_summary) ... ok\ntest_disagreement_fallback (test_replay.Tests.test_disagreement_fallback) ... ok\ntest_exact_error_identity_all_gaps (test_replay.Tests.test_exact_error_identity_all_gaps) ... ok\ntest_expected_probe_counts_nonoverlap (test_replay.Tests.test_expected_probe_counts_nonoverlap) ... ok\ntest_gap_neighbours_do_not_select (test_replay.Tests.test_gap_neighbours_do_not_select) ... ok\ntest_harm_full_cohort_date_weighting (test_replay.Tests.test_harm_full_cohort_date_weighting) ... ok\ntest_harm_no_outcome_filtering (test_replay.Tests.test_harm_no_outcome_filtering) ... ok\ntest_harm_reason_accounting (test_replay.Tests.test_harm_reason_accounting) ... ok\ntest_harm_zero_denominators_and_ties (test_replay.Tests.test_harm_zero_denominators_and_ties) ... ok\ntest_hidden_truth_invariance (test_replay.Tests.test_hidden_truth_invariance) ... ok\ntest_integration_masks_before_selector (test_replay.Tests.test_integration_masks_before_selector) ... ok\ntest_invalid_probe (test_replay.Tests.test_invalid_probe) ... ok\ntest_linear_target_curved_neighbours_choose_time (test_replay.Tests.test_linear_target_curved_neighbours_choose_time) ... ok\ntest_matching_changes_choose_bridge (test_replay.Tests.test_matching_changes_choose_bridge) ... ok\ntest_missing_actual_bridge_boundary (test_replay.Tests.test_missing_actual_bridge_boundary) ... ok\ntest_missing_context_not_excluded (test_replay.Tests.test_missing_context_not_excluded) ... ok\ntest_net_ci_matches_paired_mse_ci (test_replay.Tests.test_net_ci_matches_paired_mse_ci) ... ok\ntest_only_three_probes_not_enough (test_replay.Tests.test_only_three_probes_not_enough) ... ok\ntest_original_hash (test_replay.Tests.test_original_hash) ... ok\ntest_outside_window_invariance (test_replay.Tests.test_outside_window_invariance) ... ok\ntest_ties_fallback (test_replay.Tests.test_ties_fallback) ... ok\ntest_unmasked_truth_rejected (test_replay.Tests.test_unmasked_truth_rejected) ... ok\ntest_wrong_applied_result_is_rejected (test_replay.Tests.test_wrong_applied_result_is_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 50 tests in 0.584s\n\nOK\n"
+    },
+    {
+      "command": [
+        "<clean-checkout>\\.venv\\Scripts\\python.exe",
+        "scripts/package_manifest.py",
+        "--verify"
+      ],
+      "seconds": 0.2029999999795109,
+      "exit_code": 0,
+      "stdout": "Public manifest PASS 116\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<clean-checkout>\\.venv\\Scripts\\python.exe",
+        "-m",
+        "research_playbook",
+        "replay",
+        "--case",
+        "ocean-gap-repair",
+        "--input-root",
+        "<input-root>",
+        "--output",
+        "<new-output>"
+      ],
+      "seconds": 23.453000000095926,
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"REPLAY_PASS\",\n  \"case_id\": \"ocean-gap-repair\",\n  \"started_at_utc\": \"2026-10-22T15:42:53.987056+00:00\",\n  \"completed_at_utc\": \"2026-10-22T15:43:16.564283+00:00\",\n  \"historical_replay\": true,\n  \"new_holdout\": false,\n  \"training_runs\": 0,\n  \"rule_tuning_runs\": 0,\n  \"network_access\": false,\n  \"source_filename\": \"IMOS_ANMN-NRS_BOSTZ_20081120_NRSROT_FV02_hourly-timeseries_END-20260724_C-20260801.nc\",\n  \"source_sha256\": \"bc2b20d4181d8e0d95eae37ba04b3dc2e8e5a850b9617953df89de3254c30b84\",\n  \"replay_contract_sha256\": \"e9ee75c5623b005f32a472f29fe066ae065a9a08f42101b6381caa85fd1b1ff6\",\n  \"environment\": {\n    \"python\": \"3.12.10\",\n    \"numpy\": \"2.3.5\",\n    \"pandas\": \"3.0.1\",\n    \"netCDF4\": \"1.7.4\"\n  },\n  \"cases\": 4875,\n  \"eligible_dates\": 125,\n  \"source_records\": 9052,\n  \"independent_status\": \"PASS_WITH_INTERPRETIVE_LIMITS\",\n  \"independent_max_absolute_errors\": {\n    \"selected_records_to_hourly\": 0.0,\n    \"case_numeric\": 1.9317880628477724e-14,\n    \"overall\": 3.0531133177191805e-16,\n    \"monthly\": 8.326672684688674e-16,\n    \"harm\": 1.5543122344752192e-15,\n    \"reasons\": 1.7763568394002505e-15,\n    \"impact\": 1.734723475976807e-18,\n    \"rmse_mse_CI\": 1.3322676295501878e-13,\n    \"harm_CI\": 3.469446951953614e-18,\n    \"harm_identity\": 1.0408340855860843e-17\n  },\n  \"historical_equivalence\": {\n    \"whole_table_fingerprints\": {\n      \"cases.csv\": {\n        \"rows\": 4875,\n        \"columns\": 32,\n        \"all_columns_match\": true\n      },\n      \"hourly.csv\": {\n        \"rows\": 3336,\n        \"columns\": 4,\n        \"all_columns_match\": true\n      },\n      \"source/selected-records.csv\": {\n        \"rows\": 9052,\n        \"columns\": 5,\n        \"all_columns_match\": true\n      }\n    },\n    \"summary_max_absolute_difference\": {\n      \"day-eligibility.csv\": 0.0,\n      \"harm-by-reason.csv\": 0.0,\n      \"harm-diagnostics.csv\": 0.0,\n      \"harm-uncertainty.csv\": 0.0,\n      \"monthly.csv\": 0.0,\n      \"overall.csv\": 0.0,\n      \"selection-impact.csv\": 0.0,\n      \"selection.csv\": 0.0,\n      \"uncertainty.csv\": 0.0\n    },\n    \"absolute_tolerance\": 2e-11,\n    \"fingerprint_policy\": \"Exact typed numeric/category column digests; no rounded acceptance\"\n  },\n  \"output_sha256\": {\n    \"cases.csv\": \"a5024dbbb0c0d56fb329e250fd31123e00ba3d90f07b50282504d22568ecef27\",\n    \"day-eligibility.csv\": \"d9505febf48a0b7c130a840e16a18ef15df63bba51a7addeecf304e7e0520162\",\n    \"harm-by-reason.csv\": \"1eb7e087c8c69cd66f5138f3f2053cd49b45f5991dc65a43cb45a38d5a244c7b\",\n    \"harm-diagnostics.csv\": \"cbd58cc564162c8146423d92623d1a184fc03498f992c5aa14ec95eeb831094a\",\n    \"harm-uncertainty.csv\": \"60e8f502ee8dc8b7e487e7d94be6ba393315adfb2b004ec7864c6c56213e4c8d\",\n    \"hourly.csv\": \"35f6681443ecdcac0fa5ebc60b621d64364bb40144345e865956b79009bc5e12\",\n    \"independent-check.json\": \"dc465e19f5e6d14eecf17abcdd3cf9c7aea34cb4876d8917947d1ae9cd56acc6\",\n    \"monthly.csv\": \"7f8911e262dec3979d430c41c9e71fea1ae6cbceb46e07d1d9f7c0582a2172bb\",\n    \"overall.csv\": \"21c895a499f5fc77bb5613062d0d8ad71e52fee9ff3877560d62786e40caa0b1\",\n    \"probe-audit-sample.csv\": \"530b104af7d10404cffe521b5d21d43608a59d323a4877c618ad3046e52734ea\",\n    \"result.json\": \"17cd1fc9797fb07a01f8541976ab3df8147e08ad11de56fd626b2f7e4ba7189a\",\n    \"selection-impact.csv\": \"6001c1faf9b10967cab729ded33c29f22785e021db94579e51469525fe615fe8\",\n    \"selection.csv\": \"42da4c15253ebe4141a3bdbb38ae7957afee332d3a316aa2614b356ae1e0597f\",\n    \"site.json\": \"f8ca3b90e72f93af64f7a50dde4f4a99383167e82dab75c220482f27ea0f67d3\",\n    \"source/extraction-quality.json\": \"111daf92f53d4366596892be41def17d55d2108673d8ed1a81e5f1baec9b4dba\",\n    \"source/extraction-read.json\": \"34ccc3d46416710df8c6b23ba0cb623a10a6a6c5b8c7086823051b72c32a7dab\",\n    \"source/metadata.json\": \"eca362ceaa026cb0e1ae71d5901fb2a05ee10ccbf3521825cab343e525af7ffa\",\n    \"source/selected-records.csv\": \"16d3959ba5c3308dc8d18d924e7a809498b5ce4e119dfe8a825656ec4c5d2b3a\",\n    \"uncertainty.csv\": \"d3f5f790fdbd00559374068805c56e2f3606c2dab81f0c5423f0d8e78ae90b45\"\n  },\n  \"claim_limit\": \"Numerical reproduction only; no new site, tuning, operational deployment or universal superiority\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<clean-checkout>\\.venv\\Scripts\\python.exe",
+        "scripts/check_public.py"
+      ],
+      "seconds": 0.7189999999245629,
+      "exit_code": 0,
+      "stdout": "{\n  \"scope\": \"readable source/package patterns and local Markdown links only\",\n  \"files_examined\": 117,\n  \"errors\": [],\n  \"status\": \"PASS\"\n}\n",
+      "stderr": ""
+    }
+  ]
+}

@@ -718,6 +718,20 @@
       "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
     },
     {
+      "path": "reports/clean-clone.json",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "reports/preservation.json",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
       "path": "reports/raw-replay.json",
       "purpose": "original documentation, synthetic fixture or execution metadata",
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
@@ -733,6 +747,13 @@
     },
     {
       "path": "reports/validation.json",
+      "purpose": "original documentation, synthetic fixture or execution metadata",
+      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
+      "selection": "explicit approved public path; no raw/restricted competition data",
+      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "reports/visual-review.json",
       "purpose": "original documentation, synthetic fixture or execution metadata",
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
       "selection": "explicit approved public path; no raw/restricted competition data",

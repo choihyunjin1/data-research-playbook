@@ -1,0 +1,13 @@
+{
+  "scope": "original source files before/after migration and ZIP restoration, no off-device raw backup",
+  "source_files": 2300,
+  "changed_files": 0,
+  "restore": {
+    "files": 2300,
+    "mismatches": [],
+    "archive_bytes": 242710774,
+    "archive_sha256": "1b412b0c848979408bfa47898ab6e82673579b365de847c2a816034bad92701a",
+    "status": "PASS",
+    "off_device_backup": false
+  }
+}
