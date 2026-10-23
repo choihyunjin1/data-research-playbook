@@ -3,7 +3,7 @@ message: "이 코드나 문서를 활용하면 사용한 버전과 사례를 함
 title: "Data Research Playbook"
 authors:
   - name: "최현진"
-version: 0.1.1
+version: 0.2.0
 date-released: 2026-10-23
 url: "https://github.com/choihyunjin1/data-research-playbook"
 repository-code: "https://github.com/choihyunjin1/data-research-playbook"

@@ -1,0 +1,153 @@
+{
+  "schema": "savetax-crawler-public-summary-v1",
+  "prepared_on": "2026-10-23",
+  "base_repository_commit": "d28017258531bae2611e2e00f0af3f2183c320ab",
+  "status": "supported_within_observed_scope",
+  "scope": "Author-created operational aggregates and interpretations. No procurement rows, merchant HTML, account screens or credentials.",
+  "source_attribution": "Procurement metadata: Public Procurement Service, Nara Marketplace; dataset processing: 50trillion. Source data not redistributed.",
+  "dataset_release": "20261010-r5",
+  "public_rights_check": {
+    "url": "https://savetax-dataset.reform-dev-infra.workers.dev/",
+    "checked_on": "2026-10-23",
+    "http_status": 200,
+    "authenticated": false,
+    "response_sha256": "2e3018dfbfbed7d953eb053e5cabf1e8c004d4e4fc767a588f7c6683e4c0d935",
+    "scope": "Original datasets may not be redistributed. Attributed analysis results and code may be published. Other post-contest data uses require organizer inquiry. Only original prose, selected operational aggregates and synthetic code are included here."
+  },
+  "historical_measurements": {
+    "scheduler": {
+      "before": {
+        "requests": 300,
+        "window_seconds": 2006.241888999939,
+        "requests_per_minute": 8.942092226447649
+      },
+      "after": {
+        "requests": 32,
+        "successes": 32,
+        "returned_product_rows": 0,
+        "requests_per_minute_between_first_last": 24.536356825320205,
+        "captured_at": "2026-10-23T20:44:00.474026+09:00"
+      },
+      "interpretation": "Different nonrandom request windows; not a controlled speedup or verified-price-yield estimate."
+    },
+    "restart": {
+      "compared_fingerprint_groups": 11,
+      "mismatches": 0,
+      "scope": "Selected inventory/order, usage, settings, sources, quarantine and probe ledgers; not all filesystem state."
+    },
+    "inventory_snapshot": {
+      "at": "2026-10-23T10:51:10.027133+00:00",
+      "export_scope": "compact_price_list_and_observations",
+      "rows": 987050,
+      "representative_observation_items": 541,
+      "observation_long_rows": 12730,
+      "quarantined_associations": 62,
+      "missing": 0,
+      "extra": 0,
+      "duplicate": 0,
+      "order_errors": 0,
+      "batch_errors": 0,
+      "batch_size": 500,
+      "not_claimed": "verified comparable market prices or all original-listing appendices"
+    },
+    "closeout": {
+      "date": "2026-10-23",
+      "sources": 877,
+      "detail_observations": 524,
+      "items_with_usable_seller_evidence": 379,
+      "quarantined_associations": 63,
+      "verified_comparisons": 0,
+      "collection_running_before_shutdown": false,
+      "all_in_flight_false": true,
+      "scope": "Operational state at closeout, later than inventory snapshot; not a same-time conversion funnel."
+    },
+    "registration_screening": {
+      "checked_unique_items": 79,
+      "unavailable": 70,
+      "available_flag": 9,
+      "score_submissions": 0,
+      "preview_passed_but_held_for_installation_scope": true,
+      "scope": "Selected candidates only; no account identity, individual candidates, prices or ranking published."
+    }
+  },
+  "private_evidence_fingerprints": [
+    {
+      "id": "scheduler",
+      "local_basename": "merchant-capacity-scheduler-audit-20261023.json",
+      "sha256": "a51e5cd252ddaaf07ab7f62e5b3441ae5e43f33206411b98a71cf987e5dc2a10",
+      "public_payload": false
+    },
+    {
+      "id": "post_restart",
+      "local_basename": "capacity-post-restart-throughput-20261023.json",
+      "sha256": "f0de5599f3272896a14fa99530b96fd595dfc8bae081a347a5d55f7b5878ab0b",
+      "public_payload": false
+    },
+    {
+      "id": "restart_before",
+      "local_basename": "capacity-restart-before-20261023.json",
+      "sha256": "e6e67a885721d1414822c3729994e78452f0d995ad5741f6e75138349796bd56",
+      "public_payload": false
+    },
+    {
+      "id": "restart_after",
+      "local_basename": "capacity-restart-after-20261023.json",
+      "sha256": "344b0e81e7e3cb6ca27c87939bab253145b88a306d4ec1c50b2062709c2ef137",
+      "public_payload": false
+    },
+    {
+      "id": "snapshot",
+      "local_basename": "manifest.json",
+      "sha256": "61b9007b6466b65dc320516ed0f4954ad2e8579971c3aad4d5fe23d8f44be85f",
+      "public_payload": false
+    },
+    {
+      "id": "independent_snapshot",
+      "local_basename": "independent-verification.json",
+      "sha256": "4367669fe821ccae26c248f597cc3392ae254ecd33ac571362e373de588dc897",
+      "public_payload": false
+    },
+    {
+      "id": "screening",
+      "local_basename": "registration-screening.json",
+      "sha256": "72d26fd9d4bf59440f252e108b16a69311540af0ac4125b5ed8f9e0061367033",
+      "public_payload": false
+    },
+    {
+      "id": "screening_addendum",
+      "local_basename": "additional-two-availability.json",
+      "sha256": "b4d979ccc04a8a132e2206a91074cc5597d55c15ccc3c8dbba51b4d120ad7353",
+      "public_payload": false
+    },
+    {
+      "id": "scope_correction",
+      "local_basename": "contract-scope-followup.md",
+      "sha256": "172ecd382d020e62f4977ae3e1c160a538846692437b880d19fb434070fe561e",
+      "public_payload": false
+    },
+    {
+      "id": "closeout",
+      "local_basename": "graceful-shutdown.json",
+      "sha256": "a0e387495a685f6f7af3ef7a2f46168fffef0d2e69a6a7b96da88c6534a37d2c",
+      "public_payload": false
+    },
+    {
+      "id": "rights",
+      "local_basename": "official-dataset.md",
+      "sha256": "00e9f5511abcd3bb13100326aff4a12cde17f4fd2ea77c771dce18280c6d480c",
+      "public_payload": false
+    }
+  ],
+  "verification_boundary": {
+    "public_reproduction": "Synthetic boundary examples only; see synthetic_replay.py and repository tests.",
+    "historical_records": "Allowlisted fields selected from local evidence; hashes identify retained private originals but cannot independently reproduce historical collection.",
+    "not_run": "Full raw dataset replay, new crawling, local AI benchmark or final score recognition."
+  },
+  "deferred": [
+    "Raw procurement datasets and exports",
+    "Merchant HTML, screenshots, images and specifications with unclear republication rights",
+    "Account screens and authentication material",
+    "Production crawler service and all site-specific adapters pending a standalone licensing/dependency review",
+    "Universal throughput gain, end-to-end price verification and contest score claims"
+  ]
+}

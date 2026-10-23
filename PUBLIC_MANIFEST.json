@@ -34,7 +34,7 @@
     {
       "path": "CITATION.cff",
       "bytes": 489,
-      "sha256": "ff16081b7c9585c65dab1751c253ea6202c46ac6e0bffc78193593f6d29dc7e5"
+      "sha256": "6718b8961d5e843d641dcdf70651f231dce2d9b3fdd3f53a91dfcfbd43dcd6fd"
     },
     {
       "path": "CLAUDE.md",
@@ -63,8 +63,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8549,
-      "sha256": "9f9aecafe51417d50c66758b8cbd3ff9510e51a24b6385a5c6fc682d1e4112e8"
+      "bytes": 9029,
+      "sha256": "8d9df3212b16f165a9904df23eadd42d768cb01717c004c37ad419846c2dd5ca"
     },
     {
       "path": "RELEASE_NOTES.md",
@@ -412,6 +412,21 @@
       "sha256": "152ae2292cb3564747fbdc18c5cf7573745928d17e1cd08586bc55035853512f"
     },
     {
+      "path": "cases/savetax-crawler/README.md",
+      "bytes": 7163,
+      "sha256": "6d5a0142896bf955ebe0aaab867373ce7444972ae5785d5980e6b961880dabbb"
+    },
+    {
+      "path": "cases/savetax-crawler/evidence-summary.json",
+      "bytes": 6512,
+      "sha256": "2f1d02a89f81962798741295640541e71c770ab11a62b700c3c448a5875d2963"
+    },
+    {
+      "path": "cases/savetax-crawler/synthetic_replay.py",
+      "bytes": 9982,
+      "sha256": "1b91d94e4bc83897c31d171bc334728062de771cc3b101ce8ec60f5ea74af56b"
+    },
+    {
       "path": "evals/history/README.md",
       "bytes": 1668,
       "sha256": "e81a99a372e6b9dbf855ed14cc7558c9636622e694f3dfd47d8ed76e48c7c11c"
@@ -558,18 +573,23 @@
     },
     {
       "path": "playbooks/code-contracts.md",
-      "bytes": 2545,
-      "sha256": "e53afb72978bb495cfa6ecdbcb3edd8687b7050ef6517d0caf0655582f6e2472"
+      "bytes": 2833,
+      "sha256": "7a12572212c5552af2944b48a830d96c77d7ecf28010997835552b5b722af9da"
     },
     {
       "path": "playbooks/communicating-results.md",
-      "bytes": 2616,
-      "sha256": "40d1aad6ec68764bbdca6c17417e839a79bdf3ced0fad40c586d68fc6c0b6576"
+      "bytes": 2863,
+      "sha256": "125cbb4f3d39285e2040bf88bd899f2c32065e123db68dd8a84abda8ec1ba427"
+    },
+    {
+      "path": "playbooks/external-data-collection.md",
+      "bytes": 4662,
+      "sha256": "19d840fd95a38cac4891b3ec90f96aaba9071743de3f60fd77d7d2565953a131"
     },
     {
       "path": "playbooks/handoff.md",
-      "bytes": 2269,
-      "sha256": "dba6a28e7daa7b0b87574a35481e9c8e10909afb5d6b4498ef74fa8b92133b20"
+      "bytes": 2567,
+      "sha256": "a5b41c72cc4b1258d7b0438ef5120e50da5be0ee5c28c1258fd75e31dcdbf223"
     },
     {
       "path": "playbooks/missing-data.md",
@@ -578,13 +598,13 @@
     },
     {
       "path": "playbooks/new-competition.md",
-      "bytes": 3282,
-      "sha256": "edca1506bbbdcc14642a09dad9d1e7625287d3f4aa3db328f42b5e2d5fa37c63"
+      "bytes": 3586,
+      "sha256": "f6a59213abec75fa43c933d89b667f4ece8e642e95722b204c363be0beebf49b"
     },
     {
       "path": "provenance/PUBLIC_FILES.json",
-      "bytes": 70930,
-      "sha256": "8b4c64cb79ea5949f72bac9462b44c0b067c9d5d66b4296e1cc5e8553b1a8a38"
+      "bytes": 78845,
+      "sha256": "8dfc2d2511a25ccb891b1a53d8f17b5f00c9d1afd6166119f53294354997ef5f"
     },
     {
       "path": "provenance/contracts.json",
@@ -598,8 +618,8 @@
     },
     {
       "path": "pyproject.toml",
-      "bytes": 437,
-      "sha256": "038a3ad01593124335b16a12bae6aa6e4a71c5bea11c260b4e51eee803017c22"
+      "bytes": 447,
+      "sha256": "6715eaa5ed7b30bf72cdea52d3dccd6983440448c7da86495ed6ccefd70eecf0"
     },
     {
       "path": "reports/BACKUP.md",
@@ -622,6 +642,11 @@
       "sha256": "a17e56ca826bd99cb164fd0378c885b82f3fff38298946d67db2c9d5b13ff8ea"
     },
     {
+      "path": "reports/VALIDATION-v0.2.0.md",
+      "bytes": 5239,
+      "sha256": "17812699e5f7b282c607d45352f9ff4d458737f9e6b3a5692c1884141fd45328"
+    },
+    {
       "path": "reports/VALIDATION.md",
       "bytes": 4057,
       "sha256": "e49464845a162d0706325430da84bc6ccfdaa8945689fc3008725ea13e5ac601"
@@ -642,9 +667,19 @@
       "sha256": "b028d4f83e59203430360f257c4bc3f58381c7f645cf95f53bd8c121aa34d260"
     },
     {
+      "path": "reports/savetax-validation-v0.2.0.json",
+      "bytes": 24510,
+      "sha256": "8afd97a6b07e5f705cf5fea706375d19fbde7edabf25a60d5589a3f943b9dc55"
+    },
+    {
       "path": "reports/unit-tests-v0.1.1.json",
       "bytes": 7726,
       "sha256": "0de3bca694c4b29c4e453d39a8ff45bca00d0c274ff8d03b9af5f51bd09ae279"
+    },
+    {
+      "path": "reports/unit-tests-v0.2.0.json",
+      "bytes": 10488,
+      "sha256": "e116b405e8e0120c779f5dc9928a60e5bf48c7ef90727db7fdac1830761e1a14"
     },
     {
       "path": "reports/unit-tests.json",
@@ -694,7 +729,7 @@
     {
       "path": "src/research_playbook/__init__.py",
       "bytes": 81,
-      "sha256": "d5bf71ba3c47abc07a042a42853f8ef7b99b4456708ec2f6effec3aa56773cab"
+      "sha256": "0d61fcabbe84e12e8198fc409e7ab49d0bcba588b8c640cd8f0a8c197965d33e"
     },
     {
       "path": "src/research_playbook/__main__.py",
@@ -735,6 +770,11 @@
       "path": "tests/test_replay.py",
       "bytes": 15524,
       "sha256": "0860e54459f57f6669af7ca873299064d4becb185c2a7d86163d2be9576b2d04"
+    },
+    {
+      "path": "tests/test_savetax_crawler.py",
+      "bytes": 6944,
+      "sha256": "3e805b0f769bc80f1a50f0400089d5ae325520468f616f627f0da5c56cd30437"
     }
   ]
 }

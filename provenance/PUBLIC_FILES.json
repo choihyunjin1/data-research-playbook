@@ -51,11 +51,11 @@
     },
     {
       "path": "CITATION.cff",
-      "purpose": "original documentation, synthetic fixture or execution metadata",
-      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
-      "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
-      "reviewed_in": "v0.1.1"
+      "purpose": "Version metadata for the new case, with existing author attribution retained",
+      "rights": "CC-BY-4.0 original prose, operational aggregates or execution metadata; underlying external rights unchanged",
+      "selection": "Explicitly reviewed v0.2.0 path; original code, synthetic records or selected aggregates only; no raw procurement rows, merchant documents, account screens or restricted payload",
+      "privacy_review": "Changed-file review plus bounded pattern/link checks; no credentials, personal paths or account identity included; hashes are not rights or privacy certification",
+      "reviewed_in": "v0.2.0 SaveTax closeout"
     },
     {
       "path": "CLAUDE.md",
@@ -96,19 +96,19 @@
     },
     {
       "path": "PUBLIC_MANIFEST.json",
-      "purpose": "Current tracked public path sizes and SHA256; historical release manifests preserved",
-      "rights": "CC-BY-4.0 original prose or metadata; underlying file rights unchanged",
-      "selection": "Explicitly reviewed changed path for two evaluations; no frozen research, historical report or release rewrite",
-      "privacy_review": "Reviewed changed content plus bounded pattern scan; no private records or held payload; hash checks are not rights certification",
-      "reviewed_in": "post-contest-return-20261023 parent integration"
+      "purpose": "Regenerated current tracked-file fingerprints; previous manifests remain in Git history",
+      "rights": "CC-BY-4.0 original prose, operational aggregates or execution metadata; underlying external rights unchanged",
+      "selection": "Explicitly reviewed v0.2.0 path; original code, synthetic records or selected aggregates only; no raw procurement rows, merchant documents, account screens or restricted payload",
+      "privacy_review": "Changed-file review plus bounded pattern/link checks; no credentials, personal paths or account identity included; hashes are not rights or privacy certification",
+      "reviewed_in": "v0.2.0 SaveTax closeout"
     },
     {
       "path": "README.md",
-      "purpose": "Added two test entry links and scoped limitations; existing routing preserved",
-      "rights": "CC-BY-4.0 original prose or metadata; underlying file rights unchanged",
-      "selection": "Explicitly reviewed changed path for two evaluations; no frozen research, historical report or release rewrite",
-      "privacy_review": "Reviewed changed content plus bounded pattern scan; no private records or held payload; hash checks are not rights certification",
-      "reviewed_in": "post-contest-return-20261023 parent integration"
+      "purpose": "Route to the new collection case and its validation; update current minor version",
+      "rights": "CC-BY-4.0 original prose, operational aggregates or execution metadata; underlying external rights unchanged",
+      "selection": "Explicitly reviewed v0.2.0 path; original code, synthetic records or selected aggregates only; no raw procurement rows, merchant documents, account screens or restricted payload",
+      "privacy_review": "Changed-file review plus bounded pattern/link checks; no credentials, personal paths or account identity included; hashes are not rights or privacy certification",
+      "reviewed_in": "v0.2.0 SaveTax closeout"
     },
     {
       "path": "RELEASE_NOTES.md",
@@ -599,6 +599,30 @@
       "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
     },
     {
+      "path": "cases/savetax-crawler/README.md",
+      "purpose": "Original case synthesis separating historical observations, synthetic replay and deferred material",
+      "rights": "CC-BY-4.0 original prose, operational aggregates or execution metadata; underlying external rights unchanged",
+      "selection": "Explicitly reviewed v0.2.0 path; original code, synthetic records or selected aggregates only; no raw procurement rows, merchant documents, account screens or restricted payload",
+      "privacy_review": "Changed-file review plus bounded pattern/link checks; no credentials, personal paths or account identity included; hashes are not rights or privacy certification",
+      "reviewed_in": "v0.2.0 SaveTax closeout"
+    },
+    {
+      "path": "cases/savetax-crawler/evidence-summary.json",
+      "purpose": "Allowlisted original operational aggregates, source attribution and private-original fingerprints only",
+      "rights": "CC-BY-4.0 original prose, operational aggregates or execution metadata; underlying external rights unchanged",
+      "selection": "Explicitly reviewed v0.2.0 path; original code, synthetic records or selected aggregates only; no raw procurement rows, merchant documents, account screens or restricted payload",
+      "privacy_review": "Changed-file review plus bounded pattern/link checks; no credentials, personal paths or account identity included; hashes are not rights or privacy certification",
+      "reviewed_in": "v0.2.0 SaveTax closeout"
+    },
+    {
+      "path": "cases/savetax-crawler/synthetic_replay.py",
+      "purpose": "Original offline SQLite counterexamples with invented identifiers, amounts and example.invalid URLs",
+      "rights": "MIT original code or configuration",
+      "selection": "Explicitly reviewed v0.2.0 path; original code, synthetic records or selected aggregates only; no raw procurement rows, merchant documents, account screens or restricted payload",
+      "privacy_review": "Changed-file review plus bounded pattern/link checks; no credentials, personal paths or account identity included; hashes are not rights or privacy certification",
+      "reviewed_in": "v0.2.0 SaveTax closeout"
+    },
+    {
       "path": "evals/history/README.md",
       "purpose": "original documentation, synthetic fixture or execution metadata",
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
@@ -817,24 +841,35 @@
     },
     {
       "path": "playbooks/code-contracts.md",
-      "purpose": "original documentation, synthetic fixture or execution metadata",
-      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
-      "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+      "purpose": "Link existing contract guidance to synthetic association counterexamples",
+      "rights": "CC-BY-4.0 original prose, operational aggregates or execution metadata; underlying external rights unchanged",
+      "selection": "Explicitly reviewed v0.2.0 path; original code, synthetic records or selected aggregates only; no raw procurement rows, merchant documents, account screens or restricted payload",
+      "privacy_review": "Changed-file review plus bounded pattern/link checks; no credentials, personal paths or account identity included; hashes are not rights or privacy certification",
+      "reviewed_in": "v0.2.0 SaveTax closeout"
     },
     {
       "path": "playbooks/communicating-results.md",
-      "purpose": "original documentation, synthetic fixture or execution metadata",
-      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
-      "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+      "purpose": "Link existing reporting guidance to collection-versus-validation evidence",
+      "rights": "CC-BY-4.0 original prose, operational aggregates or execution metadata; underlying external rights unchanged",
+      "selection": "Explicitly reviewed v0.2.0 path; original code, synthetic records or selected aggregates only; no raw procurement rows, merchant documents, account screens or restricted payload",
+      "privacy_review": "Changed-file review plus bounded pattern/link checks; no credentials, personal paths or account identity included; hashes are not rights or privacy certification",
+      "reviewed_in": "v0.2.0 SaveTax closeout"
+    },
+    {
+      "path": "playbooks/external-data-collection.md",
+      "purpose": "Original scoped collection lessons; earlier shared principles are linked rather than duplicated",
+      "rights": "CC-BY-4.0 original prose, operational aggregates or execution metadata; underlying external rights unchanged",
+      "selection": "Explicitly reviewed v0.2.0 path; original code, synthetic records or selected aggregates only; no raw procurement rows, merchant documents, account screens or restricted payload",
+      "privacy_review": "Changed-file review plus bounded pattern/link checks; no credentials, personal paths or account identity included; hashes are not rights or privacy certification",
+      "reviewed_in": "v0.2.0 SaveTax closeout"
     },
     {
       "path": "playbooks/handoff.md",
-      "purpose": "original documentation, synthetic fixture or execution metadata",
-      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
-      "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+      "purpose": "Link existing handoff guidance to process, progress and submission state evidence",
+      "rights": "CC-BY-4.0 original prose, operational aggregates or execution metadata; underlying external rights unchanged",
+      "selection": "Explicitly reviewed v0.2.0 path; original code, synthetic records or selected aggregates only; no raw procurement rows, merchant documents, account screens or restricted payload",
+      "privacy_review": "Changed-file review plus bounded pattern/link checks; no credentials, personal paths or account identity included; hashes are not rights or privacy certification",
+      "reviewed_in": "v0.2.0 SaveTax closeout"
     },
     {
       "path": "playbooks/missing-data.md",
@@ -846,19 +881,19 @@
     },
     {
       "path": "playbooks/new-competition.md",
-      "purpose": "original documentation, synthetic fixture or execution metadata",
-      "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
-      "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
-      "reviewed_in": "v0.1.1"
+      "purpose": "Link existing early eligibility guidance to the installation-scope counterexample",
+      "rights": "CC-BY-4.0 original prose, operational aggregates or execution metadata; underlying external rights unchanged",
+      "selection": "Explicitly reviewed v0.2.0 path; original code, synthetic records or selected aggregates only; no raw procurement rows, merchant documents, account screens or restricted payload",
+      "privacy_review": "Changed-file review plus bounded pattern/link checks; no credentials, personal paths or account identity included; hashes are not rights or privacy certification",
+      "reviewed_in": "v0.2.0 SaveTax closeout"
     },
     {
       "path": "provenance/PUBLIC_FILES.json",
-      "purpose": "Current explicit publication review for fifteen new files and five changed existing paths",
-      "rights": "CC-BY-4.0 original prose or metadata; underlying file rights unchanged",
-      "selection": "Explicitly reviewed changed path for two evaluations; no frozen research, historical report or release rewrite",
-      "privacy_review": "Reviewed changed content plus bounded pattern scan; no private records or held payload; hash checks are not rights certification",
-      "reviewed_in": "post-contest-return-20261023 parent integration"
+      "purpose": "Explicit per-file review of this contribution; earlier entries retained for unchanged files",
+      "rights": "CC-BY-4.0 original prose, operational aggregates or execution metadata; underlying external rights unchanged",
+      "selection": "Explicitly reviewed v0.2.0 path; original code, synthetic records or selected aggregates only; no raw procurement rows, merchant documents, account screens or restricted payload",
+      "privacy_review": "Changed-file review plus bounded pattern/link checks; no credentials, personal paths or account identity included; hashes are not rights or privacy certification",
+      "reviewed_in": "v0.2.0 SaveTax closeout"
     },
     {
       "path": "provenance/contracts.json",
@@ -876,11 +911,11 @@
     },
     {
       "path": "pyproject.toml",
-      "purpose": "original package configuration or license notice",
-      "rights": "MIT configuration; license text retains its own notice",
-      "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
-      "reviewed_in": "v0.1.1"
+      "purpose": "Minor version and package description; dependency requirements unchanged",
+      "rights": "MIT original code or configuration",
+      "selection": "Explicitly reviewed v0.2.0 path; original code, synthetic records or selected aggregates only; no raw procurement rows, merchant documents, account screens or restricted payload",
+      "privacy_review": "Changed-file review plus bounded pattern/link checks; no credentials, personal paths or account identity included; hashes are not rights or privacy certification",
+      "reviewed_in": "v0.2.0 SaveTax closeout"
     },
     {
       "path": "reports/BACKUP.md",
@@ -914,6 +949,14 @@
       "reviewed_in": "v0.1.1"
     },
     {
+      "path": "reports/VALIDATION-v0.2.0.md",
+      "purpose": "New validation scope, initial invocation failures, corrections and withheld material",
+      "rights": "CC-BY-4.0 original prose, operational aggregates or execution metadata; underlying external rights unchanged",
+      "selection": "Explicitly reviewed v0.2.0 path; original code, synthetic records or selected aggregates only; no raw procurement rows, merchant documents, account screens or restricted payload",
+      "privacy_review": "Changed-file review plus bounded pattern/link checks; no credentials, personal paths or account identity included; hashes are not rights or privacy certification",
+      "reviewed_in": "v0.2.0 SaveTax closeout"
+    },
+    {
       "path": "reports/VALIDATION.md",
       "purpose": "original documentation, synthetic fixture or execution metadata",
       "rights": "CC-BY-4.0 (original prose); underlying external metadata rights unchanged",
@@ -942,12 +985,28 @@
       "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
     },
     {
+      "path": "reports/savetax-validation-v0.2.0.json",
+      "purpose": "Original synthetic execution receipt and unchanged baseline-file fingerprints; no private paths or tracebacks",
+      "rights": "CC-BY-4.0 original prose, operational aggregates or execution metadata; underlying external rights unchanged",
+      "selection": "Explicitly reviewed v0.2.0 path; original code, synthetic records or selected aggregates only; no raw procurement rows, merchant documents, account screens or restricted payload",
+      "privacy_review": "Changed-file review plus bounded pattern/link checks; no credentials, personal paths or account identity included; hashes are not rights or privacy certification",
+      "reviewed_in": "v0.2.0 SaveTax closeout"
+    },
+    {
       "path": "reports/unit-tests-v0.1.1.json",
       "purpose": "Original onboarding, contribution, or synthetic evaluation documentation",
       "rights": "CC-BY-4.0 (original prose and original synthetic evaluation records); linked external sources are not bundled",
       "selection": "Explicitly reviewed v0.1.1 public path; no raw, customer, restricted contest, or third-party document content",
       "privacy_review": "Changed-file source review and bounded pattern scan; synthetic scenarios only; not exhaustive security certification",
       "reviewed_in": "v0.1.1"
+    },
+    {
+      "path": "reports/unit-tests-v0.2.0.json",
+      "purpose": "Successful synthetic and packaged regression receipt, source hashes and public test names only",
+      "rights": "CC-BY-4.0 original prose, operational aggregates or execution metadata; underlying external rights unchanged",
+      "selection": "Explicitly reviewed v0.2.0 path; original code, synthetic records or selected aggregates only; no raw procurement rows, merchant documents, account screens or restricted payload",
+      "privacy_review": "Changed-file review plus bounded pattern/link checks; no credentials, personal paths or account identity included; hashes are not rights or privacy certification",
+      "reviewed_in": "v0.2.0 SaveTax closeout"
     },
     {
       "path": "reports/unit-tests.json",
@@ -1015,11 +1074,11 @@
     },
     {
       "path": "src/research_playbook/__init__.py",
-      "purpose": "original code or path-adapted original research code",
-      "rights": "MIT",
-      "selection": "explicit approved public path; no raw/restricted competition data",
-      "privacy_review": "v0.1.1 changed-file source review plus bounded pattern scan; no raw or private records added; not exhaustive security certification",
-      "reviewed_in": "v0.1.1"
+      "purpose": "Version string only; existing algorithms unchanged",
+      "rights": "MIT original code or configuration",
+      "selection": "Explicitly reviewed v0.2.0 path; original code, synthetic records or selected aggregates only; no raw procurement rows, merchant documents, account screens or restricted payload",
+      "privacy_review": "Changed-file review plus bounded pattern/link checks; no credentials, personal paths or account identity included; hashes are not rights or privacy certification",
+      "reviewed_in": "v0.2.0 SaveTax closeout"
     },
     {
       "path": "src/research_playbook/__main__.py",
@@ -1078,6 +1137,14 @@
       "rights": "MIT",
       "selection": "explicit approved public path; no raw/restricted competition data",
       "privacy_review": "pattern scan plus scoped source review; not exhaustive security certification"
+    },
+    {
+      "path": "tests/test_savetax_crawler.py",
+      "purpose": "Original eight synthetic regression tests for source quarantine, history, unknown prices and inventory completeness",
+      "rights": "MIT original code or configuration",
+      "selection": "Explicitly reviewed v0.2.0 path; original code, synthetic records or selected aggregates only; no raw procurement rows, merchant documents, account screens or restricted payload",
+      "privacy_review": "Changed-file review plus bounded pattern/link checks; no credentials, personal paths or account identity included; hashes are not rights or privacy certification",
+      "reviewed_in": "v0.2.0 SaveTax closeout"
     }
   ]
 }

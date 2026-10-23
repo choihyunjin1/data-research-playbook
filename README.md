@@ -23,6 +23,7 @@
 | 처음 하는 분야·대회 → [새 대회 시작](playbooks/new-competition.md) | 공고·자료 권리·목표·첫 비교 정리 | 과거 대회의 권한·도구 요건은 재사용하지 않음. 문서에 실제 막힌 사례 연결 |
 | 공백 처리 비교 → [결측 자료 분석](playbooks/missing-data.md) | 기준선·가림·같은 분모·선택기 손익 | 해양 수심·시간창을 기본값으로 쓰지 않음. 아홉 연구의 반례 연결 |
 | 입력·평가 경계 검사 → [코드 계약](playbooks/code-contracts.md) | 작은 검증 함수와 실패 반례 | 모든 프로젝트에 모든 검사를 요구하지 않음. 코드·검사 연결 |
+| 외부 가격·목록 수집 → [외부 자료 수집](playbooks/external-data-collection.md) | 수집량·상품 연결·비교 가능 가격, 연결 단위 격리 | 실제 수집 도구 회고와 합성 반례. 전량 가격 검증·점수 성과는 미확보 |
 | 글·그림·발표 설명 → [결과 전달](playbooks/communicating-results.md) | 실제 개선·기능·제안 구분 | 연구 수치를 현장 효과로 바꾸지 않음. 실패 기록 연결 |
 | 다른 작업자에게 넘김 → [인계](playbooks/handoff.md) | 현재본·실행 증거·미완료·다음 행동 | 과거 PASS를 새 환경의 PASS로 쓰지 않음. 재사용 시험 연결 |
 | 대회 종료 후 새 교훈 반영 → [기여 절차](CONTRIBUTING.md) | 후보·확인된 범위·정정·공개 검토 | 작업마다 문서를 늘리지 않음. 새 근거를 기존 항목과 대조 |
@@ -33,7 +34,7 @@
 
 ## 계산을 실제 실행할 때만
 
-0.1 버전은 **Git checkout과 editable 설치**를 지원합니다. 사례 파일이 checkout에 있으므로 일반 wheel만 설치하는 배포 방식은 지원 범위가 아닙니다. Python **3.12**의 프로젝트 가상환경을 사용하며 원 작성자의 환경이나 개인 경로는 필요하지 않습니다.
+0.2 버전은 **Git checkout과 editable 설치**를 지원합니다. 사례 파일이 checkout에 있으므로 일반 wheel만 설치하는 배포 방식은 지원 범위가 아닙니다. Python **3.12**의 프로젝트 가상환경을 사용하며 원 작성자의 환경이나 개인 경로는 필요하지 않습니다.
 
 ```powershell
 git clone https://github.com/choihyunjin1/data-research-playbook.git
@@ -51,7 +52,7 @@ python -m pip install -e ".[replay]"
 python -m research_playbook replay --case ocean-gap-repair --input-root "<공개 원본을 둔 폴더>" --output "<새 결과 폴더>"
 ```
 
-합성 예제 통과, raw부터 재계산, 저장 집계와의 대조는 서로 다른 결과입니다. [v0.1.0 연구 이관 검수](reports/VALIDATION.md)는 당시 기록이며 영구 PASS 표가 아닙니다. [v0.1.1 입구·기여 절차 검수](reports/VALIDATION-v0.1.1.md)와 실행별 receipt를 구분합니다. 과거 연구의 PASS를 새 환경의 PASS로 옮겨 적지 않습니다.
+합성 예제 통과, raw부터 재계산, 저장 집계와의 대조는 서로 다른 결과입니다. [v0.1.0 연구 이관 검수](reports/VALIDATION.md)는 당시 기록이며 영구 PASS 표가 아닙니다. [v0.1.1 입구·기여 절차 검수](reports/VALIDATION-v0.1.1.md), [v0.2.0 수집 사례 검수](reports/VALIDATION-v0.2.0.md), 실행별 receipt를 구분합니다. 과거 연구의 PASS를 새 환경의 PASS로 옮겨 적지 않습니다.
 
 ## 다른 AI와 오래 사용하는 법
 
@@ -65,6 +66,7 @@ python -m research_playbook replay --case ocean-gap-repair --input-root "<공개
 
 - `src/`, `tests/`: 작은 계약 함수와 합성 반례. 해양 방법은 별도 domain 경계에 둡니다.
 - `cases/ocean-gap-repair/`: 방법·입력 조건, 연구 이력, 요약 수치, 실패와 결론, 출처.
+- `cases/savetax-crawler/`: 수집 도구의 관측 범위·공개 집계와 합성 반례. 실제 사이트 수집기·상품 원문은 제외합니다.
 - `playbooks/`: 실제 사건에서 바뀐 작업 방식. 모든 작업에 다섯 문서를 읽으라는 뜻이 아닙니다.
 - `.agents/skills/evidence-driven-workflow/`: 기존 공통 스킬을 이어받은 선택적 안내. 실행에 스킬 설치가 필요하지 않습니다.
 - `evals/history/`: 과거 비교의 범위와 부정적 결과. 테스트 수·문서 수를 생산성 점수로 사용하지 않습니다.
